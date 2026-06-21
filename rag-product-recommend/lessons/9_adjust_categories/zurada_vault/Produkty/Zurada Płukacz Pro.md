@@ -1,0 +1,37 @@
+---
+product_id: 70
+title: "Płyn do płukania pieców"
+ph: ""
+metody: ["maszynowe", "pianowe"]
+certyfikaty: ["ifra", "rspo"]
+kategorie: ["higiena-piecow", "higiena-piecow-catering", "higiena-piecow-firmy-sprzatajace", "higiena-piecow-instytucje", "higiena-urzadzen", "higiena-urzadzen-firmy-sprzatajace", "horeca-hotele", "firmy-sprzatajace"]
+---
+
+# Zurada Płukacz Pro
+
+> Preparat do automatycznego płukania pieców konwekcyjno-parowych i wędzarniczych.
+
+---
+
+**Metody mycia:** [[Metody/maszynowe|maszynowe]] · [[Metody/pianowe|pianowe]]
+
+**Certyfikaty:** [[Certyfikaty/ifra|ifra]] · [[Certyfikaty/rspo|rspo]]
+
+**Dozwolone powierzchnie:** [[Powierzchnie/stal nierdzewna|stal nierdzewna]] · [[Powierzchnie/stal stopowa|stal stopowa]] · [[Powierzchnie/powierzchnie ponadpodłogowe|powierzchnie ponadpodłogowe]]
+
+**Ostrzeżenia BHP:**
+- [[BHP/instrukcja urządzenia|instrukcja urządzenia]]
+- [[BHP/karta charakterystyki|karta charakterystyki]]
+- [[BHP/środki ochrony osobistej|środki ochrony osobistej]]
+
+**Kategorie:** [[Kategorie/higiena-piecow|higiena-piecow]] · [[Kategorie/higiena-piecow-catering|higiena-piecow-catering]] · [[Kategorie/higiena-piecow-firmy-sprzatajace|higiena-piecow-firmy-sprzatajace]] · [[Kategorie/higiena-piecow-instytucje|higiena-piecow-instytucje]] · [[Kategorie/higiena-urzadzen|higiena-urzadzen]] · [[Kategorie/higiena-urzadzen-firmy-sprzatajace|higiena-urzadzen-firmy-sprzatajace]] · [[Kategorie/horeca-hotele|horeca-hotele]] · [[Kategorie/firmy-sprzatajace|firmy-sprzatajace]]
+
+---
+
+## Opis
+
+Preparat do automatycznego płukania pieców konwekcyjno-parowych i wędzarniczych. Przeznaczony do stosowania w systemach automatycznego mycia i płukania, skutecznie wspiera usuwanie pozostałości po procesie czyszczenia. Może być stosowany na elementach ze stali nierdzewnej i stali stopowej, zgodnie z instrukcją urządzenia. Przed użyciem należy zapoznać się z kartą charakterystyki i stosować odpowiednie środki ochrony osobistej.
+
+## Właściwości
+
+Właściwości: Koncentrat. Idealnie spłukuje i neutralizuje pozostałości po myciu. Pozostawia lśniące powierzchnie bez smug i zacieków. Wspomaga usuwanie osadów i kamienia.

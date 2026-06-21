@@ -1,0 +1,1077 @@
+{
+  "timestamp": "2026-05-25T19:59:07.425587",
+  "model": "openai/gpt-5.4-mini",
+  "n_runs": 8,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Potrzebuję zwykłego, gęstego żelu do codziennego mycia toalety w domu, żeby usunąć trochę kamienia i odświeżyć muszlę.",
+      "expectedProductIds": [
+        12,
+        82,
+        139
+      ],
+      "expectedNoProductIds": [
+        10,
+        80
+      ],
+      "difficulty": "easy",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            139,
+            82,
+            12
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 118,
+          "total_tokens": 91951
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            82,
+            139
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 84,
+          "total_tokens": 91917
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            140,
+            139,
+            82,
+            12,
+            80
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 172,
+          "total_tokens": 92005
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            139,
+            82,
+            12
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 116,
+          "total_tokens": 91949
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            139,
+            82,
+            12
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 107,
+          "total_tokens": 91940
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            139,
+            82,
+            12,
+            80
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 145,
+          "total_tokens": 91978
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            139,
+            82,
+            12
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 115,
+          "total_tokens": 91948
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            139,
+            82,
+            12
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 126,
+          "total_tokens": 91959
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Potrzebuję zwykłego, pachnącego mydła w płynie do codziennego mycia rąk w domowej łazience. Zależy mi, żeby ładnie pachniało i było w formie tradycyjnego płynu (nie pianki).",
+      "expectedProductIds": [
+        136,
+        137,
+        189,
+        190
+      ],
+      "expectedNoProductIds": [
+        114,
+        135,
+        192
+      ],
+      "difficulty": "easy",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91853,
+          "completion_tokens": 132,
+          "total_tokens": 91985
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            137,
+            189,
+            190
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91853,
+          "completion_tokens": 103,
+          "total_tokens": 91956
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            137,
+            189,
+            190
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91853,
+          "completion_tokens": 122,
+          "total_tokens": 91975
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136,
+            72
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91853,
+          "completion_tokens": 190,
+          "total_tokens": 92043
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91853,
+          "completion_tokens": 154,
+          "total_tokens": 92007
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91853,
+          "completion_tokens": 142,
+          "total_tokens": 91995
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91853,
+          "completion_tokens": 157,
+          "total_tokens": 92010
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91853,
+          "completion_tokens": 150,
+          "total_tokens": 92003
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Szukam zimowego płynu do spryskiwaczy do mojego auta. Chcę go po prostu wlać do zbiornika pod maską, żeby móc myć szybę podczas jazdy na mrozie.",
+      "expectedProductIds": [
+        233,
+        257
+      ],
+      "expectedNoProductIds": [
+        197,
+        244
+      ],
+      "difficulty": "easy",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            233,
+            257,
+            244
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 137,
+          "total_tokens": 91978
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            233,
+            257,
+            244
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 131,
+          "total_tokens": 91972
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            233,
+            257,
+            244
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 137,
+          "total_tokens": 91978
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 92,
+          "total_tokens": 91933
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            233,
+            257,
+            244
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 130,
+          "total_tokens": 91971
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            233,
+            257,
+            244
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 125,
+          "total_tokens": 91966
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            233,
+            257,
+            244
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 146,
+          "total_tokens": 91987
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            233,
+            257,
+            244
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 128,
+          "total_tokens": 91969
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Potrzebuję jakiegoś fajnego odświeżacza powietrza do pokoju. Najchętniej o słodkim zapachu owocowym, np. winogronowym albo grejpfrutowym.",
+      "expectedProductIds": [
+        213,
+        217,
+        218
+      ],
+      "expectedNoProductIds": [
+        59,
+        77
+      ],
+      "difficulty": "easy",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            213,
+            218,
+            217,
+            221
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 137,
+          "total_tokens": 91978
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 94,
+          "total_tokens": 91935
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            213,
+            218,
+            217,
+            220
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 122,
+          "total_tokens": 91963
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 112,
+          "total_tokens": 91953
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            213,
+            218,
+            217,
+            220
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 128,
+          "total_tokens": 91969
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 109,
+          "total_tokens": 91950
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 106,
+          "total_tokens": 91947
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91841,
+          "completion_tokens": 101,
+          "total_tokens": 91942
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Jakim środkiem najlepiej usunąć przypalony tłuszcz, nagar i sadzę z rusztu grilla oraz wnętrza piekarnika?",
+      "expectedProductIds": [
+        5,
+        34,
+        128
+      ],
+      "expectedNoProductIds": [
+        1,
+        4,
+        43,
+        67
+      ],
+      "difficulty": "easy",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            5,
+            34,
+            67,
+            128
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91827,
+          "completion_tokens": 145,
+          "total_tokens": 91972
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            34,
+            5,
+            67,
+            128
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91827,
+          "completion_tokens": 163,
+          "total_tokens": 91990
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            5,
+            34,
+            67,
+            128,
+            58
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91827,
+          "completion_tokens": 179,
+          "total_tokens": 92006
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            34,
+            5,
+            67
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91827,
+          "completion_tokens": 109,
+          "total_tokens": 91936
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            5,
+            34,
+            67,
+            128,
+            96
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91827,
+          "completion_tokens": 189,
+          "total_tokens": 92016
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            34,
+            5,
+            67,
+            68,
+            128
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91827,
+          "completion_tokens": 183,
+          "total_tokens": 92010
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            34,
+            5,
+            67,
+            128
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91827,
+          "completion_tokens": 153,
+          "total_tokens": 91980
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            5,
+            34,
+            128,
+            67
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91827,
+          "completion_tokens": 153,
+          "total_tokens": 91980
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Potrzebuję mocnego środka do odtłuszczenia narzędzi warsztatowych oraz aluminiowych części maszyn. Zależy mi, żeby środek był w 100% bezpieczny – część z tych elementów jest lakierowana.",
+      "expectedProductIds": [
+        44,
+        45,
+        112,
+        259
+      ],
+      "expectedNoProductIds": [
+        3,
+        260
+      ],
+      "difficulty": "hard",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            45,
+            112,
+            152
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91850,
+          "completion_tokens": 139,
+          "total_tokens": 91989
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            45
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91850,
+          "completion_tokens": 46,
+          "total_tokens": 91896
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            45,
+            112
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91850,
+          "completion_tokens": 77,
+          "total_tokens": 91927
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            45
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91850,
+          "completion_tokens": 54,
+          "total_tokens": 91904
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            45,
+            112,
+            152
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91850,
+          "completion_tokens": 120,
+          "total_tokens": 91970
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            45,
+            112
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91850,
+          "completion_tokens": 73,
+          "total_tokens": 91923
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            45,
+            112,
+            152,
+            121
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91850,
+          "completion_tokens": 150,
+          "total_tokens": 92000
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            45,
+            112
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91850,
+          "completion_tokens": 80,
+          "total_tokens": 91930
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Czym bezpiecznie usunąć silny osad z kamienia i resztki mydła w mojej łazience? Zależy mi głównie na doczyszczeniu eleganckiego blatu i umywalki wykonanej z naturalnego marmuru.",
+      "expectedProductIds": [
+        11
+      ],
+      "expectedNoProductIds": [
+        10,
+        12,
+        53,
+        138
+      ],
+      "difficulty": "hard",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91852,
+          "completion_tokens": 52,
+          "total_tokens": 91904
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            11,
+            26,
+            27,
+            38,
+            39
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91852,
+          "completion_tokens": 241,
+          "total_tokens": 92093
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            11
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91852,
+          "completion_tokens": 41,
+          "total_tokens": 91893
+        },
+        {
+          "run": 4,
+          "returned_ids": [],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91852,
+          "completion_tokens": 54,
+          "total_tokens": 91906
+        },
+        {
+          "run": 5,
+          "returned_ids": [],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91852,
+          "completion_tokens": 12,
+          "total_tokens": 91864
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            26
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91852,
+          "completion_tokens": 54,
+          "total_tokens": 91906
+        },
+        {
+          "run": 7,
+          "returned_ids": [],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91852,
+          "completion_tokens": 49,
+          "total_tokens": 91901
+        },
+        {
+          "run": 8,
+          "returned_ids": [],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91852,
+          "completion_tokens": 56,
+          "total_tokens": 91908
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Szukam dobrego środka do mycia okien i luster w domu. Zależy mi na tym, żeby płyn szybko odparowywał i absolutnie nie zostawiał smug na szkle.",
+      "expectedProductIds": [
+        2,
+        39,
+        41,
+        129
+      ],
+      "expectedNoProductIds": [
+        1,
+        7
+      ],
+      "difficulty": "easy",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            129,
+            164,
+            41
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91837,
+          "completion_tokens": 105,
+          "total_tokens": 91942
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            41,
+            129
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91837,
+          "completion_tokens": 76,
+          "total_tokens": 91913
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            41,
+            129,
+            2
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91837,
+          "completion_tokens": 98,
+          "total_tokens": 91935
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            41,
+            129,
+            154
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91837,
+          "completion_tokens": 117,
+          "total_tokens": 91954
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            41,
+            129,
+            2,
+            39
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91837,
+          "completion_tokens": 141,
+          "total_tokens": 91978
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            41,
+            129
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91837,
+          "completion_tokens": 76,
+          "total_tokens": 91913
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            41,
+            129,
+            2
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91837,
+          "completion_tokens": 98,
+          "total_tokens": 91935
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            41,
+            129,
+            164,
+            2
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91837,
+          "completion_tokens": 142,
+          "total_tokens": 91979
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Szukam zwykłego płynu do ręcznego mycia naczyń w domu, żeby umyć talerze i sztućce po obiedzie. Co polecacie?",
+      "expectedProductIds": [
+        7,
+        69
+      ],
+      "expectedNoProductIds": [
+        3,
+        14,
+        20
+      ],
+      "difficulty": "easy",
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 77,
+          "total_tokens": 91910
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 94,
+          "total_tokens": 91927
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 90,
+          "total_tokens": 91923
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 78,
+          "total_tokens": 91911
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 87,
+          "total_tokens": 91920
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 71,
+          "total_tokens": 91904
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 75,
+          "total_tokens": 91908
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "answer": "",
+          "model": "openai/gpt-5.4-mini",
+          "prompt_tokens": 91833,
+          "completion_tokens": 88,
+          "total_tokens": 91921
+        }
+      ]
+    }
+  ]
+}

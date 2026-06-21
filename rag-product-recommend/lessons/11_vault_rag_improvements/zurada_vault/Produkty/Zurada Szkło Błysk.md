@@ -1,0 +1,38 @@
+---
+product_id: 39
+title: "Pianka do szyb i luster"
+ph: ""
+metody: ["ręczne"]
+certyfikaty: ["ifra", "rspo"]
+kategorie: ["mycie-szyb-i-luster", "plyny-do-szyb", "mycie-szyb-i-luster-firmy-sprzatajace", "mycie-szyb-i-luster-instytucje", "mycie-szyb-i-luster-catering", "firmy-sprzatajace", "horeca-hotele", "szkoly", "dla-domu"]
+---
+
+# Zurada Szkło Błysk
+
+> Pianka do mycia szyb, luster i innych powierzchni szklanych, zapewniająca czystość bez smug.
+
+---
+
+**Metody mycia:** [[Metody/ręczne|ręczne]]
+
+**Certyfikaty:** [[Certyfikaty/ifra|ifra]] · [[Certyfikaty/rspo|rspo]]
+
+**Dozwolone powierzchnie:** [[Powierzchnie/szkło|szkło]] · [[Powierzchnie/szyby|szyby]] · [[Powierzchnie/lustra|lustra]] · [[Powierzchnie/glazura|glazura]] · [[Powierzchnie/tworzywa sztuczne|tworzywa sztuczne]] · [[Powierzchnie/stal nierdzewna|stal nierdzewna]]
+
+**Odradzane powierzchnie:** ⛔ [[Odradzane/rozgrzane powierzchnie|rozgrzane powierzchnie]] · [[Odradzane/materiały wrażliwe na wodę|materiały wrażliwe na wodę]]
+
+**Ostrzeżenia BHP:**
+- [[BHP/unikać gorąca|unikać gorąca]]
+- [[BHP/unikać wody|unikać wody]]
+
+**Kategorie:** [[Kategorie/mycie-szyb-i-luster|mycie-szyb-i-luster]] · [[Kategorie/plyny-do-szyb|plyny-do-szyb]] · [[Kategorie/mycie-szyb-i-luster-firmy-sprzatajace|mycie-szyb-i-luster-firmy-sprzatajace]] · [[Kategorie/mycie-szyb-i-luster-instytucje|mycie-szyb-i-luster-instytucje]] · [[Kategorie/mycie-szyb-i-luster-catering|mycie-szyb-i-luster-catering]] · [[Kategorie/firmy-sprzatajace|firmy-sprzatajace]] · [[Kategorie/horeca-hotele|horeca-hotele]] · [[Kategorie/szkoly|szkoly]] · [[Kategorie/dla-domu|dla-domu]]
+
+---
+
+## Opis
+
+Zurada Szkło Błysk to pianka przeznaczona do ręcznego mycia szyb, luster oraz innych powierzchni szklanych. Sprawdza się przy czyszczeniu witryn, przeszkleń, glazury, plastiku i stali nierdzewnej. Nanieść piankę na czyszczoną powierzchnię, odczekać chwilę, a następnie przetrzeć niepylącą ściereczką do sucha. Nie stosować na powierzchnie rozgrzane, w pełnym słońcu ani na materiały wrażliwe na działanie wody.
+
+## Właściwości
+
+Właściwości: Wydajny koncentrat. Usuwa najoporniejsze zabrudzenia. Pozostawia lśniące powierzchnie bez smug. Ma przyjemny zapach. Szczególnie polecany firmom sprzątającym.

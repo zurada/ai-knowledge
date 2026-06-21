@@ -1,0 +1,2143 @@
+{
+  "timestamp": "2026-05-27T10:53:51.669902",
+  "model": "openai/gpt-5.4-mini",
+  "approach": "vault_rag",
+  "n_runs": 8,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Potrzebuję zwykłego, gęstego żelu do codziennego mycia toalety w domu, żeby usunąć trochę kamienia i odświeżyć muszlę.",
+      "expectedProductIds": [
+        12,
+        82,
+        139
+      ],
+      "expectedNoProductIds": [
+        10,
+        80
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 4.68,
+      "avg_total_tokens": 48722.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            82,
+            12,
+            139
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 61,
+          "prompt_tokens": 48139,
+          "completion_tokens": 436,
+          "total_tokens": 48575,
+          "time_seconds": 4.26,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "dla-domu",
+              "odkamienianie",
+              "higiena-toalet",
+              "srodki-do-lazienki"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            79,
+            12,
+            139,
+            82
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 61,
+          "prompt_tokens": 48139,
+          "completion_tokens": 512,
+          "total_tokens": 48651,
+          "time_seconds": 5.63,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "dla-domu",
+              "odkamienianie",
+              "higiena-toalet"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            139,
+            12,
+            82,
+            79,
+            80
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 61,
+          "prompt_tokens": 48139,
+          "completion_tokens": 587,
+          "total_tokens": 48726,
+          "time_seconds": 5.02,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "dla-domu",
+              "odkamienianie",
+              "higiena-toalet"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            12,
+            139,
+            82,
+            79
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 61,
+          "prompt_tokens": 48139,
+          "completion_tokens": 500,
+          "total_tokens": 48639,
+          "time_seconds": 4.6,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "dla-domu",
+              "odkamienianie",
+              "higiena-toalet"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            12,
+            82,
+            139
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 62,
+          "prompt_tokens": 48712,
+          "completion_tokens": 456,
+          "total_tokens": 49168,
+          "time_seconds": 4.72,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "plyny-do-lazienki",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            139,
+            12,
+            82,
+            79
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 61,
+          "prompt_tokens": 48139,
+          "completion_tokens": 516,
+          "total_tokens": 48655,
+          "time_seconds": 4.32,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "dla-domu",
+              "odkamienianie",
+              "higiena-toalet"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            139,
+            12,
+            82,
+            79
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 61,
+          "prompt_tokens": 48139,
+          "completion_tokens": 528,
+          "total_tokens": 48667,
+          "time_seconds": 4.54,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "dla-domu",
+              "odkamienianie",
+              "higiena-toalet"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            82,
+            12,
+            139,
+            79
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 61,
+          "prompt_tokens": 48139,
+          "completion_tokens": 554,
+          "total_tokens": 48693,
+          "time_seconds": 4.35,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "dla-domu",
+              "odkamienianie",
+              "higiena-toalet"
+            ],
+            "methods": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Potrzebuję zwykłego, pachnącego mydła w płynie do codziennego mycia rąk w domowej łazience. Zależy mi, żeby ładnie pachniało i było w formie tradycyjnego płynu (nie pianki).",
+      "expectedProductIds": [
+        136,
+        137,
+        189,
+        190
+      ],
+      "expectedNoProductIds": [
+        114,
+        135,
+        192
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 6.1,
+      "avg_total_tokens": 50809.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            136,
+            189,
+            190,
+            137
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 58,
+          "prompt_tokens": 44643,
+          "completion_tokens": 712,
+          "total_tokens": 45355,
+          "time_seconds": 5.74,
+          "intent": {
+            "surfaces": [
+              "umywalki",
+              "łazienki"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "zele-do-rak",
+              "higiena-osobista",
+              "srodki-do-lazienki",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            189,
+            136,
+            190,
+            137,
+            72
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 68,
+          "prompt_tokens": 49406,
+          "completion_tokens": 549,
+          "total_tokens": 49955,
+          "time_seconds": 7.65,
+          "intent": {
+            "surfaces": [
+              "łazienki"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-rak",
+              "dla-domu",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            189,
+            136,
+            190,
+            137,
+            72
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 71,
+          "prompt_tokens": 52392,
+          "completion_tokens": 527,
+          "total_tokens": 52919,
+          "time_seconds": 7.97,
+          "intent": {
+            "surfaces": [
+              "łazienki",
+              "umywalki"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-osobista",
+              "higiena-rak",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            189,
+            136,
+            190,
+            137,
+            72
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 72,
+          "prompt_tokens": 52965,
+          "completion_tokens": 601,
+          "total_tokens": 53566,
+          "time_seconds": 4.56,
+          "intent": {
+            "surfaces": [
+              "umywalki",
+              "łazienki"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-rak",
+              "dla-domu",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            137,
+            190,
+            189,
+            136
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 72,
+          "prompt_tokens": 52965,
+          "completion_tokens": 582,
+          "total_tokens": 53547,
+          "time_seconds": 4.61,
+          "intent": {
+            "surfaces": [
+              "umywalki",
+              "łazienki"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-rak",
+              "dla-domu",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne",
+              "wcieranie w dłonie"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            137,
+            136,
+            190,
+            189
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 72,
+          "prompt_tokens": 52965,
+          "completion_tokens": 580,
+          "total_tokens": 53545,
+          "time_seconds": 5.0,
+          "intent": {
+            "surfaces": [
+              "umywalki",
+              "łazienki"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-rak",
+              "dla-domu",
+              "plyny-do-lazienki"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            189,
+            136,
+            190,
+            137
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 57,
+          "prompt_tokens": 44173,
+          "completion_tokens": 517,
+          "total_tokens": 44690,
+          "time_seconds": 9.11,
+          "intent": {
+            "surfaces": [
+              "łazienki",
+              "umywalki"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "dla-domu",
+              "higiena-osobista"
+            ],
+            "methods": [
+              "wcieranie w dłonie"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            137,
+            190,
+            189,
+            136
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 71,
+          "prompt_tokens": 52392,
+          "completion_tokens": 504,
+          "total_tokens": 52896,
+          "time_seconds": 4.13,
+          "intent": {
+            "surfaces": [
+              "łazienki",
+              "umywalki"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "dla-domu",
+              "higiena-rak"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Szukam zimowego płynu do spryskiwaczy do mojego auta. Chcę go po prostu wlać do zbiornika pod maską, żeby móc myć szybę podczas jazdy na mrozie.",
+      "expectedProductIds": [
+        233,
+        257
+      ],
+      "expectedNoProductIds": [
+        197,
+        244
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 5.53,
+      "avg_total_tokens": 22215.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            257,
+            233
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 20,
+          "prompt_tokens": 21594,
+          "completion_tokens": 478,
+          "total_tokens": 22072,
+          "time_seconds": 4.88,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe",
+              "samochody"
+            ],
+            "categories": [
+              "zima",
+              "plyny-do-spryskiwaczy",
+              "do-samochodu",
+              "mycie-szyb"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            257,
+            233
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 14,
+          "prompt_tokens": 18117,
+          "completion_tokens": 393,
+          "total_tokens": 18510,
+          "time_seconds": 6.22,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe",
+              "samochody"
+            ],
+            "categories": [
+              "plyny-do-spryskiwaczy",
+              "zima"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            257,
+            233
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 22,
+          "prompt_tokens": 23120,
+          "completion_tokens": 467,
+          "total_tokens": 23587,
+          "time_seconds": 9.28,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe",
+              "pojazdy"
+            ],
+            "categories": [
+              "produkty-zimowe",
+              "plyny-do-spryskiwaczy",
+              "mycie-samochodow-na-zewnatrz",
+              "do-samochodu"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            257,
+            233
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 45,
+          "prompt_tokens": 38902,
+          "completion_tokens": 501,
+          "total_tokens": 39403,
+          "time_seconds": 4.45,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe",
+              "samochody",
+              "wlewy paliwa"
+            ],
+            "categories": [
+              "produkty-zimowe",
+              "plyny-do-spryskiwaczy",
+              "do-samochodu",
+              "mycie-szyb",
+              "mycie-zewnetrzne-samochodu"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            257,
+            233
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 10,
+          "prompt_tokens": 15100,
+          "completion_tokens": 517,
+          "total_tokens": 15617,
+          "time_seconds": 4.32,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe",
+              "zbiorniki"
+            ],
+            "categories": [
+              "zima",
+              "plyny-do-spryskiwaczy"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            257,
+            233
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 19,
+          "prompt_tokens": 21055,
+          "completion_tokens": 429,
+          "total_tokens": 21484,
+          "time_seconds": 4.87,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe",
+              "samochody"
+            ],
+            "categories": [
+              "produkty-zimowe",
+              "plyny-do-spryskiwaczy",
+              "do-samochodu"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            257,
+            233
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 15,
+          "prompt_tokens": 17472,
+          "completion_tokens": 465,
+          "total_tokens": 17937,
+          "time_seconds": 4.31,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe",
+              "wlewy paliwa"
+            ],
+            "categories": [
+              "produkty-zimowe",
+              "plyny-do-spryskiwaczy",
+              "do-samochodu"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            257,
+            233
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 16,
+          "prompt_tokens": 18642,
+          "completion_tokens": 468,
+          "total_tokens": 19110,
+          "time_seconds": 5.87,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe",
+              "pojazdy"
+            ],
+            "categories": [
+              "produkty-zimowe",
+              "plyny-do-spryskiwaczy",
+              "do-samochodu"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Potrzebuję jakiegoś fajnego odświeżacza powietrza do pokoju. Najchętniej o słodkim zapachu owocowym, np. winogronowym albo grejpfrutowym.",
+      "expectedProductIds": [
+        213,
+        217,
+        218
+      ],
+      "expectedNoProductIds": [
+        59,
+        77
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 4.26,
+      "avg_total_tokens": 19368.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            213,
+            218
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 18,
+          "prompt_tokens": 18511,
+          "completion_tokens": 385,
+          "total_tokens": 18896,
+          "time_seconds": 3.89,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza",
+              "zapachy-do-wnetrz"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            213,
+            218
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 19,
+          "prompt_tokens": 19180,
+          "completion_tokens": 463,
+          "total_tokens": 19643,
+          "time_seconds": 4.16,
+          "intent": {
+            "surfaces": [
+              "powietrze",
+              "pomieszczenia serwisowe"
+            ],
+            "categories": [
+              "odswiezacze-powietrza",
+              "zapachy-do-wnetrz"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            213,
+            218
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 19,
+          "prompt_tokens": 19180,
+          "completion_tokens": 377,
+          "total_tokens": 19557,
+          "time_seconds": 3.55,
+          "intent": {
+            "surfaces": [
+              "powietrze",
+              "pomieszczenia serwisowe"
+            ],
+            "categories": [
+              "odswiezacze-powietrza",
+              "zapachy-do-wnetrz"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            213,
+            218
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 19,
+          "prompt_tokens": 19180,
+          "completion_tokens": 382,
+          "total_tokens": 19562,
+          "time_seconds": 4.17,
+          "intent": {
+            "surfaces": [
+              "powietrze",
+              "pomieszczenia serwisowe"
+            ],
+            "categories": [
+              "odswiezacze-powietrza",
+              "zapachy-do-wnetrz"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            213,
+            218
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 19,
+          "prompt_tokens": 19353,
+          "completion_tokens": 374,
+          "total_tokens": 19727,
+          "time_seconds": 5.32,
+          "intent": {
+            "surfaces": [
+              "powietrze",
+              "powierzchnie obiektowe"
+            ],
+            "categories": [
+              "odswiezacze-powietrza",
+              "zapachy-do-wnetrz"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            213,
+            218
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 19,
+          "prompt_tokens": 19353,
+          "completion_tokens": 434,
+          "total_tokens": 19787,
+          "time_seconds": 3.88,
+          "intent": {
+            "surfaces": [
+              "powietrze",
+              "powierzchnie obiektowe"
+            ],
+            "categories": [
+              "odswiezacze-powietrza",
+              "zapachy-do-wnetrz"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            213,
+            218
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 18,
+          "prompt_tokens": 18511,
+          "completion_tokens": 393,
+          "total_tokens": 18904,
+          "time_seconds": 5.44,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza",
+              "zapachy-do-wnetrz"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            213,
+            218
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 18,
+          "prompt_tokens": 18511,
+          "completion_tokens": 361,
+          "total_tokens": 18872,
+          "time_seconds": 3.64,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Jakim środkiem najlepiej usunąć przypalony tłuszcz, nagar i sadzę z rusztu grilla oraz wnętrza piekarnika?",
+      "expectedProductIds": [
+        5,
+        34,
+        128
+      ],
+      "expectedNoProductIds": [
+        1,
+        4,
+        43,
+        67
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 8.26,
+      "avg_total_tokens": 44909.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            5,
+            128,
+            34
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 50,
+          "prompt_tokens": 46901,
+          "completion_tokens": 505,
+          "total_tokens": 47406,
+          "time_seconds": 8.07,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piekarniki"
+            ],
+            "categories": [
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze",
+              "odtluszczanie"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            5,
+            34,
+            128
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 63,
+          "prompt_tokens": 56333,
+          "completion_tokens": 479,
+          "total_tokens": 56812,
+          "time_seconds": 9.44,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piekarniki",
+              "kominki"
+            ],
+            "categories": [
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze",
+              "chemia-kwasowa",
+              "chemia-techniczna"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            5,
+            128,
+            34
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 19,
+          "prompt_tokens": 22533,
+          "completion_tokens": 524,
+          "total_tokens": 23057,
+          "time_seconds": 4.65,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piekarniki"
+            ],
+            "categories": [
+              "grille",
+              "srodki-do-nagaru",
+              "srodki-do-usuwania-smaru",
+              "srodki-czyszczace",
+              "piekarniki-i-kominki"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            5,
+            128,
+            34
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 50,
+          "prompt_tokens": 46901,
+          "completion_tokens": 504,
+          "total_tokens": 47405,
+          "time_seconds": 6.13,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piekarniki"
+            ],
+            "categories": [
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze",
+              "odtluszczanie"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            5,
+            128,
+            34,
+            67
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 57,
+          "prompt_tokens": 51996,
+          "completion_tokens": 545,
+          "total_tokens": 52541,
+          "time_seconds": 11.09,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piekarniki"
+            ],
+            "categories": [
+              "srodki-do-nagaru",
+              "odtluszczacze",
+              "srodki-czyszczace",
+              "chemia-profesjonalna"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            5,
+            128,
+            34,
+            67,
+            58
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 78,
+          "prompt_tokens": 65475,
+          "completion_tokens": 634,
+          "total_tokens": 66109,
+          "time_seconds": 11.55,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piekarniki"
+            ],
+            "categories": [
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze",
+              "chemia-profesjonalna",
+              "chemia-gospodarcza"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            128,
+            5,
+            34,
+            96
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 17,
+          "prompt_tokens": 20912,
+          "completion_tokens": 511,
+          "total_tokens": 21423,
+          "time_seconds": 7.37,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piekarniki"
+            ],
+            "categories": [
+              "srodki-do-nagaru",
+              "srodki-do-usuwania-smaru",
+              "grille",
+              "piekarniki-i-kominki"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            34,
+            5,
+            128
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 46,
+          "prompt_tokens": 44094,
+          "completion_tokens": 426,
+          "total_tokens": 44520,
+          "time_seconds": 7.8,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piekarniki"
+            ],
+            "categories": [
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze",
+              "srodki-czyszczace"
+            ],
+            "methods": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Potrzebuję mocnego środka do odtłuszczenia narzędzi warsztatowych oraz aluminiowych części maszyn. Zależy mi, żeby środek był w 100% bezpieczny – część z tych elementów jest lakierowana.",
+      "expectedProductIds": [
+        45,
+        112,
+        152
+      ],
+      "expectedNoProductIds": [
+        3,
+        260,
+        44,
+        259
+      ],
+      "difficulty": "hard",
+      "avg_time_seconds": 6.69,
+      "avg_total_tokens": 70169.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            144,
+            112,
+            152,
+            45
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 83,
+          "prompt_tokens": 67746,
+          "completion_tokens": 620,
+          "total_tokens": 68366,
+          "time_seconds": 8.42,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium",
+              "powierzchnie po polerowaniu"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "odtluszczanie",
+              "czyszczenie-metali",
+              "konserwacja-metalu",
+              "srodki-do-usuwania-smaru",
+              "chemia-warsztatowa"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            45,
+            144,
+            152,
+            112
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 88,
+          "prompt_tokens": 71423,
+          "completion_tokens": 743,
+          "total_tokens": 72166,
+          "time_seconds": 6.52,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium",
+              "powierzchnie po polerowaniu",
+              "powierzchnie zewnętrzne"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "odtluszczanie",
+              "mycie-i-odtluszczanie",
+              "preparaty-apc",
+              "chemia-warsztatowa",
+              "czyszczenie-aluminium"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            45,
+            152
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 81,
+          "prompt_tokens": 66381,
+          "completion_tokens": 510,
+          "total_tokens": 66891,
+          "time_seconds": 5.83,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "odtluszczanie",
+              "chemia-warsztatowa",
+              "chemia-techniczna"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            45,
+            152,
+            112
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 85,
+          "prompt_tokens": 69679,
+          "completion_tokens": 641,
+          "total_tokens": 70320,
+          "time_seconds": 5.94,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "aluminium",
+              "części maszyn",
+              "powierzchnie po polerowaniu"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "odtluszczacze-uniwersalne",
+              "odtluszczanie",
+              "odtluszczanie-powierzchni",
+              "czyszczenie-metali",
+              "chemia-warsztatowa"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            152,
+            144
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 88,
+          "prompt_tokens": 71665,
+          "completion_tokens": 597,
+          "total_tokens": 72262,
+          "time_seconds": 7.58,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium",
+              "powierzchnie po polerowaniu",
+              "powłoki ochronne"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "odtluszczanie",
+              "odtluszczanie-powierzchni",
+              "chemia-warsztatowa",
+              "chemia-techniczna"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            112,
+            4,
+            152
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 84,
+          "prompt_tokens": 68942,
+          "completion_tokens": 536,
+          "total_tokens": 69478,
+          "time_seconds": 7.68,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "aluminium",
+              "części maszyn",
+              "powierzchnie po polerowaniu"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "odtluszczanie",
+              "chemia-warsztatowa",
+              "chemia-przemyslowa",
+              "czyszczenie-metali"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            45,
+            144,
+            152
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 84,
+          "prompt_tokens": 68782,
+          "completion_tokens": 540,
+          "total_tokens": 69322,
+          "time_seconds": 6.29,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium",
+              "powłoki ochronne"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "odtluszczanie",
+              "czyszczenie-maszyn",
+              "chemia-warsztatowa"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            45,
+            112,
+            152
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 89,
+          "prompt_tokens": 71964,
+          "completion_tokens": 584,
+          "total_tokens": 72548,
+          "time_seconds": 5.25,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium",
+              "powierzchnie po polerowaniu",
+              "powierzchnie zewnętrzne"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "odtluszczacze-uniwersalne",
+              "odtluszczanie",
+              "mycie-i-odtluszczanie",
+              "chemia-warsztatowa",
+              "chemia-techniczna"
+            ],
+            "methods": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Czym bezpiecznie usunąć silny osad z kamienia i resztki mydła w mojej łazience? Zależy mi głównie na doczyszczeniu eleganckiego blatu i umywalki wykonanej z naturalnego marmuru.",
+      "expectedProductIds": [
+        11
+      ],
+      "expectedNoProductIds": [
+        10,
+        12,
+        53,
+        138
+      ],
+      "difficulty": "hard",
+      "avg_time_seconds": 5.6,
+      "avg_total_tokens": 38272.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            53
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 30,
+          "prompt_tokens": 47829,
+          "completion_tokens": 717,
+          "total_tokens": 48546,
+          "time_seconds": 7.77,
+          "intent": {
+            "surfaces": [
+              "blaty",
+              "umywalki",
+              "marmur",
+              "łazienki"
+            ],
+            "categories": [
+              "srodki-do-lazienki",
+              "odkamienianie",
+              "odkamieniacze",
+              "czyszczenie-kamienia"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 31,
+          "prompt_tokens": 34589,
+          "completion_tokens": 325,
+          "total_tokens": 34914,
+          "time_seconds": 5.07,
+          "intent": {
+            "surfaces": [
+              "blaty",
+              "umywalki",
+              "marmur",
+              "łazienki"
+            ],
+            "categories": [
+              "odkamienianie",
+              "srodki-kwasowe",
+              "plyny-do-lazienki",
+              "czyszczenie-kamienia"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 32,
+          "prompt_tokens": 34696,
+          "completion_tokens": 464,
+          "total_tokens": 35160,
+          "time_seconds": 5.93,
+          "intent": {
+            "surfaces": [
+              "blaty",
+              "umywalki",
+              "marmur",
+              "łazienki"
+            ],
+            "categories": [
+              "usuwanie-kamienia",
+              "srodki-do-lazienki",
+              "chemia-kwasowa"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 31,
+          "prompt_tokens": 34589,
+          "completion_tokens": 397,
+          "total_tokens": 34986,
+          "time_seconds": 4.05,
+          "intent": {
+            "surfaces": [
+              "łazienki",
+              "blaty",
+              "umywalki",
+              "marmur"
+            ],
+            "categories": [
+              "odkamienianie",
+              "srodki-kwasowe",
+              "plyny-do-lazienki",
+              "czyszczenie-kamienia"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            53,
+            27
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 37,
+          "prompt_tokens": 36629,
+          "completion_tokens": 438,
+          "total_tokens": 37067,
+          "time_seconds": 4.45,
+          "intent": {
+            "surfaces": [
+              "blaty",
+              "umywalki",
+              "marmur",
+              "łazienki"
+            ],
+            "categories": [
+              "czyszczenie-kamienia",
+              "srodki-kwasowe",
+              "plyny-do-lazienki",
+              "lazienka"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            53
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 33,
+          "prompt_tokens": 35485,
+          "completion_tokens": 470,
+          "total_tokens": 35955,
+          "time_seconds": 7.37,
+          "intent": {
+            "surfaces": [
+              "blaty",
+              "umywalki",
+              "marmur",
+              "łazienki"
+            ],
+            "categories": [
+              "odkamienianie",
+              "plyny-do-lazienki",
+              "srodki-kwasowe",
+              "chemia-kwasowa"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            27
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 42,
+          "prompt_tokens": 40694,
+          "completion_tokens": 437,
+          "total_tokens": 41131,
+          "time_seconds": 5.68,
+          "intent": {
+            "surfaces": [
+              "blaty",
+              "umywalki",
+              "marmur",
+              "łazienki"
+            ],
+            "categories": [
+              "lazienka",
+              "czyszczenie-kamienia",
+              "odkamienianie",
+              "srodki-kwasowe",
+              "plyny-do-lazienki"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 36,
+          "prompt_tokens": 38024,
+          "completion_tokens": 396,
+          "total_tokens": 38420,
+          "time_seconds": 4.46,
+          "intent": {
+            "surfaces": [
+              "blaty",
+              "umywalki",
+              "marmur",
+              "łazienki"
+            ],
+            "categories": [
+              "usuwanie-kamienia",
+              "plyny-do-lazienki",
+              "srodki-kwasowe",
+              "chemia-kwasowa",
+              "czyszczenie-kamienia"
+            ],
+            "methods": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Szukam dobrego środka do mycia okien i luster w domu. Zależy mi na tym, żeby płyn szybko odparowywał i absolutnie nie zostawiał smug na szkle.",
+      "expectedProductIds": [
+        2,
+        39,
+        41,
+        129
+      ],
+      "expectedNoProductIds": [
+        1,
+        7
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 4.33,
+      "avg_total_tokens": 46858.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            129
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 44522,
+          "completion_tokens": 308,
+          "total_tokens": 44830,
+          "time_seconds": 5.22,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "plyny-do-szyb",
+              "mycie-szyb-i-luster",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            129,
+            41,
+            164
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 44522,
+          "completion_tokens": 386,
+          "total_tokens": 44908,
+          "time_seconds": 5.02,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "plyny-do-szyb",
+              "mycie-szyb-i-luster",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            129,
+            41,
+            2
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 44522,
+          "completion_tokens": 407,
+          "total_tokens": 44929,
+          "time_seconds": 3.79,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "plyny-do-szyb",
+              "mycie-szyb-i-luster",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            129,
+            41
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 79,
+          "prompt_tokens": 60896,
+          "completion_tokens": 347,
+          "total_tokens": 61243,
+          "time_seconds": 4.4,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra",
+              "szkło"
+            ],
+            "categories": [
+              "plyny-do-szyb",
+              "mycie-szyb-i-luster",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            129,
+            41,
+            154,
+            2
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 44522,
+          "completion_tokens": 518,
+          "total_tokens": 45040,
+          "time_seconds": 4.72,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "dla-domu",
+              "plyny-do-szyb",
+              "mycie-szyb-i-luster"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            129,
+            41
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 44522,
+          "completion_tokens": 393,
+          "total_tokens": 44915,
+          "time_seconds": 3.89,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "plyny-do-szyb",
+              "mycie-szyb-i-luster",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            129,
+            41
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 44522,
+          "completion_tokens": 332,
+          "total_tokens": 44854,
+          "time_seconds": 3.91,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "plyny-do-szyb",
+              "mycie-szyb-i-luster",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            129,
+            41
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 58,
+          "prompt_tokens": 43770,
+          "completion_tokens": 371,
+          "total_tokens": 44141,
+          "time_seconds": 3.71,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "dla-domu",
+              "plyny-do-szyb",
+              "mycie-szyb",
+              "mycie-luster"
+            ],
+            "methods": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Szukam zwykłego płynu do ręcznego mycia naczyń w domu, żeby umyć talerze i sztućce po obiedzie. Co polecacie?",
+      "expectedProductIds": [
+        7,
+        69
+      ],
+      "expectedNoProductIds": [
+        3,
+        14,
+        20
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 3.98,
+      "avg_total_tokens": 45149.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 46716,
+          "completion_tokens": 384,
+          "total_tokens": 47100,
+          "time_seconds": 3.76,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "talerze",
+              "sztućce"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "plyny-do-kuchni",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 46716,
+          "completion_tokens": 367,
+          "total_tokens": 47083,
+          "time_seconds": 3.8,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "talerze",
+              "sztućce"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 46716,
+          "completion_tokens": 387,
+          "total_tokens": 47103,
+          "time_seconds": 3.9,
+          "intent": {
+            "surfaces": [
+              "talerze",
+              "sztućce",
+              "naczynia"
+            ],
+            "categories": [
+              "plyny-do-kuchni",
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 55,
+          "prompt_tokens": 43195,
+          "completion_tokens": 313,
+          "total_tokens": 43508,
+          "time_seconds": 3.86,
+          "intent": {
+            "surfaces": [
+              "talerze",
+              "sztućce"
+            ],
+            "categories": [
+              "plyny-do-kuchni",
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            69
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 16,
+          "prompt_tokens": 34033,
+          "completion_tokens": 462,
+          "total_tokens": 34495,
+          "time_seconds": 5.43,
+          "intent": {
+            "surfaces": [
+              "talerze",
+              "sztućce"
+            ],
+            "categories": [
+              "plyny-do-kuchni",
+              "srodki-czyszczace",
+              "chemia-domowa"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 60,
+          "prompt_tokens": 47402,
+          "completion_tokens": 339,
+          "total_tokens": 47741,
+          "time_seconds": 3.45,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "talerze",
+              "sztućce"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu",
+              "chemia-domowa"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 46716,
+          "completion_tokens": 373,
+          "total_tokens": 47089,
+          "time_seconds": 4.03,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "talerze",
+              "sztućce"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "plyny-do-kuchni",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "openai/gpt-5.4-mini",
+          "n_candidates": 59,
+          "prompt_tokens": 46716,
+          "completion_tokens": 356,
+          "total_tokens": 47072,
+          "time_seconds": 3.58,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "talerze",
+              "sztućce"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+[{
+  "id": 1,
+  "question": "Potrzebuję zwykłego, gęstego żelu do codziennego mycia toalety w domu, żeby usunąć trochę kamienia i odświeżyć muszlę.",
+  "expectedProductIds": [12, 82, 139],
+  "expectedNoProductIds": [10, 80],
+  "explanation": [
+    {
+      "productId": 12,
+      "reasoning": "Pasuje 'Zurada Sanit Żel'. Zgodnie z zapytaniem, to zagęszczony preparat (żel) przeznaczony do codziennego czyszczenia i odkamieniania toalet."
+    },
+    {
+      "productId": 82,
+      "reasoning": "Pasuje 'Zurada Toaleta Żel'. Ekologiczny żel stworzony wprost do bieżącego (codziennego) utrzymania czystości, świetnie wpisuje się w potrzebę odświeżenia muszli domowej."
+    },
+    {
+      "productId": 139,
+      "reasoning": "Pasuje 'Zurada WC Żel Dom'. To klasyczny, gęsty żel do czyszczenia toalet i ceramiki sanitarnej w warunkach domowych."
+    },
+    {
+      "productId": 10,
+      "reasoning": "Pułapka wektorowa ('Zurada Sanibłysk'). Myje toalety i usuwa kamień, ale jest to preparat w formie PIANKI lub płynu z atomizerem, a użytkownik wprost prosi o 'gęsty żel'."
+    },
+    {
+      "productId": 80,
+      "reasoning": "Krytyczna pułapka halucynacji LLM ('Zurada Kamień Gastro'). To żel do toalet, jednak opis ostrzega, że to środek 'do stosowania okresowego' na 'kilkuletni kamień'. LLM nie może halucynować, że nadaje się on do mycia 'codziennego'!"
+    }
+  ],
+  "difficulty": "easy"
+},
+{
+  "id": 8,
+  "question": "Potrzebuję zwykłego, pachnącego mydła w płynie do codziennego mycia rąk w domowej łazience. Zależy mi, żeby ładnie pachniało i było w formie tradycyjnego płynu (nie pianki).",
+  "expectedProductIds": [136, 137, 189, 190],
+  "expectedNoProductIds": [114, 135, 192],
+  "explanation": [
+    {
+      "productId": 136,
+      "reasoning": "Pasuje 'Zurada Kwiatowa Dłoń'. To gotowe do użycia, delikatne mydło w płynie o zapachu kwiatowym do codziennej higieny domowej."
+    },
+    {
+      "productId": 137,
+      "reasoning": "Pasuje 'Zurada Pomarańczowe Dłonie'. Klasyczne mydło w płynie o zapachu soczystej pomarańczy, idealne do domowej łazienki."
+    },
+    {
+      "productId": 189,
+      "reasoning": "Pasuje 'Zurada Kwiat Dłoni'. Tradycyjne mydło o zapachu kwiatowym, spełniające wymóg standardowego płynu."
+    },
+    {
+      "productId": 190,
+      "reasoning": "Pasuje 'Zurada Mydło Pomarańczowe'. Tradycyjne, pachnące mydło w płynie do codziennego użytku."
+    },
+    {
+      "productId": 135,
+      "reasoning": "Pułapka wektorowa ('Zurada Piana Kwiatowa'). Równie pięknie pachnie, ale w specyfikacji to mydło w PIANIE, a użytkownik wyraźnie zaznaczył: 'nie pianki'."
+    },
+    {
+      "productId": 192,
+      "reasoning": "Pułapka formy ('Zurada Żel Do Rąk'). To produkt z kategorii higieny dłoni, ale jest to żel szybkoschnący (do używania bez wody), co nie pasuje do intencji 'mycia rąk w łazience'."
+    },
+    {
+      "productId": 114,
+      "reasoning": "Pułapka przeznaczenia ('Zurada Warsztatowa Pasta'). To środek do mycia dłoni, ale oparty na mikrogranulkach do zmywania smaru i sadzy. Agent nie powinien oferować pasty BHP osobie szukającej ładnie pachnącego mydła do domowej łazienki."
+    }
+  ],
+  "difficulty": "easy"
+},
+{
+  "id": 9,
+  "question": "Szukam zimowego płynu do spryskiwaczy do mojego auta. Chcę go po prostu wlać do zbiornika pod maską, żeby móc myć szybę podczas jazdy na mrozie.",
+  "expectedProductIds": [233, 257],
+  "expectedNoProductIds": [197, 244],
+  "explanation": [
+    {
+      "productId": 233,
+      "reasoning": "Pasuje 'Zurada Mróz Stop'. Zgodnie z nazwą i specyfikacją, to gotowy zimowy płyn do spryskiwaczy, który nadaje się do bezpośredniego wlania do zbiornika."
+    },
+    {
+      "productId": 257,
+      "reasoning": "Pasuje 'Zurada Mróz Klar'. Podobnie jak produkt 233, jest to zimowy płyn do spryskiwaczy (do -22°C), niewymagający rozcieńczania."
+    },
+    {
+      "productId": 197,
+      "reasoning": "Pułapka wektorowa / formy ('Zurada Lód Stop'). Model wektorowy wysoko oceni ten produkt przez słowa 'szyby', 'mróz/lód'. Jednak jest to odmrażacz w aplikacji natryskowej (spray), a nie płyn eksploatacyjny do wlewania do zbiornika. RAG musi wyłapać ten techniczny niuans."
+    },
+    {
+      "productId": 244,
+      "reasoning": "Pułapka wektorowa ('Zurada Odmrażacz Pro'). Podobnie jak 197, jest to odmrażacz na mróz do -50°C ograniczający mechaniczne skrobanie, a nie płyn do zbiornika spryskiwaczy."
+    }
+  ],
+  "difficulty": "easy"
+},
+{
+  "id": 10,
+  "question": "Potrzebuję jakiegoś fajnego odświeżacza powietrza do pokoju. Najchętniej o słodkim zapachu owocowym, np. winogronowym albo grejpfrutowym.",
+  "expectedProductIds": [213, 217, 218],
+  "expectedNoProductIds": [59, 77],
+  "explanation": [
+    {
+      "productId": 213,
+      "reasoning": "Pasuje 'Zurada Winogronowa Mgła'. To wprost odświeżacz powietrza o pożądanym przez użytkownika zapachu czarnych winogron."
+    },
+    {
+      "productId": 217,
+      "reasoning": "Pasuje 'Zurada Owocowa Mgła'. Wydajny odświeżacz powietrza o zapachu owocowym, spełniający ogólne kryterium klienta."
+    },
+    {
+      "productId": 218,
+      "reasoning": "Pasuje 'Zurada Grejpfrutowa Mgła'. Odświeżacz trafiający idealnie w drugą preferencję zapachową (grejpfrut)."
+    },
+    {
+      "productId": 77,
+      "reasoning": "Krytyczna pułapka wektorowa ('Zurada Winogronowa Piana'). Ten produkt posiada w opisie 'o zapachu winogron', co wywinduje go bardzo wysoko w wynikach RAG. Jednak to nie jest odświeżacz do pokoju, tylko... aktywna piana do mycia samochodów! Test sprawdza, czy model potrafi oddzielić zapach (cechę) od docelowej kategorii produktu (odświeżacz vs chemia samochodowa)."
+    },
+    {
+      "productId": 59,
+      "reasoning": "Pułapka dopasowania ('Zurada Aromat Pro'). To odświeżacz powietrza, ale oznaczony jako 'profesjonalny'. Nie posiada żadnej nuty owocowej/winogronowej w specyfikacji. Agent powinien skupić się na dostarczeniu zapachów owocowych z portfolio domowego (Mgły), zamiast pchać neutralną chemię profesjonalną."
+    }
+  ],
+  "difficulty": "easy"
+},
+    {
+  "id": 2,
+  "question": "Jakim środkiem najlepiej usunąć przypalony tłuszcz, nagar i sadzę z rusztu grilla oraz wnętrza piekarnika?",
+  "expectedProductIds": [5, 34, 128],
+  "expectedNoProductIds": [1, 4, 43, 67],
+  "explanation": [
+    {
+      "productId": 5,
+      "reasoning": "Pasuje 'Zurada Piana Moc', ponieważ jest to preparat dedykowany dokładnie do tego celu: mycia grillów, piekarników, rusztów i radzi sobie z przypaleniami."
+    },
+    {
+      "productId": 34,
+      "reasoning": "Pasuje 'Zurada ŻarMoc', ponieważ to ekologiczna alternatywa (pianka) stworzona do usuwania ciężkich przypaleń i tłuszczu właśnie z piekarników oraz grillów."
+    },
+    {
+      "productId": 128,
+      "reasoning": "Pasuje 'Zurada Nagar Stop', ponieważ jest to silnie zasadowy płyn przeznaczony stricte do usuwania nagaru, sadzy i tłuszczu z grilli, kominków i piekarników."
+    },
+    {
+      "productId": 67,
+      "reasoning": "Pułapka kontekstowa. 'Zurada PiecMax' idealnie zmywa sadzę i tłuszcz, ale jest to preparat profilowany pod piece konwekcyjno-parowe i wędzarnie, a nie dedykowany środek do standardowych grilli czy piekarników domowych."
+    },
+    {
+      "productId": 1,
+      "reasoning": "'Zurada Lśniąca Pianka' (id 1) usuwa tłuszcz i odtłuszcza, ale jest to uniwersalny środek do bieżącego czyszczenia – nie poradzi sobie z uciążliwym, wżartym nagarem i przypaleniami."
+    },
+    {
+      "productId": 4,
+      "reasoning": "'Zurada Kuchnia Czysta' (id 4) odtłuszcza urządzenia kuchenne, ale służy do codziennych, lekkich zabrudzeń w kuchni, a nie do czyszczenia ekstremalnie przypalonego grilla."
+    },
+    {
+      "productId": 43,
+      "reasoning": "'Zurada Motor Moc' (id 43) to potężny odtłuszczacz zwalczający smar, ale jest przeznaczony do silników samochodowych. Bezwzględnie nie powinno się nim myć powierzchni mających kontakt z żywnością, jak ruszty grilla czy piekarnik."
+    }
+  ],
+  "difficulty": "easy"
+},
+{
+  "id": 3,
+  "question": "Potrzebuję mocnego środka do odtłuszczenia narzędzi warsztatowych oraz aluminiowych części maszyn. Zależy mi, żeby środek był w 100% bezpieczny – część z tych elementów jest lakierowana.",
+  "expectedProductIds": [45, 112, 152],
+  "expectedNoProductIds": [3, 260, 44, 259],
+  "explanation": [
+    {
+      "productId": 45,
+      "reasoning": "Pasuje 'Zurada Odtłuszczacz Moc'. Posiada potężne właściwości odtłuszczające i co najważniejsze: na liście dozwolonych powierzchni posiada wprost wpisane 'aluminium'. Nie zabrania stosowania na lakier."
+    },
+    {
+      "productId": 112,
+      "reasoning": "Pasuje 'Zurada Smar Stop'. Wprost usuwa oleje z elementów warsztatowych i certyfikuje bezpieczeństwo dla 'aluminium'."
+    },
+    {
+      "productId": 152,
+      "reasoning": "Pasuje 'Zurada Odtłuszczacz Uni'. Uniwersalny odtłuszczacz, który w swojej specyfikacji wprost wymienia 'aluminium' jako powierzchnię bezpieczną."
+    },
+    {
+      "productId": 3,
+      "reasoning": "Krytyczna pułapka ('Zurada Tłuszcz Stop'). Odtłuszcza narzędzia, ale WPROST ZABRANIA stosowania na aluminium i lakierze. LLM musi to wyłapać."
+    },
+    {
+      "productId": 260,
+      "reasoning": "Krytyczna pułapka ('Zurada Hamulec Serwis'). Silny odtłuszczacz, ale zabroniony na powierzchniach lakierowanych."
+    },
+    {
+      "productId": 44,
+      "reasoning": "Pułapka certyfikacji ('Zurada Silnik Moc'). Dobry środek odtłuszczający do metalu, ale nie wymienia wprost aluminium w dozwolonych powierzchniach. Przy wymogu '100% bezpieczeństwa dla aluminium' RAG oparty o rygorystyczny system prompt nie powinien polecać chemii w ciemno."
+    },
+    {
+      "productId": 259,
+      "reasoning": "Pułapka certyfikacji ('Zurada Hamulec Eko'). Podobnie jak ID 44, pozwala na mycie 'części metalowych', ale brak jawnej gwarancji dla reaktywnego aluminium oznacza, że model zachowawczo (i słusznie!) powinien ten produkt odrzucić."
+    }
+  ],
+  "difficulty": "hard"
+},
+{
+  "id": 4,
+  "question": "Czym bezpiecznie usunąć silny osad z kamienia i resztki mydła w mojej łazience? Zależy mi głównie na doczyszczeniu eleganckiego blatu i umywalki wykonanej z naturalnego marmuru.",
+  "expectedProductIds": [11],
+  "expectedNoProductIds": [10, 12, 53, 138],
+  "explanation": [
+    {
+      "productId": 11,
+      "reasoning": "Pasuje 'Zurada Czysta Łazienka'. Jest to ekologiczny środek do sanitariatów, który usuwa osady wodne i mydlane, pozwala na mycie 'umywalek' i 'powierzchni sanitarnych' i nie posiada wykluczeń dla marmuru."
+    },
+    {
+      "productId": 10,
+      "reasoning": "Pułapka ('Zurada Sanibłysk'). Posiada twarde wykluczenie: 'powierzchnie wrażliwe na kwasy'. Marmur zmatowieje i ulegnie zniszczeniu."
+    },
+    {
+      "productId": 12,
+      "reasoning": "Pułapka ('Zurada Sanit Żel'). Silny odkamieniacz, który również wprost zabrania stosowania na 'powierzchniach wrażliwych na kwasy'."
+    },
+    {
+      "productId": 53,
+      "reasoning": "Pułapka wektorowa ('Zurada Kwiat Podłogi'). Wyraźnie zezwala na 'marmur', ale to środek do podłóg, a nie odkamieniacz do łazienkowych resztek mydła."
+    },
+    {
+      "productId": 138,
+      "reasoning": "Pułapka domenowa ('Zurada Łazienka Blask'). Środek odkamienia i nie posiada twardych wykluczeń, jednak jego specyfikacja dozwolonych powierzchni to m.in. 'ceramika sanitarna' oraz 'tworzywa sztuczne'. Marmur to kamień naturalny, a nie ceramika, więc RAG nie powinien go rekomendować bez wyraźnej zgody producenta."
+    }
+  ],
+  "difficulty": "hard"
+},
+{
+  "id": 5,
+  "question": "Szukam dobrego środka do mycia okien i luster w domu. Zależy mi na tym, żeby płyn szybko odparowywał i absolutnie nie zostawiał smug na szkle.",
+  "expectedProductIds": [2, 39, 41, 129],
+  "expectedNoProductIds": [1, 7],
+  "explanation": [
+    {
+      "productId": 2,
+      "reasoning": "Pasuje 'Zurada Szklany Blask'. To klasyczny płyn z alkoholem dedykowany do mycia szyb i luster, a obecność alkoholu gwarantuje szybkie odparowywanie."
+    },
+    {
+      "productId": 39,
+      "reasoning": "Pasuje 'Zurada Szkło Błysk'. To pianka stworzona specjalnie do szyb i luster, której opis wprost gwarantuje 'czystość bez smug'."
+    },
+    {
+      "productId": 41,
+      "reasoning": "Pasuje 'Zurada Kryształ'. Ekologiczna alternatywa (koncentrat) dedykowana stricte do mycia okien i powierzchni szklanych."
+    },
+    {
+      "productId": 129,
+      "reasoning": "Pasuje 'Zurada Szkło Klar'. Gotowy płyn do szyb, który według specyfikacji idealnie odpowiada na potrzebę: 'szybko odparowuje i nie pozostawia smug'."
+    },
+    {
+      "productId": 1,
+      "reasoning": "Pułapka ('Zurada Lśniąca Pianka'). Środek uniwersalny, który ma 'szkło' w dozwolonych powierzchniach, jednak jego pełna dokumentacja ostrzega: 'Na szkle może pozostawiać smugi'. Nie spełnia wyraźnego wymogu użytkownika."
+    },
+    {
+      "productId": 7,
+      "reasoning": "Pułapka kontekstowa ('Zurada Naczynia Generic Cleaning'). Posiada słowo 'szkło' w dozwolonych powierzchniach, ale to płyn do mycia naczyń szklanych. RAG na poziomie 'easy' musi umieć odróżnić szkło okienne od szkła stołowego i nie proponować płynu do naczyń do mycia okien."
+    }
+  ],
+  "difficulty": "easy"
+},
+{
+  "id": 6,
+  "question": "Szukam zwykłego płynu do ręcznego mycia naczyń w domu, żeby umyć talerze i sztućce po obiedzie. Co polecacie?",
+  "expectedProductIds": [7, 69],
+  "expectedNoProductIds": [3, 14, 20],
+  "explanation": [
+    {
+      "productId": 7,
+      "reasoning": "Pasuje 'Zurada Naczynia Generic Cleaning'. To wprost klasyczny płyn przeznaczony do codziennego, ręcznego mycia naczyń (emulguje tłuszcz, jest łagodny dla dłoni)."
+    },
+    {
+      "productId": 69,
+      "reasoning": "Pasuje 'Zurada Cytrusowy Blask'. To ekologiczna alternatywa, również będąca skoncentrowanym płynem stworzonym stricte do ręcznego mycia naczyń z resztek jedzenia."
+    },
+    {
+      "productId": 14,
+      "reasoning": "Pułapka ('Zurada Gastro Błysk'). Świetnie pasuje na wektorach do słowa 'naczynia' i 'mycie', jednak jest to preparat chemiczny przeznaczony do zmywarek gastronomicznych i przemysłowych, a nie do mycia ręcznego."
+    },
+    {
+      "productId": 20,
+      "reasoning": "Pułapka ('Zurada Nabłyszcz Pro'). Obejmuje 'naczynia' i 'sztućce', ale jest to płyn nabłyszczający do płukania w zmywarkach. Podstawowy błąd agentów AI to brak rozróżnienia mycia ręcznego (płynu myjącego) od chemii maszynowej."
+    },
+    {
+      "productId": 3,
+      "reasoning": "Pułapka kontekstowa ('Zurada Tłuszcz Stop'). Ten środek ma 'naczynia' i 'garnki' na liście dozwolonych powierzchni, jednak jest to agresywny, silny odtłuszczacz przeznaczony również m.in. do ścian, narzędzi i odzieży roboczej, a nie 'zwykły płyn do mycia talerzy po obiedzie'."
+    }
+  ],
+  "difficulty": "easy"
+}
+]

@@ -1,0 +1,40 @@
+---
+product_id: 2
+title: "Płyn do szyb i luster Gastro"
+ph: ""
+metody: ["ręczne", "natryskowe", "pianowe"]
+certyfikaty: ["ifra", "rspo"]
+kategorie: ["plyny-do-szyb", "mycie-szyb-i-luster-catering", "mycie-szyb-i-luster-firmy-sprzatajace", "mycie-szyb-i-luster-instytucje", "higiena-powierzchni-catering", "higiena-powierzchni-firmy-sprzatajace", "horeca-hotele", "firmy-sprzatajace", "dla-domu", "mycie-szyb-i-luster"]
+---
+
+# Zurada Szklany Blask
+
+> Płyn z alkoholem do mycia szyb, luster oraz innych szklanych elementów.
+
+---
+
+**Metody mycia:** [[Metody/ręczne|ręczne]] · [[Metody/natryskowe|natryskowe]] · [[Metody/pianowe|pianowe]]
+
+**Certyfikaty:** [[Certyfikaty/ifra|ifra]] · [[Certyfikaty/rspo|rspo]]
+
+**Dozwolone powierzchnie:** [[Powierzchnie/szkło|szkło]] · [[Powierzchnie/szyby|szyby]] · [[Powierzchnie/lustra|lustra]] · [[Powierzchnie/gładkie powierzchnie|gładkie powierzchnie]] · [[Powierzchnie/porcelana|porcelana]] · [[Powierzchnie/tworzywa sztuczne|tworzywa sztuczne]] · [[Powierzchnie/stal nierdzewna|stal nierdzewna]] · [[Powierzchnie/glazura|glazura]] · [[Powierzchnie/powierzchnie ponadpodłogowe|powierzchnie ponadpodłogowe]]
+
+**Odradzane powierzchnie:** ⛔ [[Odradzane/powierzchnie wrażliwe na alkohol|powierzchnie wrażliwe na alkohol]] · [[Odradzane/rozgrzane powierzchnie|rozgrzane powierzchnie]]
+
+**Ostrzeżenia BHP:**
+- [[BHP/unikać alkoholu|unikać alkoholu]]
+- [[BHP/unikać gorąca|unikać gorąca]]
+- [[BHP/wykonać próbę wstępną|wykonać próbę wstępną]]
+- [[BHP/karta charakterystyki|karta charakterystyki]]
+
+**Kategorie:** [[Kategorie/plyny-do-szyb|plyny-do-szyb]] · [[Kategorie/mycie-szyb-i-luster|mycie-szyb-i-luster]] · [[Kategorie/mycie-szyb-i-luster-catering|mycie-szyb-i-luster-catering]] · [[Kategorie/mycie-szyb-i-luster-firmy-sprzatajace|mycie-szyb-i-luster-firmy-sprzatajace]] · [[Kategorie/mycie-szyb-i-luster-instytucje|mycie-szyb-i-luster-instytucje]] · [[Kategorie/higiena-powierzchni-catering|higiena-powierzchni-catering]] · [[Kategorie/higiena-powierzchni-firmy-sprzatajace|higiena-powierzchni-firmy-sprzatajace]] · [[Kategorie/horeca-hotele|horeca-hotele]] · [[Kategorie/firmy-sprzatajace|firmy-sprzatajace]] · [[Kategorie/dla-domu|dla-domu]]
+
+---
+
+## Opis
+
+Środek do ręcznego i natryskowego mycia szyb, luster, przeszkleń, szklanych witryn oraz innych gładkich powierzchni. Skutecznie usuwa zabrudzenia z porcelany, plastiku, stali nierdzewnej i glazury, pozostawiając czyszczoną powierzchnię bez smug. Nie zaleca się stosowania na powierzchniach wrażliwych na działanie alkoholu oraz na rozgrzanych elementach lub w pełnym słońcu. Przed pierwszym użyciem warto wykonać próbę w niewidocznym miejscu i zapoznać się z kartą charakterystyki produktu.
+
+## Właściwości
+
+Właściwości: Preparat gotowy do użycia. Idealny do mycia wszystkich rodzajów szyb, luster, witryn szklanych oraz glazury. Usuwa najoporniejsze zabrudzenia np. z kurzu, pyłków oraz soków z drzew i roślin. Pozostawia lśniące powierzchnie bez smug. Ma przyjemny zapach.

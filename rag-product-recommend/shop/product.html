@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produkt — Zurada Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Zurada<span>Shop</span></a>
+      <p class="tagline">Profesjonalna chemia czyszcząca</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <a href="index.html" class="back-link">← Powrót do listy produktów</a>
+    <div id="product-detail" class="product-detail"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Zurada Shop. Tylko do celów demonstracyjnych.</div>
+  </footer>
+
+  <script>
+    async function init() {
+      const params = new URLSearchParams(location.search);
+      const id = parseInt(params.get('id'));
+
+      const res = await fetch('products.json');
+      const products = await res.json();
+      const p = products.find(x => x.id === id);
+
+      if (!p) {
+        document.getElementById('product-detail').innerHTML =
+          '<p class="error">Nie znaleziono produktu.</p>';
+        return;
+      }
+
+      document.title = `${p.product_name} — Zurada Shop`;
+
+      const cats = p.categories
+        .map(c => `<span class="tag">${c.replace(/-/g, ' ')}</span>`)
+        .join('');
+
+      document.getElementById('product-detail').innerHTML = `
+        <div class="detail-grid">
+          <div class="detail-img">
+            <img src="${p.image || 'images/placeholder.jpg'}" alt="${p.title}"
+              onerror="this.src='images/placeholder.jpg'" />
+          </div>
+          <div class="detail-info">
+            <span class="brand large">${p.product_name}</span>
+            <h1 class="detail-title">${p.title}</h1>
+            <p class="detail-short">${p.short_description}</p>
+            <div class="price-block">
+              <span class="price large">${p.price.toFixed(2)} zł</span>
+              <span class="vat-note">brutto (VAT 23%)</span>
+            </div>
+            <div class="detail-desc">
+              <h2>Opis produktu</h2>
+              <p>${p.description}</p>
+            </div>
+            <div class="detail-cats">
+              <h2>Kategorie</h2>
+              <div class="tags">${cats}</div>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,2320 @@
+{
+  "timestamp": "2026-05-27T08:36:06.709061",
+  "products": {
+    "Zurada Agro Kompleks": [
+      "chemia-do-maszyn-rolniczych",
+      "maszyny-rolnicze",
+      "mycie-maszyn",
+      "rolnictwo",
+      "zestawy-czyszczace",
+      "aktywna-piana",
+      "odtluszczacze",
+      "hydrowoski"
+    ],
+    "Zurada Agro Piana": [
+      "piany-aktywne",
+      "chemia-do-maszyn-rolniczych",
+      "maszyny-rolnicze",
+      "mycie-maszyn",
+      "rolnictwo",
+      "chemia-rolnicza",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Aktywna Piana": [
+      "aktywna-piana",
+      "chemia-samochodowa",
+      "mycie-zewnetrzne-samochodu",
+      "mycie-pojazdow-ciezarowych",
+      "mycie-cisnieniowe",
+      "mycie-bezdotykowe",
+      "maszyny-budowlane",
+      "maszyny-rolnicze"
+    ],
+    "Zurada Alka Czystość": [
+      "preparaty-alkaliczne",
+      "mycie-przemyslowe",
+      "higiena-urzadzen",
+      "czyszczenie-maszyn",
+      "mycie-cisnieniowe",
+      "przemysl-farmaceutyczny",
+      "przemysl-kosmetyczny",
+      "chemia-przemyslowa"
+    ],
+    "Zurada Alka Degreaser": [
+      "odtluszczacze",
+      "mycie-i-odtluszczanie",
+      "preparaty-alkaliczne",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "mycie-pojazdow",
+      "transport"
+    ],
+    "Zurada Alka Floor": [
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-instytucje",
+      "mycie-podlog-maszynowe-catering",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "preparaty-alkaliczne",
+      "odtluszczacze"
+    ],
+    "Zurada Alka Moc": [
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-instytucje",
+      "mycie-podlog-maszynowe-catering",
+      "mycie-podlog-w-warsztatach",
+      "posadzki-przemyslowe",
+      "odtluszczacze",
+      "preparaty-alkaliczne",
+      "chemia-profesjonalna"
+    ],
+    "Zurada AlkaMoc": [
+      "przemysl-farmaceutyczny",
+      "przemysl-kosmetyczny",
+      "mycie-przemyslowe",
+      "higiena-urzadzen",
+      "mycie-i-odtluszczanie",
+      "odtluszczacze",
+      "preparaty-alkaliczne",
+      "chemia-przemyslowa"
+    ],
+    "Zurada Alkali Floor": [
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-instytucje",
+      "mycie-podlog-maszynowe-catering",
+      "mycie-podlog-reczne",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "preparaty-alkaliczne"
+    ],
+    "Zurada Aloes Dłonie": [
+      "zestawy-do-mycia-rak",
+      "mycie-rak",
+      "higiena-rak",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "produkty-do-warsztatu",
+      "srodki-do-usuwania-smaru"
+    ],
+    "Zurada Aloes Warsztat": [
+      "zestawy-do-mycia-rak",
+      "higiena-rak",
+      "mycie-rak",
+      "chemia-warsztatowa",
+      "produkty-do-warsztatu",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Aloesowa Bryza": [
+      "odswiezacze-powietrza",
+      "neutralizacja-zapachow",
+      "zapachy-do-wnetrz",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "zapachy-do-samochodu"
+    ],
+    "Zurada Aloesowa Pasta": [
+      "pasty-do-rak",
+      "mycie-rak",
+      "higiena-rak",
+      "przemysl-i-warsztat",
+      "chemia-warsztatowa",
+      "produkty-do-warsztatu"
+    ],
+    "Zurada Alu Kwas": [
+      "czyszczenie-aluminium",
+      "czyszczenie-metali",
+      "chemia-kwasowa",
+      "srodki-kwasowe",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Aluminium Blask": [
+      "czyszczenie-aluminium",
+      "czyszczenie-metali",
+      "chemia-kwasowa",
+      "srodki-kwasowe",
+      "transport",
+      "pojazdy-specjalne",
+      "chemia-techniczna"
+    ],
+    "Zurada Antypiana Maszyna": [
+      "antyspieniacze",
+      "czyszczenie-maszynowe",
+      "mycie-maszynowe",
+      "chemia-profesjonalna",
+      "firmy-sprzatajace",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Aroma Koncentrat": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "neutralizacja-zapachow",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "zapachy-do-samochodu"
+    ],
+    "Zurada Aromat Pro": [
+      "odswiezacze-powietrza",
+      "odswiezacze-powietrza-firmy-sprzatajace",
+      "odswiezacze-powietrza-instytucje",
+      "zapachy-do-wnetrz",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly"
+    ],
+    "Zurada Auto Blask": [
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "mycie-zewnetrzne-samochodu",
+      "zestawy-do-mycia",
+      "woski-samochodowe",
+      "ochrona-osuszanie-i-nablyszczanie-pojazdow",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz"
+    ],
+    "Zurada Auto Piana": [
+      "aktywna-piana",
+      "mycie-samochodow-na-zewnatrz",
+      "mycie-zewnetrzne-samochodu",
+      "mycie-bezdotykowe",
+      "mycie-cisnieniowe",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Auto Świeżość": [
+      "odswiezacze-powietrza",
+      "zapachy-do-samochodu",
+      "zapachy-samochodowe",
+      "zapachy-do-wnetrz",
+      "neutralizacja-zapachow",
+      "dla-domu",
+      "do-samochodu"
+    ],
+    "Zurada Balonowa Piana": [
+      "szampony-samochodowe",
+      "mycie-zewnetrzne-samochodu",
+      "mycie-samochodow-na-zewnatrz",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "detailing-samochodowy"
+    ],
+    "Zurada Biały Poślizg": [
+      "smary",
+      "aerozole-techniczne",
+      "chemia-warsztatowa",
+      "konserwacja-techniczna",
+      "przemysl-i-warsztat",
+      "preparaty-serwisowe",
+      "ochrona-antykorozyjna",
+      "motoryzacja"
+    ],
+    "Zurada Biel Moc": [
+      "zele-do-wc",
+      "higiena-sanitariatow",
+      "higiena-toalet",
+      "higiena-sanitariatow-firmy-sprzatajace",
+      "higiena-sanitariatow-instytucje",
+      "higiena-toalet-firmy-sprzatajace",
+      "higiena-toalet-instytucje",
+      "horeca-hotele"
+    ],
+    "Zurada Biel Pro": [
+      "plyny-myjace-do-zmywarek",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "plyny-myjace-do-zmywarek-instytucje",
+      "plyny-myjace-do-zmywarek-firmy-sprzatajace"
+    ],
+    "Zurada Bruk Czysty": [
+      "czyszczenie-kostki-brukowej",
+      "czyszczenie-fug",
+      "czyszczenie-elewacji",
+      "ogrod-i-taras",
+      "chemia-budowlana",
+      "mycie-i-odtluszczanie",
+      "preparaty-alkaliczne"
+    ],
+    "Zurada Bruk Moc": [
+      "czyszczenie-kostki-brukowej",
+      "czyszczenie-bruku",
+      "kostka-brukowa",
+      "czyszczenie-kamienia",
+      "mycie-cisnieniowe",
+      "odtluszczacze",
+      "usuwanie-plam-olejowych",
+      "preparaty-alkaliczne"
+    ],
+    "Zurada Bruk Turbo": [
+      "czyszczenie-kostki-brukowej",
+      "mycie-cisnieniowe",
+      "czyszczenie-kamienia",
+      "czyszczenie-elewacji",
+      "posadzki-przemyslowe",
+      "odtluszczacze",
+      "usuwanie-plam-olejowych",
+      "preparaty-alkaliczne"
+    ],
+    "Zurada Błysk Podłóg": [
+      "mycie-podlog-reczne-catering",
+      "mycie-podlog-maszynowe-catering",
+      "horeca-hotele",
+      "mycie-podlog-reczne-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-w-warsztatach",
+      "odtluszczanie-catering",
+      "preparaty-alkaliczne"
+    ],
+    "Zurada Błyszcząca Piana": [
+      "higiena-powierzchni",
+      "higiena-powierzchni-catering",
+      "higiena-powierzchni-firmy-sprzatajace",
+      "higiena-powierzchni-instytucje",
+      "czyszczenie-i-pielegnacja-mebli",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly"
+    ],
+    "Zurada Car Piana": [
+      "aktywna-piana",
+      "mycie-samochodow-na-zewnatrz",
+      "chemia-samochodowa",
+      "mycie-pojazdow",
+      "mycie-ciezarowek",
+      "mycie-cisnieniowe",
+      "maszyny-budowlane",
+      "maszyny-rolnicze"
+    ],
+    "Zurada Celuloza Duo": [
+      "reczniki-papierowe",
+      "czysciwa-i-mikrofibry",
+      "akcesoria-do-sprzatania",
+      "dla-domu",
+      "kuchnia"
+    ],
+    "Zurada Cement Stop": [
+      "usuwanie-cementu",
+      "chemia-budowlana",
+      "maszyny-budowlane",
+      "chemia-kwasowa",
+      "odkamieniacze",
+      "odrdzewiacze",
+      "pojazdy-specjalne"
+    ],
+    "Zurada Ceram Ochrona": [
+      "pasty-montazowe",
+      "smary",
+      "aerozole-techniczne",
+      "chemia-warsztatowa",
+      "konserwacja-metalu",
+      "ochrona-antykorozyjna",
+      "preparaty-techniczne",
+      "maszyny-budowlane"
+    ],
+    "Zurada Ceramika 1200": [
+      "smary",
+      "aerozole-techniczne",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "konserwacja-metalu",
+      "ochrona-antykorozyjna",
+      "preparaty-techniczne"
+    ],
+    "Zurada Chlor Piana": [
+      "dezynfekcja-powierzchni-i-urzadzen",
+      "dezynfekcja-powierzchni-i-urzadzen-firmy-sprzatajace",
+      "dezynfekcja-powierzchni-i-urzadzen-instytucje",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "przemysl-farmaceutyczny",
+      "przemysl-kosmetyczny"
+    ],
+    "Zurada Chłodny Błysk": [
+      "higiena-lodowek",
+      "higiena-lodowek-firmy-sprzatajace",
+      "higiena-lodowek-instytucje",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "odtluszczanie",
+      "neutralizacja-zapachow"
+    ],
+    "Zurada Ciepła Nuta": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "zapachy-do-samochodu",
+      "dla-domu",
+      "neutralizacja-zapachow"
+    ],
+    "Zurada Ciezarówka Pro": [
+      "mycie-ciezarowek",
+      "mycie-pojazdow-ciezarowych",
+      "mycie-bezdotykowe",
+      "mycie-cisnieniowe",
+      "preparaty-alkaliczne",
+      "czyszczenie-maszyn",
+      "maszyny-rolnicze",
+      "chemia-warsztatowa"
+    ],
+    "Zurada Ciężar Max": [
+      "chemia-do-pojazdow",
+      "mycie-ciezarowek",
+      "mycie-bezdotykowe",
+      "maszyny-budowlane",
+      "maszyny-rolnicze",
+      "odtluszczanie",
+      "preparaty-alkaliczne"
+    ],
+    "Zurada Ciężki Brud": [
+      "mycie-ciezarowek",
+      "mycie-bezdotykowe",
+      "maszyny-rolnicze",
+      "maszyny-budowlane",
+      "odtluszczacze",
+      "preparaty-alkaliczne",
+      "chemia-warsztatowa",
+      "transport"
+    ],
+    "Zurada Cytrus Granul": [
+      "pasty-do-rak",
+      "mycie-rak",
+      "higiena-rak",
+      "przemysl-i-warsztat",
+      "chemia-warsztatowa",
+      "produkty-do-warsztatu"
+    ],
+    "Zurada Cytrusowy Blask": [
+      "reczne-mycie-naczyn",
+      "reczne-mycie-naczyn-catering",
+      "plyny-do-kuchni",
+      "kuchnia",
+      "ekologiczne-produkty-eu-ecolabel",
+      "horeca-hotele",
+      "odtluszczanie-catering"
+    ],
+    "Zurada Cytrynowy Zestaw": [
+      "zestawy-do-mycia-rak",
+      "pasty-do-rak",
+      "mycie-rak",
+      "higiena-rak",
+      "przemysl-i-warsztat",
+      "chemia-warsztatowa",
+      "warsztat"
+    ],
+    "Zurada Czarny Blask": [
+      "dressing-do-opon",
+      "pielegnacja-opon",
+      "pielegnacja-plastikow",
+      "dressingi-do-plastikow",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "kosmetyki-samochodowe",
+      "detailing-samochodowy"
+    ],
+    "Zurada Czysta Fuga": [
+      "czyszczenie-fug",
+      "fugi",
+      "lazienka",
+      "mycie-i-odtluszczanie",
+      "preparaty-alkaliczne",
+      "zestawy-czyszczace",
+      "chemia-gospodarcza"
+    ],
+    "Zurada Czysta Moc": [
+      "higiena-powierzchni-firmy-sprzatajace",
+      "higiena-powierzchni-instytucje",
+      "higiena-powierzchni-catering",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "czyszczenie-i-pielegnacja-mebli"
+    ],
+    "Zurada Czysta Posadzka": [
+      "ekologiczne-produkty-eu-ecolabel",
+      "mycie-podlog-maszynowe",
+      "mycie-podlog-reczne",
+      "mycie-podlog",
+      "czyszczenie-posadzek",
+      "mycie-posadzek",
+      "chemia-gospodarcza"
+    ],
+    "Zurada Czysta Łazienka": [
+      "higiena-sanitariatow",
+      "czyszczenie-sanitarne",
+      "lazienka",
+      "plyny-do-lazienki",
+      "usuwanie-kamienia",
+      "odkamieniacze",
+      "ekologiczne-produkty-eu-ecolabel",
+      "chemia-gospodarcza"
+    ],
+    "Zurada Czysty Blask": [
+      "mycie-podlog-maszynowe",
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-instytucje",
+      "mycie-podlog-maszynowe-catering",
+      "mycie-podlog-reczne",
+      "firmy-sprzatajace",
+      "horeca-hotele",
+      "szkoly"
+    ],
+    "Zurada DPF Koncentrat": [
+      "czyszczenie-dpf",
+      "preparaty-do-regeneracji-filtrow",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "chemia-samochodowa",
+      "czyszczenie-maszynowe"
+    ],
+    "Zurada DPF Płyn": [
+      "czyszczenie-dpf",
+      "czyszczenie-egr",
+      "preparaty-do-regeneracji-filtrow",
+      "chemia-warsztatowa",
+      "chemia-samochodowa",
+      "preparaty-serwisowe",
+      "srodki-do-nagaru",
+      "motoryzacja"
+    ],
+    "Zurada Deski Rozdzielcza": [
+      "dressingi-do-plastikow",
+      "plastiki-i-deska-rozdzielcza",
+      "kokpit-i-elementy-plastikowe",
+      "pielegnacja-kokpitu",
+      "pielegnacja-plastikow",
+      "pielegnacja-wnetrza",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Diamentowy Powiew": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "zapachy-do-samochodu",
+      "neutralizacja-zapachow",
+      "dla-domu"
+    ],
+    "Zurada Doza": [
+      "dozowniki",
+      "dozowniki-instytucje",
+      "dozowniki-firmy-sprzatajace",
+      "firmy-sprzatajace",
+      "horeca-hotele",
+      "szkoly"
+    ],
+    "Zurada Drewno Blask": [
+      "mycie-podlog-reczne",
+      "pielegnacja-podlog",
+      "mycie-podlog-reczne-firmy-sprzatajace",
+      "mycie-podlog-reczne-instytucje",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly"
+    ],
+    "Zurada Dystrybutor Czysty": [
+      "chemia-warsztatowa",
+      "stacje-paliw",
+      "mycie-i-odtluszczanie",
+      "odtluszczacze",
+      "odtluszczanie-powierzchni",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Dystrybutor Max": [
+      "stacje-paliw",
+      "mycie-i-odtluszczanie",
+      "odtluszczacze",
+      "odtluszczanie-powierzchni",
+      "chemia-profesjonalna",
+      "chemia-techniczna",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Dłonie Bez Alkoholu": [
+      "higiena-rak",
+      "higiena-rak-firmy-sprzatajace",
+      "higiena-rak-instytucje",
+      "horeca-hotele",
+      "szkoly",
+      "firmy-sprzatajace",
+      "przemysl-farmaceutyczny",
+      "przemysl-kosmetyczny"
+    ],
+    "Zurada Dłonie Cytryna": [
+      "zestawy-do-mycia-rak",
+      "pasty-do-rak",
+      "higiena-rak",
+      "mycie-rak",
+      "chemia-warsztatowa",
+      "produkty-do-warsztatu",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Dłonie Marakuja": [
+      "pasty-do-rak",
+      "higiena-rak",
+      "mycie-rak",
+      "zestawy-do-mycia-rak",
+      "chemia-warsztatowa",
+      "akcesoria-do-mycia",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Dłoń Scrub": [
+      "pasty-do-rak",
+      "higiena-rak",
+      "mycie-rak",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "produkty-do-warsztatu"
+    ],
+    "Zurada Ekran Auto": [
+      "czyszczenie-ekranow",
+      "czyszczenie-elektroniki",
+      "tworzywa-sztuczne",
+      "czyszczenie-plastikow",
+      "mycie-i-pielegnacja-wnetrza",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Ekran Dom": [
+      "czyszczenie-ekranow",
+      "czyszczenie-elektroniki",
+      "zestawy-czyszczace",
+      "czysciwa-i-mikrofibry",
+      "dla-domu",
+      "salon"
+    ],
+    "Zurada Ekran Plus": [
+      "czyszczenie-ekranow",
+      "czyszczenie-elektroniki",
+      "zestawy-czyszczace",
+      "akcesoria-do-czyszczenia",
+      "czysciwa-i-mikrofibry",
+      "mycie-i-pielegnacja-wnetrza",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Fala Czystości": [
+      "mycie-ultradzwiekowe",
+      "mycie-ultradzwiekowe-chemia-samochodowa",
+      "chemia-samochodowa",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "odtluszczacze",
+      "czyszczenie-metali",
+      "czyszczenie-plastikow"
+    ],
+    "Zurada Fasada Forte": [
+      "chemia-profesjonalna",
+      "mycie-obiektow",
+      "czyszczenie-elewacji",
+      "czyszczenie-kostki-brukowej",
+      "czyszczenie-kamienia",
+      "elewacje",
+      "kostka-brukowa"
+    ],
+    "Zurada Felga Blask": [
+      "czyszczenie-felg",
+      "mycie-felg",
+      "felgi",
+      "srodki-kwasowe",
+      "chemia-samochodowa",
+      "mycie-zewnetrzne-samochodu"
+    ],
+    "Zurada Felga Błysk": [
+      "mycie-felg",
+      "czyszczenie-felg",
+      "mycie-zewnetrzne-samochodu",
+      "czyszczenie-metali",
+      "mycie-maszyn",
+      "chemia-warsztatowa",
+      "chemia-kwasowa"
+    ],
+    "Zurada Felga Żel": [
+      "deironizery",
+      "czyszczenie-felg",
+      "mycie-felg",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "mycie-zewnetrzne-samochodu",
+      "detailing-samochodowy"
+    ],
+    "Zurada Floor Fresh": [
+      "mycie-podlog-maszynowe-catering",
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-instytucje",
+      "mycie-podlog-reczne",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "pielegnacja-podlog"
+    ],
+    "Zurada Flota Piana": [
+      "piany-aktywne",
+      "mycie-bezdotykowe",
+      "mycie-pojazdow-ciezarowych",
+      "mycie-zewnetrzne-samochodu",
+      "pojazdy-specjalne",
+      "transport",
+      "chemia-samochodowa"
+    ],
+    "Zurada Fuga Czysta": [
+      "czyszczenie-fug",
+      "fugi",
+      "lazienka",
+      "zestawy-czyszczace",
+      "chemia-gospodarcza",
+      "mycie-i-odtluszczanie",
+      "preparaty-alkaliczne"
+    ],
+    "Zurada Fuga Expert": [
+      "czyszczenie-fug",
+      "fugi",
+      "zestawy-czyszczace",
+      "dla-domu",
+      "lazienka",
+      "kuchnia",
+      "odtluszczacze",
+      "srodki-czyszczace"
+    ],
+    "Zurada Fuga Klar": [
+      "czyszczenie-fug",
+      "czyszczenie-kostki-brukowej",
+      "czyszczenie-elewacji",
+      "czyszczenie-posadzek",
+      "mycie-cisnieniowe",
+      "mycie-i-odtluszczanie",
+      "ogrod-i-taras",
+      "chemia-gospodarcza"
+    ],
+    "Zurada Gastro Błysk": [
+      "plyny-myjace-do-zmywarek",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "plyny-myjace-do-zmywarek-instytucje",
+      "plyny-myjace-do-zmywarek-firmy-sprzatajace",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Gastro Moc": [
+      "odkamieniacze",
+      "odkamienianie",
+      "odkamienianie-firmy-sprzatajace",
+      "odkamienianie-instytucje",
+      "higiena-urzadzen",
+      "higiena-urzadzen-firmy-sprzatajace",
+      "higiena-urzadzen-instytucje",
+      "horeca-hotele"
+    ],
+    "Zurada Gastro Odtłuszcz": [
+      "odtluszczacze",
+      "mycie-i-odtluszczanie",
+      "higiena-urzadzen",
+      "mycie-przemyslowe",
+      "chemia-przemyslowa",
+      "chemia-profesjonalna",
+      "przemysl-farmaceutyczny",
+      "przemysl-kosmetyczny"
+    ],
+    "Zurada Gastro Piana": [
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "higiena-piecow-catering",
+      "higiena-piecow-firmy-sprzatajace",
+      "higiena-urzadzen",
+      "higiena-urzadzen-instytucje",
+      "odtluszczanie-catering",
+      "srodki-do-nagaru"
+    ],
+    "Zurada Grejpfrutowa Mgła": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "neutralizacja-zapachow",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "zapachy-do-samochodu"
+    ],
+    "Zurada Hamulec Eco": [
+      "zmywacze-do-hamulcow",
+      "chemia-warsztatowa",
+      "odtluszczacze",
+      "produkty-do-warsztatu",
+      "odtluszczanie-powierzchni",
+      "preparaty-techniczne"
+    ],
+    "Zurada Hamulec Eko": [
+      "zmywacze-do-hamulcow",
+      "chemia-warsztatowa",
+      "odtluszczacze",
+      "produkty-do-warsztatu",
+      "srodki-do-usuwania-smaru",
+      "pojazdy-specjalne",
+      "wozki-widlowe"
+    ],
+    "Zurada Hamulec Pro": [
+      "zmywacze-do-hamulcow",
+      "chemia-warsztatowa",
+      "odtluszczacze",
+      "produkty-do-warsztatu",
+      "przemysl-i-warsztat",
+      "czyszczenie-metali"
+    ],
+    "Zurada Hamulec Serwis": [
+      "zmywacze-do-hamulcow",
+      "chemia-warsztatowa",
+      "odtluszczacze",
+      "preparaty-serwisowe",
+      "czyszczenie-metali",
+      "produkty-do-warsztatu"
+    ],
+    "Zurada Herbaciana Mgła": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "dla-domu",
+      "neutralizacja-zapachow",
+      "zapachy-do-samochodu"
+    ],
+    "Zurada Hydro Blask": [
+      "hydrowoski",
+      "osuszacze-lakieru",
+      "woski-samochodowe",
+      "osuszanie-i-nablyszczanie",
+      "ochrona-osuszanie-i-nablyszczanie-pojazdow",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "mycie-zewnetrzne-samochodu",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Hydro Błysk": [
+      "ochrona-osuszanie-i-nablyszczanie-pojazdow",
+      "hydrowoski",
+      "woski-i-osuszacze",
+      "osuszanie-i-nablyszczanie",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Hydro Wosk": [
+      "hydrowoski",
+      "woski-samochodowe",
+      "quick-detailery",
+      "kosmetyki-samochodowe",
+      "mycie-zewnetrzne-samochodu",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz"
+    ],
+    "Zurada Hydrowosk Agro": [
+      "hydrowoski",
+      "osuszanie-i-nablyszczanie",
+      "chemia-do-maszyn-rolniczych",
+      "maszyny-rolnicze",
+      "rolnictwo",
+      "mycie-maszyn",
+      "woski-i-osuszacze"
+    ],
+    "Zurada Izopropyl Czysty": [
+      "odtluszczacze",
+      "odtluszczanie-powierzchni",
+      "mycie-i-odtluszczanie",
+      "detailing-samochodowy",
+      "kosmetyka-samochodowa",
+      "mycie-zewnetrzne-samochodu",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Izopropyl Klar": [
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "detailing-samochodowy",
+      "detailing",
+      "odtluszczanie-powierzchni",
+      "mycie-zewnetrzne-samochodu",
+      "szyby"
+    ],
+    "Zurada Kamień Gastro": [
+      "zele-do-wc",
+      "higiena-toalet",
+      "higiena-sanitariatow",
+      "odkamieniacze",
+      "usuwanie-kamienia",
+      "usuwanie-rdzy",
+      "chemia-kwasowa",
+      "horeca-hotele"
+    ],
+    "Zurada Kamień Łazienka": [
+      "odkamieniacze",
+      "odkamienianie",
+      "usuwanie-kamienia",
+      "usuwanie-rdzy",
+      "lazienka",
+      "srodki-do-lazienki",
+      "chemia-kwasowa",
+      "dla-domu"
+    ],
+    "Zurada Karoseria Blask": [
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "quick-detailery",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe",
+      "detailing-samochodowy",
+      "woski-samochodowe"
+    ],
+    "Zurada Kaucja IBC": [
+      "kaucje",
+      "paletopojemniki",
+      "opakowania",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Klar Pro": [
+      "higiena-piecow-catering",
+      "higiena-piecow-firmy-sprzatajace",
+      "higiena-piecow-instytucje",
+      "higiena-urzadzen",
+      "higiena-urzadzen-firmy-sprzatajace",
+      "higiena-urzadzen-instytucje",
+      "horeca-hotele",
+      "odtluszczanie-catering"
+    ],
+    "Zurada Klej Stop": [
+      "usuwanie-kleju-i-naklejek",
+      "chemia-samochodowa",
+      "detailing-samochodowy",
+      "mycie-zewnetrzne-samochodu",
+      "mycie-i-odtluszczanie",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Klima Srebro": [
+      "klimatyzacja-samochodowa",
+      "odswiezacze-powietrza",
+      "neutralizacja-zapachow",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "srodki-eksploatacyjne",
+      "do-samochodu"
+    ],
+    "Zurada Kokpit Duo": [
+      "kosmetyki-samochodowe",
+      "mycie-i-pielegnacja-wnetrza",
+      "zestawy-do-pielegnacji",
+      "kokpit-i-elementy-plastikowe",
+      "plastiki-i-deska-rozdzielcza",
+      "pielegnacja-kokpitu",
+      "pielegnacja-plastikow",
+      "czyszczenie-plastikow"
+    ],
+    "Zurada Kropla Blasku": [
+      "ochrona-osuszanie-i-nablyszczanie-pojazdow",
+      "osuszanie-i-nablyszczanie",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "quick-detailery",
+      "woski-i-osuszacze",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa"
+    ],
+    "Zurada Krwawy Blask": [
+      "deironizery",
+      "mycie-felg-i-kolpakow",
+      "czyszczenie-felg",
+      "felgi",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe",
+      "detailing-samochodowy"
+    ],
+    "Zurada Krystal Błysk": [
+      "plyny-nablyszczajace",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "plyny-nablyszczajace-instytucje",
+      "plyny-nablyszczajace-firmy-sprzatajace"
+    ],
+    "Zurada Kryształ": [
+      "mycie-szyb-i-luster",
+      "plyny-do-szyb",
+      "mycie-luster",
+      "szyby",
+      "ekologiczne-produkty-eu-ecolabel",
+      "chemia-gospodarcza",
+      "dla-domu"
+    ],
+    "Zurada Kuchnia Blask": [
+      "plyny-do-kuchni",
+      "kuchnia",
+      "dla-domu",
+      "odtluszczacze",
+      "odtluszczanie-powierzchni",
+      "chemia-gospodarcza"
+    ],
+    "Zurada Kuchnia Czysta": [
+      "plyny-do-kuchni",
+      "odtluszczacze",
+      "odtluszczanie-powierzchni",
+      "higiena-powierzchni",
+      "higiena-urzadzen",
+      "horeca-hotele",
+      "dla-domu"
+    ],
+    "Zurada Kwas Moc": [
+      "chemia-kwasowa",
+      "srodki-kwasowe",
+      "mycie-posadzek",
+      "czyszczenie-posadzek",
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-instytucje",
+      "usuwanie-cementu",
+      "usuwanie-kamienia"
+    ],
+    "Zurada Kwas Pro": [
+      "przemysl-farmaceutyczny",
+      "przemysl-kosmetyczny",
+      "chemia-kwasowa",
+      "chemia-przemyslowa",
+      "mycie-przemyslowe",
+      "higiena-urzadzen",
+      "odkamienianie",
+      "stal-nierdzewna"
+    ],
+    "Zurada Kwasowa Moc": [
+      "higiena-piecow-catering",
+      "higiena-piecow-firmy-sprzatajace",
+      "higiena-piecow-instytucje",
+      "higiena-urzadzen",
+      "horeca-hotele",
+      "chemia-kwasowa",
+      "odkamienianie",
+      "firmy-sprzatajace"
+    ],
+    "Zurada Kwiat Dłoni": [
+      "mydla-w-plynie",
+      "mycie-rak",
+      "higiena-rak",
+      "higiena-osobista",
+      "lazienka",
+      "dla-domu"
+    ],
+    "Zurada Kwiat Podłogi": [
+      "mycie-podlog-reczne-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-reczne-instytucje",
+      "mycie-podlog-maszynowe-instytucje",
+      "mycie-podlog-reczne-catering",
+      "mycie-podlog-maszynowe-catering"
+    ],
+    "Zurada Kwiatowa Dłoń": [
+      "mydla-w-plynie",
+      "higiena-rak",
+      "mycie-rak",
+      "higiena-osobista",
+      "dla-domu",
+      "lazienka"
+    ],
+    "Zurada Kwiatowa Pianka": [
+      "mydla-w-pianie",
+      "mycie-rak",
+      "higiena-rak",
+      "higiena-osobista",
+      "lazienka",
+      "dla-domu"
+    ],
+    "Zurada Kwiatowe Pranie": [
+      "zele-do-prania",
+      "srodki-piorace",
+      "dla-domu",
+      "chemia-domowa"
+    ],
+    "Zurada Kwiatowy Dotyk": [
+      "plyny-do-plukania",
+      "plyny-do-plukania-tkanin",
+      "srodki-piorace",
+      "chemia-gospodarcza",
+      "dla-domu"
+    ],
+    "Zurada Lustrzany Blask": [
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "dressingi-do-plastikow",
+      "pielegnacja-plastikow",
+      "detailing-samochodowy",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa"
+    ],
+    "Zurada Lód Stop": [
+      "odmrazacze-do-szyb",
+      "produkty-zimowe",
+      "zima",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe",
+      "do-samochodu"
+    ],
+    "Zurada Lśniąca Piana": [
+      "mydla-w-pianie",
+      "higiena-rak",
+      "mycie-rak",
+      "higiena-rak-firmy-sprzatajace",
+      "higiena-rak-instytucje",
+      "horeca-hotele",
+      "szkoly"
+    ],
+    "Zurada Lśniąca Pianka": [
+      "aktywna-piana",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "higiena-powierzchni-catering",
+      "higiena-powierzchni-firmy-sprzatajace",
+      "higiena-urzadzen",
+      "odtluszczanie-catering"
+    ],
+    "Zurada Lśniąca Podłoga": [
+      "mycie-podlog-reczne-firmy-sprzatajace",
+      "mycie-podlog-reczne-catering",
+      "mycie-podlog-reczne-instytucje",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly"
+    ],
+    "Zurada Meble Blask": [
+      "czyszczenie-i-pielegnacja-mebli",
+      "czyszczenie-i-pielegnacja-mebli-firmy-sprzatajace",
+      "czyszczenie-i-pielegnacja-mebli-instytucje",
+      "firmy-sprzatajace",
+      "horeca-hotele",
+      "szkoly"
+    ],
+    "Zurada Metal Blask": [
+      "mycie-felg",
+      "felgi",
+      "czyszczenie-metali",
+      "chemia-kwasowa",
+      "mycie-zewnetrzne-samochodu",
+      "chemia-samochodowa",
+      "transport",
+      "pojazdy-specjalne"
+    ],
+    "Zurada Miękka Tkanina": [
+      "plyny-do-plukania-tkanin",
+      "plyny-do-plukania",
+      "srodki-piorace",
+      "dla-domu",
+      "chemia-gospodarcza"
+    ],
+    "Zurada Moc Czystości": [
+      "higiena-powierzchni-catering",
+      "higiena-powierzchni-firmy-sprzatajace",
+      "higiena-powierzchni-instytucje",
+      "higiena-urzadzen",
+      "kuchnia",
+      "lazienka",
+      "odtluszczanie-powierzchni",
+      "usuwanie-kamienia"
+    ],
+    "Zurada Motor Moc": [
+      "czyszczenie-silnika",
+      "mycie-silnikow",
+      "silniki",
+      "odtluszczacze",
+      "srodki-do-usuwania-smaru",
+      "chemia-samochodowa",
+      "chemia-warsztatowa"
+    ],
+    "Zurada Mroczna Świeżość": [
+      "odswiezacze-powietrza",
+      "neutralizacja-zapachow",
+      "zapachy-do-wnetrz",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "do-samochodu"
+    ],
+    "Zurada Mróz Klar": [
+      "plyny-do-spryskiwaczy",
+      "produkty-zimowe",
+      "plyny-eksploatacyjne",
+      "motoryzacja",
+      "chemia-samochodowa",
+      "do-samochodu",
+      "szyby"
+    ],
+    "Zurada Mróz Stop": [
+      "plyny-do-spryskiwaczy",
+      "produkty-zimowe",
+      "zima",
+      "srodki-eksploatacyjne",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe",
+      "motoryzacja"
+    ],
+    "Zurada Mydło Dłoni": [
+      "mydla-w-plynie",
+      "higiena-rak",
+      "mycie-rak",
+      "horeca-hotele",
+      "szkoly",
+      "firmy-sprzatajace",
+      "higiena-rak-firmy-sprzatajace",
+      "higiena-rak-instytucje"
+    ],
+    "Zurada Mydło Pomarańczowe": [
+      "mydla-w-plynie",
+      "mycie-rak",
+      "higiena-rak",
+      "higiena-osobista",
+      "lazienka",
+      "dla-domu"
+    ],
+    "Zurada Nabłyszcz Pro": [
+      "plyny-nablyszczajace",
+      "horeca-hotele",
+      "plyny-nablyszczajace-instytucje",
+      "plyny-nablyszczajace-firmy-sprzatajace",
+      "firmy-sprzatajace",
+      "szkoly"
+    ],
+    "Zurada Naczynia Generic Cleaning": [
+      "reczne-mycie-naczyn",
+      "reczne-mycie-naczyn-catering",
+      "reczne-mycie-naczyn-instytucje",
+      "reczne-mycie-naczyn-firmy-sprzatajace",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly"
+    ],
+    "Zurada Nagar Stop": [
+      "piekarniki-i-kominki",
+      "grille",
+      "srodki-do-nagaru",
+      "odtluszczacze",
+      "preparaty-alkaliczne",
+      "kuchnia",
+      "dla-domu"
+    ],
+    "Zurada Naklejka Stop": [
+      "usuwanie-kleju-i-naklejek",
+      "detailing-samochodowy",
+      "kosmetyki-samochodowe",
+      "mycie-zewnetrzne-samochodu",
+      "chemia-samochodowa",
+      "chemia-warsztatowa"
+    ],
+    "Zurada Neutral Błysk": [
+      "horeca-hotele",
+      "szkoly",
+      "firmy-sprzatajace",
+      "higiena-powierzchni",
+      "higiena-powierzchni-firmy-sprzatajace",
+      "higiena-powierzchni-instytucje",
+      "higiena-powierzchni-catering"
+    ],
+    "Zurada Obieg Czysty": [
+      "plyny-do-myjek",
+      "chemia-warsztatowa",
+      "odtluszczacze",
+      "zmywacze-przemyslowe",
+      "produkty-do-warsztatu",
+      "mycie-i-odtluszczanie",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Odkamień Piana": [
+      "odkamienianie",
+      "odkamienianie-firmy-sprzatajace",
+      "odkamienianie-instytucje",
+      "higiena-sanitariatow-catering",
+      "higiena-urzadzen",
+      "firmy-sprzatajace",
+      "horeca-hotele",
+      "chemia-kwasowa"
+    ],
+    "Zurada Odkamień Proszek": [
+      "odkamieniacze",
+      "odkamienianie",
+      "chemia-kwasowa",
+      "horeca-hotele",
+      "higiena-urzadzen",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Odmrażacz Pro": [
+      "odmrazacze-do-szyb",
+      "produkty-zimowe",
+      "zima",
+      "motoryzacja",
+      "chemia-samochodowa",
+      "do-samochodu"
+    ],
+    "Zurada Odtłuszczacz Moc": [
+      "odtluszczacze",
+      "mycie-i-odtluszczanie",
+      "odtluszczanie-catering",
+      "horeca-hotele",
+      "chemia-profesjonalna",
+      "przemysl-i-warsztat",
+      "chemia-samochodowa",
+      "mycie-podlog-w-warsztatach"
+    ],
+    "Zurada Odtłuszczacz Uni": [
+      "odtluszczacze-uniwersalne",
+      "mycie-i-odtluszczanie",
+      "odtluszczacze",
+      "odtluszczanie-powierzchni",
+      "srodki-do-usuwania-smaru",
+      "przemysl-i-warsztat",
+      "chemia-warsztatowa"
+    ],
+    "Zurada Ogród Zen": [
+      "odswiezacze-powietrza",
+      "neutralizacja-zapachow",
+      "zapachy-do-wnetrz",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "zapachy-do-samochodu"
+    ],
+    "Zurada Olej Stop": [
+      "usuwanie-plam-oleju",
+      "srodki-do-usuwania-smaru",
+      "odtluszczacze",
+      "mycie-i-odtluszczanie",
+      "chemia-warsztatowa",
+      "czyszczenie-kostki-brukowej",
+      "posadzki-przemyslowe"
+    ],
+    "Zurada Opona Blask": [
+      "dressingi-do-opon",
+      "pielegnacja-opon",
+      "opony",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe",
+      "detailing-samochodowy",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz"
+    ],
+    "Zurada Opona Dressing": [
+      "dressing-do-opon",
+      "pielegnacja-opon",
+      "dressingi-do-plastikow",
+      "pielegnacja-plastikow",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "kosmetyki-samochodowe",
+      "detailing-samochodowy"
+    ],
+    "Zurada Opona Satyna": [
+      "dressingi-do-opon",
+      "dressingi-do-plastikow",
+      "pielegnacja-opon",
+      "pielegnacja-plastikow",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Osad Stop": [
+      "przemysl-i-warsztat",
+      "chemia-warsztatowa",
+      "czyszczenie-techniczne",
+      "odtluszczacze",
+      "usuwanie-rdzy",
+      "odkamieniacze",
+      "usuwanie-kamienia"
+    ],
+    "Zurada Owad Auto": [
+      "usuwanie-owadow",
+      "mycie-zewnetrzne-samochodu",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "do-samochodu"
+    ],
+    "Zurada Owad Stop": [
+      "usuwanie-owadow",
+      "chemia-samochodowa",
+      "mycie-zewnetrzne-samochodu",
+      "mycie-samochodow-na-zewnatrz",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Owady Stop": [
+      "usuwanie-owadow",
+      "mycie-zewnetrzne-samochodu",
+      "kosmetyki-samochodowe",
+      "motoryzacja",
+      "transport"
+    ],
+    "Zurada Owocowa Mgła": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "zapachy-do-samochodu",
+      "neutralizacja-zapachow",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "do-samochodu"
+    ],
+    "Zurada Owocowa Miękkość": [
+      "plyny-do-plukania",
+      "plyny-do-plukania-tkanin",
+      "srodki-piorace",
+      "dla-domu",
+      "chemia-domowa"
+    ],
+    "Zurada Pasta Smar": [
+      "pasty-do-rak",
+      "higiena-rak",
+      "mycie-rak",
+      "chemia-warsztatowa",
+      "produkty-do-warsztatu",
+      "srodki-do-usuwania-smaru"
+    ],
+    "Zurada Pasta Wiórowa": [
+      "pasty-do-rak",
+      "mycie-rak",
+      "higiena-rak",
+      "przemysl-i-warsztat",
+      "chemia-warsztatowa",
+      "produkty-do-warsztatu",
+      "warsztat"
+    ],
+    "Zurada Penetro Smar": [
+      "smary-penetracyjne",
+      "odrdzewiacze-i-penetranty",
+      "odrdzewiacze",
+      "smary-i-oleje",
+      "ochrona-antykorozyjna",
+      "konserwacja-metalu",
+      "chemia-warsztatowa",
+      "preparaty-techniczne"
+    ],
+    "Zurada Piana Aktywna": [
+      "aktywne-piany",
+      "mycie-zewnetrzne-samochodu",
+      "szampony-samochodowe",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz"
+    ],
+    "Zurada Piana Blask": [
+      "piany-aktywne",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "mycie-zewnetrzne-samochodu",
+      "mycie-pojazdow",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz"
+    ],
+    "Zurada Piana Błysk": [
+      "mycie-podlog-reczne",
+      "mycie-podlog-reczne-firmy-sprzatajace",
+      "mycie-podlog-reczne-instytucje",
+      "mycie-podlog-reczne-catering",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "higiena-powierzchni"
+    ],
+    "Zurada Piana Delikatna": [
+      "mydla-w-pianie",
+      "higiena-rak",
+      "mycie-rak",
+      "higiena-osobista",
+      "horeca-hotele"
+    ],
+    "Zurada Piana Duo": [
+      "piany-aktywne",
+      "mycie-maszyn",
+      "maszyny-rolnicze",
+      "chemia-do-maszyn-rolniczych",
+      "chemia-przemyslowa",
+      "odtluszczanie",
+      "mycie-bezdotykowe",
+      "srodki-do-usuwania-smaru"
+    ],
+    "Zurada Piana Gęsta": [
+      "aktywne-piany",
+      "mycie-zewnetrzne-samochodu",
+      "kosmetyki-samochodowe",
+      "mycie-pojazdow",
+      "pojazdy-specjalne",
+      "maszyny-budowlane"
+    ],
+    "Zurada Piana Kwiatowa": [
+      "mydla-w-pianie",
+      "higiena-rak",
+      "mycie-rak",
+      "higiena-osobista",
+      "dla-domu",
+      "lazienka"
+    ],
+    "Zurada Piana Moc": [
+      "higiena-piecow-catering",
+      "higiena-piecow-firmy-sprzatajace",
+      "higiena-piecow-instytucje",
+      "higiena-urzadzen",
+      "horeca-hotele",
+      "odtluszczacze",
+      "srodki-do-nagaru",
+      "piekarniki-i-kominki"
+    ],
+    "Zurada Piana Mocna": [
+      "piany-aktywne",
+      "mycie-ciezarowek",
+      "mycie-bezdotykowe",
+      "mycie-cisnieniowe",
+      "chemia-samochodowa",
+      "pojazdy-specjalne",
+      "maszyny-budowlane",
+      "mycie-zewnetrzne-samochodu"
+    ],
+    "Zurada Piana Neutralna": [
+      "chemia-do-maszyn-rolniczych",
+      "maszyny-rolnicze",
+      "mycie-maszyn",
+      "piany-aktywne",
+      "chemia-rolnicza",
+      "rolnictwo"
+    ],
+    "Zurada Piana Ochronna": [
+      "piany-aktywne",
+      "mycie-zewnetrzne-samochodu",
+      "kosmetyki-samochodowe",
+      "auto-detailing",
+      "chemia-samochodowa",
+      "mycie-pojazdow"
+    ],
+    "Zurada Piana Połysk": [
+      "aktywna-piana",
+      "szampony-samochodowe",
+      "mycie-zewnetrzne-samochodu",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz"
+    ],
+    "Zurada Piana Stop": [
+      "antyspieniacze",
+      "mycie-maszynowe",
+      "czyszczenie-maszynowe",
+      "pranie-tapicerki",
+      "pranie-tapicerki-i-dywanow",
+      "firmy-sprzatajace",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Pianka Różana": [
+      "mydla-w-pianie",
+      "mycie-rak",
+      "higiena-rak",
+      "higiena-osobista",
+      "lazienka"
+    ],
+    "Zurada Pianka Turbo": [
+      "aktywna-piana",
+      "mycie-samochodow-na-zewnatrz",
+      "chemia-samochodowa",
+      "mycie-zewnetrzne-samochodu",
+      "odtluszczacze",
+      "mycie-cisnieniowe"
+    ],
+    "Zurada Pianka": [
+      "kokpit-i-elementy-plastikowe",
+      "mycie-i-pielegnacja-wnetrza",
+      "plastiki-i-deska-rozdzielcza",
+      "czyszczenie-plastikow",
+      "pielegnacja-kokpitu",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada PiankoMax": [
+      "pranie-tapicerki-i-dywanow",
+      "pranie-tapicerki",
+      "mycie-tapicerek",
+      "dywany-i-wykladziny",
+      "czyszczenie-tekstyliów",
+      "mycie-tapicerek-firmy-sprzatajace",
+      "mycie-tapicerek-instytucje",
+      "mycie-i-pielegnacja-wnetrza"
+    ],
+    "Zurada Piankowy Blask": [
+      "higiena-powierzchni",
+      "ekologiczne-produkty-eu-ecolabel",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "srodki-czyszczace",
+      "czyszczenie-i-pielegnacja-mebli",
+      "higiena-urzadzen"
+    ],
+    "Zurada PiecMax": [
+      "higiena-piecow-catering",
+      "higiena-piecow-firmy-sprzatajace",
+      "higiena-piecow-instytucje",
+      "higiena-urzadzen",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "preparaty-alkaliczne",
+      "srodki-do-nagaru"
+    ],
+    "Zurada Plama Olejowa": [
+      "usuwanie-plam-olejowych",
+      "odtluszczacze",
+      "mycie-i-odtluszczanie",
+      "czyszczenie-kostki-brukowej",
+      "czyszczenie-posadzek",
+      "posadzki-przemyslowe",
+      "chemia-warsztatowa"
+    ],
+    "Zurada Plastik Antystat": [
+      "czyszczenie-plastiku",
+      "srodki-do-tworzyw-sztucznych",
+      "tworzywa-sztuczne",
+      "mycie-maszyn",
+      "rolnictwo",
+      "chemia-do-maszyn-rolniczych",
+      "maszyny-rolnicze"
+    ],
+    "Zurada Plastik Auto": [
+      "czyszczenie-plastiku",
+      "srodki-do-tworzyw-sztucznych",
+      "tworzywa-sztuczne",
+      "mycie-i-pielegnacja-wnetrza",
+      "kokpit-i-elementy-plastikowe",
+      "kosmetyki-samochodowe",
+      "dla-domu"
+    ],
+    "Zurada Plastik Czysty": [
+      "czyszczenie-plastiku",
+      "srodki-do-tworzyw-sztucznych",
+      "mycie-i-pielegnacja-wnetrza",
+      "kosmetyki-samochodowe",
+      "chemia-gospodarcza",
+      "transport"
+    ],
+    "Zurada Plastik Dom": [
+      "czyszczenie-plastikow",
+      "srodki-do-tworzyw-sztucznych",
+      "tworzywa-sztuczne",
+      "dla-domu",
+      "kuchnia",
+      "ogrod",
+      "odtluszczanie-powierzchni"
+    ],
+    "Zurada Plastik Klar": [
+      "czyszczenie-plastiku",
+      "srodki-do-tworzyw-sztucznych",
+      "mycie-i-odtluszczanie",
+      "mycie-i-pielegnacja-wnetrza",
+      "kokpit-i-elementy-plastikowe",
+      "kosmetyki-samochodowe",
+      "chemia-warsztatowa",
+      "dla-domu"
+    ],
+    "Zurada Plastik Mat": [
+      "dressingi-do-plastikow",
+      "pielegnacja-kokpitu",
+      "kokpit-i-elementy-plastikowe",
+      "pielegnacja-plastikow",
+      "mycie-i-pielegnacja-wnetrza",
+      "kosmetyki-samochodowe",
+      "detailing-samochodowy"
+    ],
+    "Zurada Podłoga Fresh": [
+      "mycie-podlog-reczne-firmy-sprzatajace",
+      "mycie-podlog-reczne-instytucje",
+      "mycie-podlog-reczne-catering",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "mycie-podlog-reczne",
+      "pielegnacja-podlog"
+    ],
+    "Zurada Podłoga Moc": [
+      "mycie-podlog-reczne-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-reczne-catering",
+      "mycie-podlog-maszynowe-catering",
+      "mycie-podlog-reczne-instytucje",
+      "mycie-podlog-maszynowe-instytucje",
+      "odtluszczanie-powierzchni",
+      "horeca-hotele"
+    ],
+    "Zurada Podłoga Pro": [
+      "mycie-podlog-maszynowe",
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-instytucje",
+      "mycie-podlog-maszynowe-catering",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Polimer Błysk": [
+      "zabezpieczanie-i-pielegnacja-podlog",
+      "zabezpieczanie-i-pielegnacja-podlog-firmy-sprzatajace",
+      "zabezpieczanie-i-pielegnacja-podlog-instytucje",
+      "pielegnacja-podlog",
+      "firmy-sprzatajace",
+      "horeca-hotele",
+      "szkoly"
+    ],
+    "Zurada Pomarańczowa Moc": [
+      "mycie-podlog-reczne",
+      "mycie-podlog-reczne-firmy-sprzatajace",
+      "mycie-podlog-reczne-instytucje",
+      "mycie-podlog-reczne-catering",
+      "horeca-hotele",
+      "szkoly",
+      "czyszczenie-fug",
+      "higiena-sanitariatow"
+    ],
+    "Zurada Pomarańczowe Dłonie": [
+      "mydla-w-plynie",
+      "higiena-rak",
+      "mycie-rak",
+      "higiena-osobista",
+      "dla-domu",
+      "lazienka"
+    ],
+    "Zurada Posadzka Automat": [
+      "mycie-podlog-maszynowe",
+      "czyszczenie-posadzek",
+      "mycie-posadzek",
+      "mycie-maszynowe",
+      "posadzki-przemyslowe",
+      "mycie-obiektow",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Posadzka Forte": [
+      "przemysl-i-warsztat",
+      "chemia-warsztatowa",
+      "posadzki-przemyslowe",
+      "mycie-posadzek",
+      "mycie-podlog-w-warsztatach",
+      "mycie-podlog-maszynowe",
+      "mycie-podlog-reczne",
+      "odtluszczanie"
+    ],
+    "Zurada Posadzka Lux": [
+      "mycie-podlog-reczne",
+      "mycie-podlog-maszynowe",
+      "mycie-podlog",
+      "ekologiczne-produkty-eu-ecolabel",
+      "chemia-gospodarcza",
+      "dla-domu",
+      "posadzki"
+    ],
+    "Zurada Posadzka Pro": [
+      "posadzki-przemyslowe",
+      "mycie-podlog-maszynowe",
+      "mycie-posadzek",
+      "mycie-podlog",
+      "mycie-cisnieniowe",
+      "mycie-i-odtluszczanie",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Posadzka Siła": [
+      "posadzki-przemyslowe",
+      "mycie-posadzek",
+      "mycie-podlog-maszynowe",
+      "mycie-podlog-reczne",
+      "mycie-podlog-w-warsztatach",
+      "mycie-i-odtluszczanie",
+      "odtluszczacze",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Powiew Radości": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "neutralizacja-zapachow",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "zapachy-do-samochodu"
+    ],
+    "Zurada Przepływ": [
+      "udraznianie-rur-i-odplywow",
+      "udraznianie-rur-i-odplywow-instytucje",
+      "udraznianie-rur-i-odplywow-firmy-sprzatajace",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly"
+    ],
+    "Zurada Płukacz Pro": [
+      "higiena-piecow",
+      "higiena-piecow-catering",
+      "higiena-piecow-firmy-sprzatajace",
+      "higiena-piecow-instytucje",
+      "higiena-urzadzen",
+      "higiena-urzadzen-firmy-sprzatajace",
+      "horeca-hotele",
+      "firmy-sprzatajace"
+    ],
+    "Zurada Rdza Luz": [
+      "odrdzewiacze-i-penetranty",
+      "odrdzewiacze",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "preparaty-techniczne",
+      "smary-penetracyjne",
+      "konserwacja-metalu"
+    ],
+    "Zurada Rdza Metal": [
+      "neutralizatory-rdzy",
+      "odrdzewiacze-i-penetranty",
+      "usuwanie-rdzy",
+      "konserwacja-metalu",
+      "ochrona-antykorozyjna",
+      "chemia-warsztatowa",
+      "chemia-techniczna"
+    ],
+    "Zurada Rdza Neutralizer": [
+      "neutralizatory-rdzy",
+      "odrdzewiacze-i-penetranty",
+      "ochrona-antykorozyjna",
+      "konserwacja-metalu",
+      "chemia-techniczna",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Rdza Stop": [
+      "neutralizatory-rdzy",
+      "odrdzewiacze-i-penetranty",
+      "usuwanie-rdzy",
+      "ochrona-antykorozyjna",
+      "konserwacja-metalu",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Różana Piana": [
+      "higiena-rak",
+      "mydla-w-pianie",
+      "mycie-rak",
+      "higiena-osobista",
+      "lazienka",
+      "dla-domu"
+    ],
+    "Zurada Sandałowa Wanilia": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "zapachy-samochodowe",
+      "neutralizacja-zapachow",
+      "dla-domu"
+    ],
+    "Zurada Sanibłysk": [
+      "higiena-sanitariatow",
+      "higiena-toalet",
+      "higiena-sanitariatow-firmy-sprzatajace",
+      "higiena-sanitariatow-instytucje",
+      "higiena-sanitariatow-catering",
+      "odkamieniacze",
+      "lazienka",
+      "horeca-hotele"
+    ],
+    "Zurada Sanit Żel": [
+      "zele-do-wc",
+      "higiena-toalet",
+      "higiena-sanitariatow",
+      "odkamieniacze",
+      "chemia-kwasowa",
+      "firmy-sprzatajace",
+      "horeca-hotele",
+      "szkoly"
+    ],
+    "Zurada Sanitar Błysk": [
+      "higiena-sanitariatow-firmy-sprzatajace",
+      "higiena-sanitariatow-instytucje",
+      "higiena-sanitariatow-catering",
+      "higiena-toalet",
+      "odkamienianie",
+      "chemia-kwasowa",
+      "lazienka",
+      "czyszczenie-fug"
+    ],
+    "Zurada Silnik Klar": [
+      "mycie-silnikow",
+      "czyszczenie-silnika",
+      "odtluszczanie",
+      "chemia-warsztatowa",
+      "produkty-do-warsztatu",
+      "chemia-do-pojazdow",
+      "rolnictwo"
+    ],
+    "Zurada Silnik Moc": [
+      "chemia-samochodowa",
+      "chemia-warsztatowa",
+      "silniki",
+      "mycie-silnikow",
+      "czyszczenie-silnika",
+      "odtluszczacze",
+      "srodki-do-usuwania-smaru",
+      "produkty-do-warsztatu"
+    ],
+    "Zurada Skóra Auto": [
+      "kosmetyki-samochodowe",
+      "mycie-i-pielegnacja-wnetrza",
+      "czyszczenie-skory",
+      "tapicerka-skorzana",
+      "pielegnacja-skory",
+      "neutralizacja-zapachow"
+    ],
+    "Zurada Skóra Dom": [
+      "czyszczenie-skor",
+      "tapicerka-skorzana",
+      "dla-domu",
+      "salon",
+      "mycie-i-pielegnacja-wnetrza",
+      "czyszczenie-tapicerki",
+      "neutralizacja-zapachow"
+    ],
+    "Zurada Skóra Lux": [
+      "kosmetyki-samochodowe",
+      "mycie-i-pielegnacja-wnetrza",
+      "pielegnacja-skory",
+      "czyszczenie-skory",
+      "tapicerka-skorzana"
+    ],
+    "Zurada Skóra Ochrona": [
+      "kosmetyki-samochodowe",
+      "mycie-i-pielegnacja-wnetrza",
+      "pielegnacja-skory",
+      "czyszczenie-skory",
+      "tapicerka-skorzana",
+      "zestawy-do-pielegnacji"
+    ],
+    "Zurada Skóra Odnowa": [
+      "pielegnacja-skory",
+      "tapicerka-skorzana",
+      "czyszczenie-skory",
+      "czyszczenie-i-pielegnacja-mebli",
+      "dla-domu",
+      "salon"
+    ],
+    "Zurada Smar Biały": [
+      "smary",
+      "aerozole-techniczne",
+      "chemia-techniczna",
+      "chemia-warsztatowa",
+      "konserwacja-techniczna",
+      "ochrona-antykorozyjna",
+      "motoryzacja",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Smar Penetrant": [
+      "smary-penetracyjne",
+      "odrdzewiacze-i-penetranty",
+      "odrdzewiacze",
+      "konserwacja-metalu",
+      "ochrona-antykorozyjna",
+      "chemia-warsztatowa",
+      "preparaty-techniczne"
+    ],
+    "Zurada Smar Stop": [
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "odtluszczacze",
+      "srodki-do-usuwania-smaru",
+      "czyszczenie-silnika",
+      "mycie-silnikow",
+      "czyszczenie-maszyn",
+      "mycie-maszyn"
+    ],
+    "Zurada Srebrna Klima": [
+      "klimatyzacja-samochodowa",
+      "klimatyzacja",
+      "chemia-samochodowa",
+      "odswiezacze-powietrza",
+      "neutralizacja-zapachow",
+      "mycie-i-pielegnacja-wnetrza",
+      "aerozole-techniczne"
+    ],
+    "Zurada Srebrny Blask": [
+      "mycie-podlog-reczne",
+      "mycie-podlog",
+      "pielegnacja-podlog",
+      "chemia-gospodarcza",
+      "dla-domu",
+      "salon"
+    ],
+    "Zurada Stal Błysk": [
+      "stal-nierdzewna",
+      "czyszczenie-metali",
+      "konserwacja-metalu",
+      "ochrona-antykorozyjna",
+      "higiena-urzadzen",
+      "higiena-powierzchni-firmy-sprzatajace",
+      "horeca-hotele",
+      "firmy-sprzatajace"
+    ],
+    "Zurada Strip Moc": [
+      "mycie-podlog-maszynowe-firmy-sprzatajace",
+      "mycie-podlog-maszynowe-instytucje",
+      "mycie-podlog-maszynowe-catering",
+      "zabezpieczanie-i-pielegnacja-podlog",
+      "zabezpieczanie-i-pielegnacja-podlog-firmy-sprzatajace",
+      "zabezpieczanie-i-pielegnacja-podlog-instytucje",
+      "preparaty-alkaliczne",
+      "firmy-sprzatajace"
+    ],
+    "Zurada Suchy Blask": [
+      "hydrowoski",
+      "osuszacze-lakieru",
+      "woski-i-osuszacze",
+      "osuszanie-i-nablyszczanie",
+      "ochrona-osuszanie-i-nablyszczanie-pojazdow",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "mycie-zewnetrzne-samochodu",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Szampon Neutralny": [
+      "szampony-samochodowe",
+      "mycie-zewnetrzne-samochodu",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "mycie-pojazdow"
+    ],
+    "Zurada Szarlotkowa Mgła": [
+      "odswiezacze-powietrza",
+      "neutralizacja-zapachow",
+      "dla-domu",
+      "zapachy-do-wnetrz",
+      "zapachy-do-samochodu"
+    ],
+    "Zurada Szklany Blask": [
+      "plyny-do-szyb",
+      "mycie-szyb-i-luster-catering",
+      "mycie-szyb-i-luster-firmy-sprzatajace",
+      "mycie-szyb-i-luster-instytucje",
+      "higiena-powierzchni-catering",
+      "higiena-powierzchni-firmy-sprzatajace",
+      "horeca-hotele",
+      "firmy-sprzatajace"
+    ],
+    "Zurada Szkło Błysk": [
+      "mycie-szyb-i-luster",
+      "mycie-szyb-i-luster-firmy-sprzatajace",
+      "mycie-szyb-i-luster-instytucje",
+      "mycie-szyb-i-luster-catering",
+      "firmy-sprzatajace",
+      "horeca-hotele",
+      "szkoly"
+    ],
+    "Zurada Szkło Klar": [
+      "plyny-do-szyb",
+      "mycie-szyb-i-luster",
+      "mycie-szyb",
+      "mycie-luster",
+      "dla-domu",
+      "chemia-domowa"
+    ],
+    "Zurada Szyba Hydro": [
+      "plyny-do-szyb",
+      "mycie-szyb-i-luster",
+      "szyby",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa",
+      "mycie-i-pielegnacja-wnetrza",
+      "czyszczenie-plastikow"
+    ],
+    "Zurada Szyba Powłoka": [
+      "plyny-do-szyb",
+      "mycie-szyb-i-luster",
+      "mycie-luster",
+      "szyby",
+      "czyszczenie-plastiku",
+      "mycie-i-odtluszczanie",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Szybka Czystość": [
+      "dezynfekcja-powierzchni-i-urzadzen",
+      "dezynfekcja-powierzchni-i-urzadzen-firmy-sprzatajace",
+      "dezynfekcja-powierzchni-i-urzadzen-instytucje",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "przemysl-farmaceutyczny",
+      "przemysl-kosmetyczny"
+    ],
+    "Zurada Szybki Blask": [
+      "plyny-do-szyb",
+      "mycie-szyb",
+      "szyby",
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe",
+      "do-samochodu"
+    ],
+    "Zurada Tabor Max": [
+      "transport",
+      "mycie-pojazdow-ciezarowych",
+      "mycie-bezdotykowe",
+      "maszyny-rolnicze",
+      "mycie-maszyn",
+      "chemia-warsztatowa",
+      "preparaty-alkaliczne",
+      "odtluszczacze"
+    ],
+    "Zurada Tapicer Fresh": [
+      "mycie-i-pielegnacja-wnetrza",
+      "tapicerka-materialowa",
+      "podsufitki",
+      "czyszczenie-tapicerki",
+      "motoryzacja"
+    ],
+    "Zurada Tapicer Max": [
+      "chemia-samochodowa",
+      "kosmetyki-samochodowe",
+      "mycie-i-pielegnacja-wnetrza",
+      "tapicerka",
+      "tapicerka-materialowa",
+      "czyszczenie-tapicerki",
+      "mycie-tapicerek",
+      "czyszczenie-tekstyliów"
+    ],
+    "Zurada Tapicer Soft": [
+      "mycie-i-pielegnacja-wnetrza",
+      "tapicerka-materialowa",
+      "podsufitki",
+      "czyszczenie-tapicerki",
+      "czyszczenie-tekstyliów",
+      "kosmetyki-samochodowe"
+    ],
+    "Zurada Tapicerka Lekka": [
+      "tapicerka-materialowa",
+      "czyszczenie-tapicerki",
+      "mycie-tapicerek",
+      "czyszczenie-tekstyliów",
+      "podsufitki",
+      "mycie-i-pielegnacja-wnetrza",
+      "auto-detailing",
+      "dla-domu"
+    ],
+    "Zurada Tapicerka Sucha": [
+      "kosmetyki-samochodowe",
+      "mycie-i-pielegnacja-wnetrza",
+      "czyszczenie-tapicerki",
+      "tapicerka-materialowa",
+      "podsufitki",
+      "czyszczenie-tekstyliów"
+    ],
+    "Zurada Tekstyl Czysty": [
+      "srodki-piorace",
+      "pranie-tapicerki",
+      "pranie-dywanow",
+      "czyszczenie-wykladzin",
+      "czyszczenie-tekstyliów",
+      "chemia-profesjonalna",
+      "dywany-i-wykladziny"
+    ],
+    "Zurada Tkanin Plus": [
+      "mycie-tapicerek",
+      "mycie-tapicerek-firmy-sprzatajace",
+      "mycie-tapicerek-instytucje",
+      "pranie-tapicerki-i-dywanow",
+      "dywany-i-wykladziny",
+      "pranie-dywanow",
+      "horeca-hotele",
+      "firmy-sprzatajace"
+    ],
+    "Zurada Tkanin Pro": [
+      "pranie-tapicerki",
+      "pranie-dywanow",
+      "pranie-tapicerki-i-dywanow",
+      "dywany-i-wykladziny",
+      "czyszczenie-tekstyliów",
+      "czyszczenie-tapicerki",
+      "srodki-piorace",
+      "chemia-profesjonalna"
+    ],
+    "Zurada Tkanina Aktywna": [
+      "srodki-piorace",
+      "pranie-tapicerki",
+      "pranie-dywanow",
+      "pranie-tapicerki-i-dywanow",
+      "dywany-i-wykladziny",
+      "czyszczenie-tekstyliów",
+      "neutralizacja-zapachow",
+      "chemia-domowa"
+    ],
+    "Zurada Tkanina Czysta": [
+      "pranie-tapicerki-i-dywanow",
+      "pranie-tapicerki",
+      "dywany-i-wykladziny",
+      "tapicerka-materialowa",
+      "mycie-i-pielegnacja-wnetrza",
+      "kosmetyki-samochodowe",
+      "srodki-piorace"
+    ],
+    "Zurada Tkanina Owocowa": [
+      "zele-do-prania",
+      "srodki-piorace",
+      "dla-domu",
+      "chemia-domowa"
+    ],
+    "Zurada Tkaninex": [
+      "pranie-tapicerki-i-dywanow",
+      "pranie-tapicerki",
+      "pranie-dywanow",
+      "dywany-i-wykladziny",
+      "tapicerka-materialowa",
+      "mycie-tapicerek",
+      "mycie-tapicerek-firmy-sprzatajace",
+      "chemia-samochodowa"
+    ],
+    "Zurada Toaleta Żel": [
+      "zele-do-wc",
+      "higiena-toalet",
+      "higiena-sanitariatow",
+      "lazienka",
+      "odkamieniacze",
+      "usuwanie-kamienia",
+      "srodki-do-lazienki",
+      "ekologiczne-produkty-eu-ecolabel"
+    ],
+    "Zurada Total Clean": [
+      "preparaty-apc",
+      "chemia-samochodowa",
+      "mycie-i-pielegnacja-wnetrza",
+      "mycie-zewnetrzne-samochodu",
+      "czyszczenie-plastikow",
+      "mycie-silnikow",
+      "odtluszczacze"
+    ],
+    "Zurada Transport Alka": [
+      "odtluszczacze",
+      "preparaty-alkaliczne",
+      "mycie-i-odtluszczanie",
+      "mycie-przemyslowe",
+      "transport",
+      "pojazdy-specjalne",
+      "chemia-warsztatowa"
+    ],
+    "Zurada Truck Piana": [
+      "aktywna-piana",
+      "mycie-ciezarowek",
+      "mycie-pojazdow-ciezarowych",
+      "mycie-samochodow-na-zewnatrz",
+      "mycie-cisnieniowe",
+      "chemia-samochodowa",
+      "preparaty-alkaliczne",
+      "odtluszczacze"
+    ],
+    "Zurada Turbo Czystość": [
+      "mycie-cisnieniowe",
+      "mycie-przemyslowe",
+      "mycie-i-odtluszczanie",
+      "odtluszczacze",
+      "czyszczenie-kostki-brukowej",
+      "mycie-posadzek",
+      "posadzki-przemyslowe",
+      "usuwanie-plam-olejowych"
+    ],
+    "Zurada Twarda Woda": [
+      "plyny-myjace-do-zmywarek",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly",
+      "plyny-myjace-do-zmywarek-instytucje",
+      "plyny-myjace-do-zmywarek-firmy-sprzatajace"
+    ],
+    "Zurada Tłuszcz Maszyny": [
+      "odtluszczacze",
+      "srodki-do-usuwania-smaru",
+      "mycie-silnikow",
+      "mycie-maszyn",
+      "czyszczenie-maszyn",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "maszyny-budowlane"
+    ],
+    "Zurada Tłuszcz Stop": [
+      "odtluszczacze",
+      "mycie-i-odtluszczanie",
+      "odtluszczanie-catering",
+      "odtluszczanie-instytucje",
+      "odtluszczanie-firmy-sprzatajace",
+      "horeca-hotele",
+      "firmy-sprzatajace",
+      "szkoly"
+    ],
+    "Zurada WC Żel Dom": [
+      "zele-do-wc",
+      "wc",
+      "lazienka",
+      "czyszczenie-sanitarne",
+      "odkamienianie",
+      "usuwanie-rdzy",
+      "chemia-kwasowa",
+      "dla-domu"
+    ],
+    "Zurada Warsztatowa Pasta": [
+      "pasty-do-rak",
+      "higiena-rak",
+      "mycie-rak",
+      "chemia-warsztatowa",
+      "przemysl-i-warsztat",
+      "warsztat"
+    ],
+    "Zurada Winogronowa Mgła": [
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "dla-domu",
+      "chemia-gospodarcza",
+      "zapachy-do-samochodu",
+      "neutralizacja-zapachow"
+    ],
+    "Zurada Winogronowa Piana": [
+      "aktywna-piana",
+      "mycie-samochodow-na-zewnatrz",
+      "chemia-samochodowa",
+      "mycie-pojazdow",
+      "kosmetyki-samochodowe",
+      "mycie-cisnieniowe"
+    ],
+    "Zurada Wnętrze Plus": [
+      "kosmetyki-samochodowe",
+      "mycie-i-pielegnacja-wnetrza",
+      "czyszczenie-plastikow",
+      "kokpit-i-elementy-plastikowe",
+      "pielegnacja-kokpitu",
+      "pielegnacja-plastikow",
+      "detailing-samochodowy",
+      "zestawy-do-pielegnacji"
+    ],
+    "Zurada Woskowy Blask": [
+      "szampony-samochodowe",
+      "mycie-zewnetrzne-samochodu",
+      "ochrona-osuszanie-i-nablyszczanie-pojazdow",
+      "pielegnacja-i-nablyszczanie-z-zewnatrz",
+      "kosmetyki-samochodowe",
+      "chemia-samochodowa"
+    ],
+    "Zurada Zimowa Aura": [
+      "dla-domu",
+      "odswiezacze-powietrza",
+      "zapachy-do-wnetrz",
+      "chemia-gospodarcza"
+    ],
+    "Zurada Zmywark Pro": [
+      "plyny-myjace-do-zmywarek",
+      "horeca-hotele",
+      "szkoly",
+      "firmy-sprzatajace",
+      "plyny-myjace-do-zmywarek-instytucje",
+      "plyny-myjace-do-zmywarek-firmy-sprzatajace"
+    ],
+    "Zurada Łazienka Blask": [
+      "chemia-gospodarcza",
+      "lazienka",
+      "plyny-do-lazienki",
+      "usuwanie-kamienia",
+      "usuwanie-rdzy"
+    ],
+    "Zurada Łazienkowy Blask": [
+      "horeca-hotele",
+      "szkoly",
+      "firmy-sprzatajace",
+      "higiena-sanitariatow-instytucje",
+      "higiena-sanitariatow-firmy-sprzatajace",
+      "higiena-urzadzen",
+      "higiena-urzadzen-instytucje",
+      "higiena-urzadzen-firmy-sprzatajace",
+      "higiena-sanitariatow-catering",
+      "odkamienianie-firmy-sprzatajace",
+      "odkamienianie",
+      "odkamienianie-instytucje"
+    ],
+    "Zurada Śruba Luz": [
+      "odrdzewiacze-i-penetranty",
+      "chemia-warsztatowa",
+      "maszyny-budowlane",
+      "pojazdy-specjalne"
+    ],
+    "Zurada ŻarMoc": [
+      "ekologiczne-produkty-eu-ecolabel",
+      "higiena-piecow"
+    ],
+    "Zurada Żel Do Rąk": [
+      "higiena-rak",
+      "mycie-rak",
+      "zele-do-rak",
+      "przemysl-i-warsztat"
+    ],
+    "Zurada Żel Piorący": [
+      "dla-domu",
+      "srodki-piorace",
+      "zele-do-prania"
+    ]
+  }
+}

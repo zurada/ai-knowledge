@@ -1,0 +1,2858 @@
+{
+  "timestamp": "2026-06-01T06:42:28.027417",
+  "llm_model": "google/gemini-3.1-flash-lite",
+  "embed_model": "openai/text-embedding-3-small",
+  "sparse_model": "Qdrant/bm25",
+  "approach": "qdrant_hybrid_rag",
+  "n_runs": 8,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Potrzebuję zwykłego, gęstego żelu do codziennego mycia toalety w domu, żeby usunąć trochę kamienia i odświeżyć muszlę.",
+      "expectedProductIds": [
+        12,
+        82,
+        139
+      ],
+      "expectedNoProductIds": [
+        10,
+        80
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 5.65,
+      "avg_total_tokens": 34475.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            139,
+            82
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 14,
+          "excluded_ids": [
+            79,
+            12,
+            80,
+            29,
+            33,
+            68
+          ],
+          "top_score": 0.5,
+          "prompt_tokens": 32152,
+          "completion_tokens": 644,
+          "total_tokens": 32796,
+          "time_seconds": 5.56,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            139,
+            82
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            79,
+            80,
+            29
+          ],
+          "top_score": 0.5,
+          "prompt_tokens": 34562,
+          "completion_tokens": 590,
+          "total_tokens": 35152,
+          "time_seconds": 5.54,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            139,
+            82
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 16,
+          "excluded_ids": [
+            79,
+            12,
+            80,
+            29
+          ],
+          "top_score": 0.5,
+          "prompt_tokens": 33847,
+          "completion_tokens": 698,
+          "total_tokens": 34545,
+          "time_seconds": 5.72,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            139,
+            82
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            79,
+            80,
+            29
+          ],
+          "top_score": 0.5,
+          "prompt_tokens": 34560,
+          "completion_tokens": 687,
+          "total_tokens": 35247,
+          "time_seconds": 5.84,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            139,
+            82
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            79,
+            80,
+            29
+          ],
+          "top_score": 0.5,
+          "prompt_tokens": 34562,
+          "completion_tokens": 590,
+          "total_tokens": 35152,
+          "time_seconds": 5.44,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            139,
+            82
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 14,
+          "excluded_ids": [
+            79,
+            12,
+            80,
+            29,
+            33,
+            68
+          ],
+          "top_score": 0.5,
+          "prompt_tokens": 32152,
+          "completion_tokens": 662,
+          "total_tokens": 32814,
+          "time_seconds": 5.6,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            139,
+            82
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            79,
+            80,
+            29
+          ],
+          "top_score": 0.5,
+          "prompt_tokens": 34562,
+          "completion_tokens": 581,
+          "total_tokens": 35143,
+          "time_seconds": 5.17,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            139,
+            82
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 16,
+          "excluded_ids": [
+            79,
+            12,
+            80,
+            29
+          ],
+          "top_score": 0.5,
+          "prompt_tokens": 33847,
+          "completion_tokens": 1105,
+          "total_tokens": 34952,
+          "time_seconds": 6.36,
+          "intent": {
+            "surfaces": [
+              "toalety"
+            ],
+            "categories": [
+              "zele-do-wc",
+              "higiena-toalet",
+              "odkamienianie",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Potrzebuję zwykłego, pachnącego mydła w płynie do codziennego mycia rąk w domowej łazience. Zależy mi, żeby ładnie pachniało i było w formie tradycyjnego płynu (nie pianki).",
+      "expectedProductIds": [
+        136,
+        137,
+        189,
+        190
+      ],
+      "expectedNoProductIds": [
+        114,
+        135,
+        192
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 6.46,
+      "avg_total_tokens": 23560.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 5,
+          "excluded_ids": [
+            187,
+            135,
+            188,
+            71,
+            134,
+            114,
+            62,
+            110,
+            186,
+            36,
+            185,
+            193,
+            191,
+            192,
+            126
+          ],
+          "top_score": 0.611111,
+          "prompt_tokens": 22482,
+          "completion_tokens": 657,
+          "total_tokens": 23139,
+          "time_seconds": 5.05,
+          "intent": {
+            "surfaces": [
+              "skóra dłoni"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-osobista"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 5,
+          "excluded_ids": [
+            187,
+            135,
+            188,
+            71,
+            134,
+            114,
+            62,
+            110,
+            186,
+            36,
+            185,
+            193,
+            191,
+            192,
+            126
+          ],
+          "top_score": 0.611111,
+          "prompt_tokens": 22478,
+          "completion_tokens": 1185,
+          "total_tokens": 23663,
+          "time_seconds": 7.08,
+          "intent": {
+            "surfaces": [
+              "skóra dłoni"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-osobista"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 4,
+          "excluded_ids": [
+            187,
+            135,
+            188,
+            71,
+            72,
+            134,
+            27,
+            62,
+            110,
+            46,
+            236,
+            114,
+            192,
+            126,
+            234,
+            125
+          ],
+          "top_score": 0.6,
+          "prompt_tokens": 22516,
+          "completion_tokens": 1055,
+          "total_tokens": 23571,
+          "time_seconds": 5.79,
+          "intent": {
+            "surfaces": [
+              "skóra dłoni"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 4,
+          "excluded_ids": [
+            187,
+            135,
+            188,
+            71,
+            72,
+            134,
+            27,
+            62,
+            110,
+            46,
+            236,
+            114,
+            192,
+            126,
+            234,
+            125
+          ],
+          "top_score": 0.6,
+          "prompt_tokens": 22516,
+          "completion_tokens": 1055,
+          "total_tokens": 23571,
+          "time_seconds": 6.81,
+          "intent": {
+            "surfaces": [
+              "skóra dłoni"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 5,
+          "excluded_ids": [
+            187,
+            135,
+            188,
+            71,
+            134,
+            114,
+            62,
+            110,
+            186,
+            36,
+            185,
+            193,
+            191,
+            192,
+            126
+          ],
+          "top_score": 0.611111,
+          "prompt_tokens": 22478,
+          "completion_tokens": 1138,
+          "total_tokens": 23616,
+          "time_seconds": 6.67,
+          "intent": {
+            "surfaces": [
+              "skóra dłoni"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-osobista"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 5,
+          "excluded_ids": [
+            187,
+            135,
+            188,
+            71,
+            134,
+            114,
+            62,
+            110,
+            186,
+            36,
+            185,
+            193,
+            191,
+            192,
+            126
+          ],
+          "top_score": 0.611111,
+          "prompt_tokens": 22478,
+          "completion_tokens": 1138,
+          "total_tokens": 23616,
+          "time_seconds": 5.91,
+          "intent": {
+            "surfaces": [
+              "skóra dłoni"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-osobista"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 4,
+          "excluded_ids": [
+            187,
+            135,
+            188,
+            71,
+            72,
+            134,
+            27,
+            62,
+            110,
+            46,
+            236,
+            114,
+            192,
+            126,
+            234,
+            125
+          ],
+          "top_score": 0.6,
+          "prompt_tokens": 22514,
+          "completion_tokens": 1177,
+          "total_tokens": 23691,
+          "time_seconds": 8.61,
+          "intent": {
+            "surfaces": [
+              "skóra dłoni"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "dla-domu"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            137,
+            189,
+            190,
+            136
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 5,
+          "excluded_ids": [
+            187,
+            135,
+            188,
+            71,
+            134,
+            114,
+            62,
+            110,
+            186,
+            36,
+            185,
+            193,
+            191,
+            192,
+            126
+          ],
+          "top_score": 0.611111,
+          "prompt_tokens": 22478,
+          "completion_tokens": 1138,
+          "total_tokens": 23616,
+          "time_seconds": 5.76,
+          "intent": {
+            "surfaces": [
+              "skóra dłoni"
+            ],
+            "categories": [
+              "mydla-w-plynie",
+              "higiena-osobista"
+            ],
+            "methods": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Szukam zimowego płynu do spryskiwaczy do mojego auta. Chcę go po prostu wlać do zbiornika pod maską, żeby móc myć szybę podczas jazdy na mrozie.",
+      "expectedProductIds": [
+        233,
+        257
+      ],
+      "expectedNoProductIds": [
+        197,
+        244
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 8.57,
+      "avg_total_tokens": 19314.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 8,
+          "n_safe": 8,
+          "excluded_ids": [],
+          "top_score": 1.0,
+          "prompt_tokens": 18424,
+          "completion_tokens": 933,
+          "total_tokens": 19357,
+          "time_seconds": 6.02,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe"
+            ],
+            "categories": [
+              "plyny-do-spryskiwaczy",
+              "produkty-zimowe"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 8,
+          "n_safe": 8,
+          "excluded_ids": [],
+          "top_score": 1.0,
+          "prompt_tokens": 18422,
+          "completion_tokens": 918,
+          "total_tokens": 19340,
+          "time_seconds": 5.52,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe"
+            ],
+            "categories": [
+              "produkty-zimowe",
+              "plyny-do-spryskiwaczy"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 8,
+          "n_safe": 8,
+          "excluded_ids": [],
+          "top_score": 1.0,
+          "prompt_tokens": 18424,
+          "completion_tokens": 915,
+          "total_tokens": 19339,
+          "time_seconds": 5.33,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe"
+            ],
+            "categories": [
+              "plyny-do-spryskiwaczy",
+              "produkty-zimowe"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 8,
+          "n_safe": 8,
+          "excluded_ids": [],
+          "top_score": 1.0,
+          "prompt_tokens": 18424,
+          "completion_tokens": 915,
+          "total_tokens": 19339,
+          "time_seconds": 27.79,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe"
+            ],
+            "categories": [
+              "plyny-do-spryskiwaczy",
+              "produkty-zimowe"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 8,
+          "n_safe": 8,
+          "excluded_ids": [],
+          "top_score": 1.0,
+          "prompt_tokens": 18424,
+          "completion_tokens": 834,
+          "total_tokens": 19258,
+          "time_seconds": 6.26,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe"
+            ],
+            "categories": [
+              "plyny-do-spryskiwaczy",
+              "produkty-zimowe"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 8,
+          "n_safe": 8,
+          "excluded_ids": [],
+          "top_score": 1.0,
+          "prompt_tokens": 18426,
+          "completion_tokens": 802,
+          "total_tokens": 19228,
+          "time_seconds": 5.79,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe"
+            ],
+            "categories": [
+              "plyny-do-spryskiwaczy",
+              "produkty-zimowe"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 8,
+          "n_safe": 8,
+          "excluded_ids": [],
+          "top_score": 1.0,
+          "prompt_tokens": 18426,
+          "completion_tokens": 885,
+          "total_tokens": 19311,
+          "time_seconds": 6.51,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe"
+            ],
+            "categories": [
+              "plyny-do-spryskiwaczy",
+              "produkty-zimowe"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            233,
+            257
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 8,
+          "n_safe": 8,
+          "excluded_ids": [],
+          "top_score": 1.0,
+          "prompt_tokens": 18424,
+          "completion_tokens": 915,
+          "total_tokens": 19339,
+          "time_seconds": 5.36,
+          "intent": {
+            "surfaces": [
+              "szyby samochodowe"
+            ],
+            "categories": [
+              "plyny-do-spryskiwaczy",
+              "produkty-zimowe"
+            ],
+            "methods": [
+              "spryskiwacze samochodowe"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Potrzebuję jakiegoś fajnego odświeżacza powietrza do pokoju. Najchętniej o słodkim zapachu owocowym, np. winogronowym albo grejpfrutowym.",
+      "expectedProductIds": [
+        213,
+        217,
+        218
+      ],
+      "expectedNoProductIds": [
+        59,
+        77
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 5.7,
+      "avg_total_tokens": 30192.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 18,
+          "n_safe": 18,
+          "excluded_ids": [],
+          "top_score": 0.75,
+          "prompt_tokens": 29202,
+          "completion_tokens": 804,
+          "total_tokens": 30006,
+          "time_seconds": 6.38,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 18,
+          "n_safe": 18,
+          "excluded_ids": [],
+          "top_score": 0.75,
+          "prompt_tokens": 29202,
+          "completion_tokens": 804,
+          "total_tokens": 30006,
+          "time_seconds": 5.37,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 18,
+          "n_safe": 18,
+          "excluded_ids": [],
+          "top_score": 0.75,
+          "prompt_tokens": 29206,
+          "completion_tokens": 1169,
+          "total_tokens": 30375,
+          "time_seconds": 5.99,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 18,
+          "n_safe": 18,
+          "excluded_ids": [],
+          "top_score": 0.75,
+          "prompt_tokens": 29204,
+          "completion_tokens": 806,
+          "total_tokens": 30010,
+          "time_seconds": 5.29,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 18,
+          "n_safe": 18,
+          "excluded_ids": [],
+          "top_score": 0.75,
+          "prompt_tokens": 29206,
+          "completion_tokens": 1170,
+          "total_tokens": 30376,
+          "time_seconds": 6.19,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 18,
+          "n_safe": 18,
+          "excluded_ids": [],
+          "top_score": 0.75,
+          "prompt_tokens": 29206,
+          "completion_tokens": 1170,
+          "total_tokens": 30376,
+          "time_seconds": 6.14,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 18,
+          "n_safe": 18,
+          "excluded_ids": [],
+          "top_score": 0.75,
+          "prompt_tokens": 29204,
+          "completion_tokens": 806,
+          "total_tokens": 30010,
+          "time_seconds": 4.78,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            213,
+            218,
+            217
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 18,
+          "n_safe": 18,
+          "excluded_ids": [],
+          "top_score": 0.75,
+          "prompt_tokens": 29206,
+          "completion_tokens": 1170,
+          "total_tokens": 30376,
+          "time_seconds": 5.43,
+          "intent": {
+            "surfaces": [
+              "powietrze"
+            ],
+            "categories": [
+              "odswiezacze-powietrza"
+            ],
+            "methods": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Jakim środkiem najlepiej usunąć przypalony tłuszcz, nagar i sadzę z rusztu grilla oraz wnętrza piekarnika?",
+      "expectedProductIds": [
+        5,
+        34,
+        128
+      ],
+      "expectedNoProductIds": [
+        1,
+        4,
+        43,
+        67
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 7.04,
+      "avg_total_tokens": 30389.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            128,
+            96
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 10,
+          "n_safe": 5,
+          "excluded_ids": [
+            5,
+            34,
+            58,
+            67,
+            68
+          ],
+          "top_score": 0.7,
+          "prompt_tokens": 20179,
+          "completion_tokens": 990,
+          "total_tokens": 21169,
+          "time_seconds": 6.91,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piece",
+              "piekarniki"
+            ],
+            "categories": [
+              "grille",
+              "higiena-piecow",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru"
+            ],
+            "methods": [
+              "ręczne",
+              "pianowe"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            128,
+            96,
+            37
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 10,
+          "n_safe": 5,
+          "excluded_ids": [
+            5,
+            34,
+            58,
+            67,
+            68
+          ],
+          "top_score": 0.7,
+          "prompt_tokens": 20179,
+          "completion_tokens": 1041,
+          "total_tokens": 21220,
+          "time_seconds": 5.98,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piece",
+              "piekarniki"
+            ],
+            "categories": [
+              "grille",
+              "higiena-piecow",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru"
+            ],
+            "methods": [
+              "ręczne",
+              "pianowe"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            128,
+            96
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 14,
+          "excluded_ids": [
+            5,
+            34,
+            58,
+            67,
+            68,
+            3
+          ],
+          "top_score": 0.666667,
+          "prompt_tokens": 34450,
+          "completion_tokens": 1229,
+          "total_tokens": 35679,
+          "time_seconds": 6.24,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piece",
+              "piekarniki"
+            ],
+            "categories": [
+              "higiena-piecow",
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze"
+            ],
+            "methods": [
+              "pianowe",
+              "natryskowe",
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            128,
+            96
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 14,
+          "excluded_ids": [
+            5,
+            34,
+            58,
+            67,
+            68,
+            3
+          ],
+          "top_score": 0.666667,
+          "prompt_tokens": 34448,
+          "completion_tokens": 1371,
+          "total_tokens": 35819,
+          "time_seconds": 7.39,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piece",
+              "piekarniki"
+            ],
+            "categories": [
+              "higiena-piecow",
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze"
+            ],
+            "methods": [
+              "pianowe",
+              "natryskowe",
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            128,
+            5,
+            34,
+            96
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            112,
+            105,
+            144,
+            44,
+            43,
+            13,
+            145
+          ],
+          "top_score": 0.666667,
+          "prompt_tokens": 34527,
+          "completion_tokens": 1571,
+          "total_tokens": 36098,
+          "time_seconds": 7.87,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piece",
+              "piekarniki"
+            ],
+            "categories": [
+              "higiena-piecow",
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze"
+            ],
+            "methods": [
+              "pianowe",
+              "natryskowe",
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            128,
+            5,
+            34,
+            96
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            112,
+            105,
+            144,
+            44,
+            43,
+            13,
+            145
+          ],
+          "top_score": 0.666667,
+          "prompt_tokens": 34527,
+          "completion_tokens": 1571,
+          "total_tokens": 36098,
+          "time_seconds": 7.39,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piece",
+              "piekarniki"
+            ],
+            "categories": [
+              "higiena-piecow",
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze"
+            ],
+            "methods": [
+              "pianowe",
+              "natryskowe",
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            128,
+            96
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 14,
+          "excluded_ids": [
+            5,
+            34,
+            58,
+            67,
+            68,
+            3
+          ],
+          "top_score": 0.666667,
+          "prompt_tokens": 34448,
+          "completion_tokens": 1356,
+          "total_tokens": 35804,
+          "time_seconds": 7.1,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piece",
+              "piekarniki"
+            ],
+            "categories": [
+              "higiena-piecow",
+              "grille",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru",
+              "odtluszczacze"
+            ],
+            "methods": [
+              "pianowe",
+              "natryskowe",
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            128,
+            96
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 10,
+          "n_safe": 5,
+          "excluded_ids": [
+            5,
+            34,
+            58,
+            67,
+            68
+          ],
+          "top_score": 0.7,
+          "prompt_tokens": 20179,
+          "completion_tokens": 1044,
+          "total_tokens": 21223,
+          "time_seconds": 7.42,
+          "intent": {
+            "surfaces": [
+              "grille",
+              "piece",
+              "piekarniki"
+            ],
+            "categories": [
+              "grille",
+              "higiena-piecow",
+              "piekarniki-i-kominki",
+              "srodki-do-nagaru"
+            ],
+            "methods": [
+              "ręczne",
+              "pianowe"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Potrzebuję mocnego środka do odtłuszczenia narzędzi warsztatowych oraz aluminiowych części maszyn. Zależy mi, żeby środek był w 100% bezpieczny – część z tych elementów jest lakierowana.",
+      "expectedProductIds": [
+        45,
+        112,
+        152
+      ],
+      "expectedNoProductIds": [
+        3,
+        260,
+        44,
+        259
+      ],
+      "difficulty": "hard",
+      "avg_time_seconds": 5.3,
+      "avg_total_tokens": 35551.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            44,
+            122,
+            112,
+            144
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 16,
+          "excluded_ids": [
+            30,
+            32,
+            28,
+            178
+          ],
+          "top_score": 0.590909,
+          "prompt_tokens": 34631,
+          "completion_tokens": 1033,
+          "total_tokens": 35664,
+          "time_seconds": 6.61,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "czyszczenie-maszyn",
+              "czyszczenie-aluminium",
+              "chemia-warsztatowa"
+            ],
+            "methods": [
+              "ręczne",
+              "zanurzeniowe"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            122,
+            44
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            30,
+            32,
+            28,
+            178,
+            241,
+            101,
+            250
+          ],
+          "top_score": 0.590909,
+          "prompt_tokens": 32420,
+          "completion_tokens": 848,
+          "total_tokens": 33268,
+          "time_seconds": 4.82,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "czyszczenie-maszyn",
+              "czyszczenie-metali",
+              "chemia-warsztatowa"
+            ],
+            "methods": [
+              "ręczne",
+              "zanurzeniowe"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            122,
+            44
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            30,
+            32,
+            28
+          ],
+          "top_score": 0.590909,
+          "prompt_tokens": 35041,
+          "completion_tokens": 806,
+          "total_tokens": 35847,
+          "time_seconds": 4.94,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "czyszczenie-maszyn",
+              "czyszczenie-metali",
+              "chemia-warsztatowa"
+            ],
+            "methods": [
+              "ręczne",
+              "zanurzeniowe"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            122,
+            44
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            30,
+            32,
+            28
+          ],
+          "top_score": 0.590909,
+          "prompt_tokens": 35041,
+          "completion_tokens": 863,
+          "total_tokens": 35904,
+          "time_seconds": 5.29,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "czyszczenie-maszyn",
+              "czyszczenie-metali",
+              "chemia-warsztatowa"
+            ],
+            "methods": [
+              "ręczne",
+              "zanurzeniowe"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            122,
+            44
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            30,
+            32,
+            28
+          ],
+          "top_score": 0.590909,
+          "prompt_tokens": 35041,
+          "completion_tokens": 863,
+          "total_tokens": 35904,
+          "time_seconds": 5.24,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "czyszczenie-maszyn",
+              "czyszczenie-metali",
+              "chemia-warsztatowa"
+            ],
+            "methods": [
+              "ręczne",
+              "zanurzeniowe"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            122,
+            44
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            30,
+            32,
+            28
+          ],
+          "top_score": 0.590909,
+          "prompt_tokens": 35041,
+          "completion_tokens": 863,
+          "total_tokens": 35904,
+          "time_seconds": 5.13,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "czyszczenie-maszyn",
+              "czyszczenie-metali",
+              "chemia-warsztatowa"
+            ],
+            "methods": [
+              "ręczne",
+              "zanurzeniowe"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            122,
+            44
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            30,
+            32,
+            28
+          ],
+          "top_score": 0.590909,
+          "prompt_tokens": 35041,
+          "completion_tokens": 863,
+          "total_tokens": 35904,
+          "time_seconds": 5.1,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "czyszczenie-maszyn",
+              "czyszczenie-metali",
+              "chemia-warsztatowa"
+            ],
+            "methods": [
+              "ręczne",
+              "zanurzeniowe"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            44,
+            122
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 17,
+          "excluded_ids": [
+            30,
+            32,
+            28
+          ],
+          "top_score": 0.590909,
+          "prompt_tokens": 35039,
+          "completion_tokens": 974,
+          "total_tokens": 36013,
+          "time_seconds": 5.27,
+          "intent": {
+            "surfaces": [
+              "narzędzia warsztatowe",
+              "części maszyn",
+              "aluminium"
+            ],
+            "categories": [
+              "odtluszczacze",
+              "czyszczenie-maszyn",
+              "czyszczenie-metali",
+              "chemia-warsztatowa"
+            ],
+            "methods": [
+              "ręczne",
+              "zanurzeniowe"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Czym bezpiecznie usunąć silny osad z kamienia i resztki mydła w mojej łazience? Zależy mi głównie na doczyszczeniu eleganckiego blatu i umywalki wykonanej z naturalnego marmuru.",
+      "expectedProductIds": [
+        11
+      ],
+      "expectedNoProductIds": [
+        10,
+        12,
+        53,
+        138
+      ],
+      "difficulty": "hard",
+      "avg_time_seconds": 7.55,
+      "avg_total_tokens": 31161.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            11
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 3,
+          "excluded_ids": [
+            133,
+            139,
+            25,
+            138,
+            92,
+            29,
+            10,
+            96,
+            93,
+            68,
+            33,
+            79,
+            45,
+            15,
+            6,
+            182,
+            3
+          ],
+          "top_score": 0.75,
+          "prompt_tokens": 28346,
+          "completion_tokens": 1170,
+          "total_tokens": 29516,
+          "time_seconds": 7.27,
+          "intent": {
+            "surfaces": [
+              "marmur",
+              "blaty",
+              "umywalki"
+            ],
+            "categories": [
+              "lazienka",
+              "odkamienianie",
+              "czyszczenie-kamienia"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            11
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 2,
+          "excluded_ids": [
+            133,
+            139,
+            25,
+            138,
+            92,
+            29,
+            10,
+            96,
+            82,
+            93,
+            68,
+            33,
+            79,
+            45,
+            15,
+            6,
+            182,
+            3
+          ],
+          "top_score": 0.75,
+          "prompt_tokens": 27597,
+          "completion_tokens": 945,
+          "total_tokens": 28542,
+          "time_seconds": 6.41,
+          "intent": {
+            "surfaces": [
+              "marmur",
+              "umywalki",
+              "blaty"
+            ],
+            "categories": [
+              "lazienka",
+              "odkamienianie",
+              "czyszczenie-kamienia",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            11
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 6,
+          "excluded_ids": [
+            133,
+            25,
+            139,
+            138,
+            92,
+            29,
+            10,
+            96,
+            82,
+            93,
+            68,
+            33,
+            79,
+            94
+          ],
+          "top_score": 0.75,
+          "prompt_tokens": 31256,
+          "completion_tokens": 1213,
+          "total_tokens": 32469,
+          "time_seconds": 6.19,
+          "intent": {
+            "surfaces": [
+              "marmur",
+              "umywalki",
+              "blaty"
+            ],
+            "categories": [
+              "lazienka",
+              "odkamienianie",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            11
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 6,
+          "excluded_ids": [
+            133,
+            25,
+            139,
+            138,
+            92,
+            29,
+            10,
+            96,
+            82,
+            93,
+            68,
+            33,
+            79,
+            94
+          ],
+          "top_score": 0.75,
+          "prompt_tokens": 31258,
+          "completion_tokens": 1314,
+          "total_tokens": 32572,
+          "time_seconds": 6.32,
+          "intent": {
+            "surfaces": [
+              "marmur",
+              "umywalki",
+              "blaty"
+            ],
+            "categories": [
+              "lazienka",
+              "odkamienianie",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            11
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 6,
+          "excluded_ids": [
+            133,
+            25,
+            139,
+            138,
+            92,
+            29,
+            10,
+            96,
+            82,
+            93,
+            68,
+            33,
+            79,
+            94
+          ],
+          "top_score": 0.75,
+          "prompt_tokens": 31256,
+          "completion_tokens": 1182,
+          "total_tokens": 32438,
+          "time_seconds": 6.67,
+          "intent": {
+            "surfaces": [
+              "marmur",
+              "umywalki",
+              "blaty"
+            ],
+            "categories": [
+              "lazienka",
+              "odkamienianie",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            11
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 6,
+          "excluded_ids": [
+            133,
+            25,
+            139,
+            138,
+            92,
+            29,
+            10,
+            96,
+            82,
+            93,
+            68,
+            33,
+            79,
+            94
+          ],
+          "top_score": 0.75,
+          "prompt_tokens": 31258,
+          "completion_tokens": 1313,
+          "total_tokens": 32571,
+          "time_seconds": 6.98,
+          "intent": {
+            "surfaces": [
+              "marmur",
+              "umywalki",
+              "blaty"
+            ],
+            "categories": [
+              "lazienka",
+              "odkamienianie",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            11
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 2,
+          "excluded_ids": [
+            133,
+            139,
+            25,
+            138,
+            92,
+            29,
+            10,
+            96,
+            82,
+            93,
+            68,
+            33,
+            79,
+            45,
+            15,
+            6,
+            182,
+            3
+          ],
+          "top_score": 0.75,
+          "prompt_tokens": 27595,
+          "completion_tokens": 1144,
+          "total_tokens": 28739,
+          "time_seconds": 14.07,
+          "intent": {
+            "surfaces": [
+              "marmur",
+              "umywalki",
+              "blaty"
+            ],
+            "categories": [
+              "lazienka",
+              "odkamienianie",
+              "czyszczenie-kamienia",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            11
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 6,
+          "excluded_ids": [
+            133,
+            25,
+            139,
+            138,
+            92,
+            29,
+            10,
+            96,
+            82,
+            93,
+            68,
+            33,
+            79,
+            94
+          ],
+          "top_score": 0.75,
+          "prompt_tokens": 31256,
+          "completion_tokens": 1182,
+          "total_tokens": 32438,
+          "time_seconds": 6.46,
+          "intent": {
+            "surfaces": [
+              "marmur",
+              "umywalki",
+              "blaty"
+            ],
+            "categories": [
+              "lazienka",
+              "odkamienianie",
+              "plyny-do-lazienki"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Szukam dobrego środka do mycia okien i luster w domu. Zależy mi na tym, żeby płyn szybko odparowywał i absolutnie nie zostawiał smug na szkle.",
+      "expectedProductIds": [
+        2,
+        39,
+        41,
+        129
+      ],
+      "expectedNoProductIds": [
+        1,
+        7
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 8.51,
+      "avg_total_tokens": 37746.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            129,
+            2,
+            41,
+            39
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 16,
+          "excluded_ids": [
+            19,
+            17,
+            94,
+            21
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 36228,
+          "completion_tokens": 955,
+          "total_tokens": 37183,
+          "time_seconds": 18.53,
+          "intent": {
+            "surfaces": [
+              "szkło",
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "mycie-szyb",
+              "mycie-szyb-i-luster",
+              "plyny-do-szyb",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            129,
+            41
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 18,
+          "excluded_ids": [
+            2,
+            39
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 39758,
+          "completion_tokens": 670,
+          "total_tokens": 40428,
+          "time_seconds": 5.98,
+          "intent": {
+            "surfaces": [
+              "szkło",
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "mycie-szyb",
+              "mycie-szyb-i-luster",
+              "plyny-do-szyb"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            129,
+            41,
+            154
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 9,
+          "excluded_ids": [
+            2,
+            7,
+            19,
+            39,
+            46,
+            229,
+            17,
+            94,
+            35,
+            21,
+            135
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 30624,
+          "completion_tokens": 1089,
+          "total_tokens": 31713,
+          "time_seconds": 6.91,
+          "intent": {
+            "surfaces": [
+              "szkło",
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "mycie-szyb",
+              "mycie-szyb-i-luster",
+              "plyny-do-szyb",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            129,
+            41
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 18,
+          "excluded_ids": [
+            2,
+            39
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 39758,
+          "completion_tokens": 813,
+          "total_tokens": 40571,
+          "time_seconds": 5.17,
+          "intent": {
+            "surfaces": [
+              "szyby",
+              "lustra",
+              "szkło"
+            ],
+            "categories": [
+              "mycie-szyb",
+              "mycie-szyb-i-luster",
+              "plyny-do-szyb"
+            ],
+            "methods": []
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            129,
+            41
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 18,
+          "excluded_ids": [
+            2,
+            39
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 39756,
+          "completion_tokens": 820,
+          "total_tokens": 40576,
+          "time_seconds": 6.19,
+          "intent": {
+            "surfaces": [
+              "szkło",
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "mycie-szyb",
+              "mycie-szyb-i-luster",
+              "plyny-do-szyb"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            129,
+            2,
+            41,
+            39
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 16,
+          "excluded_ids": [
+            19,
+            17,
+            94,
+            21
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 36228,
+          "completion_tokens": 955,
+          "total_tokens": 37183,
+          "time_seconds": 6.72,
+          "intent": {
+            "surfaces": [
+              "szkło",
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "mycie-szyb",
+              "mycie-szyb-i-luster",
+              "plyny-do-szyb",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            129,
+            2,
+            41,
+            154
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 16,
+          "excluded_ids": [
+            19,
+            17,
+            94,
+            21
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 36230,
+          "completion_tokens": 898,
+          "total_tokens": 37128,
+          "time_seconds": 5.67,
+          "intent": {
+            "surfaces": [
+              "szkło",
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "mycie-szyb",
+              "mycie-szyb-i-luster",
+              "plyny-do-szyb",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            129,
+            2,
+            41,
+            39
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 16,
+          "excluded_ids": [
+            19,
+            17,
+            94,
+            21
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 36228,
+          "completion_tokens": 955,
+          "total_tokens": 37183,
+          "time_seconds": 12.9,
+          "intent": {
+            "surfaces": [
+              "szkło",
+              "szyby",
+              "lustra"
+            ],
+            "categories": [
+              "mycie-szyb",
+              "mycie-szyb-i-luster",
+              "plyny-do-szyb",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Szukam zwykłego płynu do ręcznego mycia naczyń w domu, żeby umyć talerze i sztućce po obiedzie. Co polecacie?",
+      "expectedProductIds": [
+        7,
+        69
+      ],
+      "expectedNoProductIds": [
+        3,
+        14,
+        20
+      ],
+      "difficulty": "easy",
+      "avg_time_seconds": 8.48,
+      "avg_total_tokens": 34337.0,
+      "runs": [
+        {
+          "run": 1,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            19,
+            17,
+            3,
+            16,
+            14,
+            21,
+            20
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 33543,
+          "completion_tokens": 941,
+          "total_tokens": 34484,
+          "time_seconds": 5.84,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "sztućce",
+              "talerze"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 2,
+          "returned_ids": [
+            7,
+            69
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            19,
+            17,
+            3,
+            16,
+            21,
+            14,
+            20
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 33547,
+          "completion_tokens": 818,
+          "total_tokens": 34365,
+          "time_seconds": 5.35,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "sztućce",
+              "talerze"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 3,
+          "returned_ids": [
+            7,
+            69
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            19,
+            17,
+            3,
+            16,
+            21,
+            14,
+            20
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 33547,
+          "completion_tokens": 726,
+          "total_tokens": 34273,
+          "time_seconds": 11.25,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "sztućce",
+              "talerze"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 4,
+          "returned_ids": [
+            7,
+            69
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            19,
+            17,
+            3,
+            16,
+            21,
+            14,
+            20
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 33547,
+          "completion_tokens": 726,
+          "total_tokens": 34273,
+          "time_seconds": 11.07,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "sztućce",
+              "talerze"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 5,
+          "returned_ids": [
+            7,
+            69
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            19,
+            17,
+            3,
+            16,
+            21,
+            14,
+            20
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 33547,
+          "completion_tokens": 726,
+          "total_tokens": 34273,
+          "time_seconds": 11.87,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "sztućce",
+              "talerze"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 6,
+          "returned_ids": [
+            7,
+            69
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            19,
+            17,
+            3,
+            16,
+            21,
+            14,
+            20
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 33547,
+          "completion_tokens": 726,
+          "total_tokens": 34273,
+          "time_seconds": 5.1,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "sztućce",
+              "talerze"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 7,
+          "returned_ids": [
+            69,
+            7
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            19,
+            17,
+            3,
+            16,
+            14,
+            21,
+            20
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 33543,
+          "completion_tokens": 941,
+          "total_tokens": 34484,
+          "time_seconds": 6.72,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "sztućce",
+              "talerze"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        },
+        {
+          "run": 8,
+          "returned_ids": [
+            7,
+            69
+          ],
+          "model": "google/gemini-3.1-flash-lite",
+          "n_retrieved": 20,
+          "n_safe": 13,
+          "excluded_ids": [
+            19,
+            17,
+            3,
+            16,
+            21,
+            14,
+            20
+          ],
+          "top_score": 1.0,
+          "prompt_tokens": 33547,
+          "completion_tokens": 726,
+          "total_tokens": 34273,
+          "time_seconds": 10.62,
+          "intent": {
+            "surfaces": [
+              "naczynia",
+              "sztućce",
+              "talerze"
+            ],
+            "categories": [
+              "reczne-mycie-naczyn",
+              "dla-domu"
+            ],
+            "methods": [
+              "ręczne"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

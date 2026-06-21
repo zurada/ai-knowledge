@@ -1,0 +1,680 @@
+[
+  {
+    "id": 1,
+    "question": "Muszę odtłuścić aluminiowe elementy w warsztacie. Większość środków odtłuszczających jest niedozwolona na aluminium — który produkt Zurada mogę bezpiecznie zastosować?",
+    "expected_product_ids": [
+      45
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać produkt Zurada Odtłuszczacz Moc (ID 45)",
+      "Odpowiedź powinna explicite potwierdzić, że produkt MOŻNA stosować na aluminium",
+      "Odpowiedź powinna wspomnieć o możliwości stosowania w systemach CIP",
+      "Odpowiedź nie powinna rekomendować produktów, których opis zawiera 'nie stosować na aluminium'"
+    ],
+    "edge_case": "Większość środków odtłuszczających w ofercie wyklucza aluminium. Pytanie wymaga rozróżnienia wyjątku (ID 45) od reguły."
+  },
+  {
+    "id": 2,
+    "question": "Posiadamy piec konwekcyjno-parowy z automatycznym programem mycia. Który środek czyszczący jest dedykowany do automatycznych cykli mycia w piecu — taki, który można bezpiecznie stosować z tym systemem?",
+    "expected_product_ids": [
+      37
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Klar Pro (ID 37)",
+      "Odpowiedź powinna podkreślić, że produkt przeznaczony jest do automatycznego mycia pieców",
+      "Odpowiedź nie powinna rekomendować Zurada Piana Moc (ID 5) ani Zurada ŻarMoc (ID 34), które explicite zabraniają stosowania w piecach z funkcją automatycznego mycia parą"
+    ],
+    "edge_case": "Produkty ID 5 i 34 są do piekarników, ale wyraźnie wykluczają piece z automatycznym myciem parą. System RAG musi rozróżnić to ograniczenie."
+  },
+  {
+    "id": 3,
+    "question": "Pracujemy w przemyśle spożywczym i potrzebujemy środka do czyszczenia lodówek i witryn chłodniczych, który spełnia wymagania systemu HACCP — bez barwników i kompozycji zapachowych.",
+    "expected_product_ids": [
+      56
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Chłodny Błysk (ID 56)",
+      "Odpowiedź powinna potwierdzić brak barwników i kompozycji zapachowych (HACCP)",
+      "Odpowiedź powinna wspomnieć o neutralizacji nieprzyjemnych zapachów",
+      "Odpowiedź powinna wskazać zastosowanie do lodówek i witryn chłodniczych"
+    ],
+    "edge_case": "Wymóg HACCP przy lodówkach to bardzo specyficzne połączenie. Wiele produktów jest bezzapachowych, ale tylko jeden dedykowany do urządzeń chłodniczych."
+  },
+  {
+    "id": 4,
+    "question": "W naszej restauracji zmywarka ciągle się kamieni, a standardowe środki myjące słabo radzą sobie z osadami. Szukamy specjalistycznego płynu myjącego przeznaczonego do twardej wody.",
+    "expected_product_ids": [
+      16
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Twarda Woda (ID 16)",
+      "Odpowiedź powinna wspomnieć o zwiększonej ilości substancji zmiękczających wodę",
+      "Odpowiedź powinna wspomnieć o zapobieganiu osadzaniu kamienia",
+      "Odpowiedź powinna podkreślić przeznaczenie do twardej wody jako kluczową właściwość różnicującą od standardowego ID 14"
+    ],
+    "edge_case": "Zarówno ID 14 jak i ID 16 to płyny do zmywarek gastronomicznych, ale tylko ID 16 jest specjalnie opracowany pod kątem twardej wody. System musi wychwycić tę subtelnią różnicę."
+  },
+  {
+    "id": 5,
+    "question": "Jesteśmy placówką medyczną. Potrzebujemy środka dezynfekującego powierzchnie, który wykazuje działanie bójcze wobec spor Clostridium difficile.",
+    "expected_product_ids": [
+      73
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Chlor Piana (ID 73)",
+      "Odpowiedź powinna wprost potwierdzić skuteczność wobec spor Clostridium difficile",
+      "Odpowiedź powinna wymienić spektrum działania: bakteriobójcze, grzybobójcze, wirusobójcze",
+      "Odpowiedź nie powinna rekomendować Zurada Szybka Czystość (ID 50) jako głównej odpowiedzi, bo ten nie wspomina Clostridium difficile"
+    ],
+    "edge_case": "Kilka produktów wykazuje działanie dezynfekujące, ale tylko ID 73 ma potwierdzone działanie wobec spor C. difficile — specyficzny wymóg medyczny."
+  },
+  {
+    "id": 6,
+    "question": "Chcemy zakupić środek do mycia podłóg, który przeszedł badanie antypoślizgowości zgodne z normą PN-EN 13036-4. Czy macie taki produkt?",
+    "expected_product_ids": [
+      49
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Podłoga Moc (ID 49)",
+      "Odpowiedź powinna explicite potwierdzić pozytywny wynik testu antypoślizgowości",
+      "Odpowiedź powinna wymienić normę PN-EN 13036-4",
+      "Odpowiedź powinna wspomnieć o cytrusowym zapachu i możliwości mycia ręcznego i maszynowego"
+    ],
+    "edge_case": "Wymaganie normy PN-EN 13036-4 jest bardzo specyficzne — tylko jeden produkt w ofercie je spełnia i wprost to deklaruje."
+  },
+  {
+    "id": 7,
+    "question": "Używamy robotów mopujących i mopów elektrycznych do automatycznego sprzątania. Który środek czyszczący jest opracowany specjalnie do systemów automatycznego dozowania i inteligentnych urządzeń sprzątających?",
+    "expected_product_ids": [
+      53
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Kwiat Podłogi (ID 53)",
+      "Odpowiedź powinna explicite wspomnieć o przeznaczeniu do robotów myjących i mopów elektrycznych",
+      "Odpowiedź powinna potwierdzić kompatybilność z systemami automatycznego dozowania",
+      "Odpowiedź nie powinna rekomendować ogólnych środków do maszynowego mycia podłóg jako równoważnych"
+    ],
+    "edge_case": "Wiele produktów nadaje się do maszyn myjących, ale tylko ID 53 jest dedykowany robotom mopującym i mopom automatycznym — użyte sformułowania w opisie są kluczowe."
+  },
+  {
+    "id": 8,
+    "question": "Na podłodze PVC w galerii handlowej jest stara, zniszczona powłoka akrylowa, którą chcemy zdjąć przed nałożeniem nowej. Jaki produkt do tego użyć?",
+    "expected_product_ids": [
+      65
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Strip Moc (ID 65)",
+      "Odpowiedź powinna potwierdzić skuteczność w usuwaniu powłok polimerowych, akrylowych i wosków",
+      "Odpowiedź powinna wymienić PVC jako odpowiednią powierzchnię",
+      "Odpowiedź powinna zaznaczyć, że produkt NIE nadaje się na linoleum (ograniczenie)"
+    ],
+    "edge_case": "Wiele środków do podłóg w ofercie, ale tylko ID 65 służy do USUWANIA powłok ochronnych — odwrotne zastosowanie niż standardowe mycie."
+  },
+  {
+    "id": 9,
+    "question": "Po usunięciu starej powłoki z posadzki chcemy nałożyć nową akrylową warstwę ochronną na podłogę winylową. Który produkt do tego służy?",
+    "expected_product_ids": [
+      52
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Polimer Błysk (ID 52)",
+      "Odpowiedź powinna opisać technikę nakładania (cienka warstwa, mop, 2-3 warstwy naprzemiennie)",
+      "Odpowiedź powinna potwierdzić zgodność z winylem i PVC",
+      "Odpowiedź powinna wspomnieć o intensywnym połysku i odporności na ścieranie"
+    ],
+    "edge_case": "Pytanie stanowi parę z pytaniem 8 — system musi odróżnić NAKŁADANIE powłoki (ID 52) od USUWANIA (ID 65)."
+  },
+  {
+    "id": 10,
+    "question": "Po remoncie na gresu i terakocie zostały plamy cementowe i gipsowe. Jaki środek do ich usunięcia jest odpowiedni?",
+    "expected_product_ids": [
+      64
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Kwas Moc (ID 64)",
+      "Odpowiedź powinna explicite wspomnieć o przeznaczeniu do sprzątania pobudowlanego i poremontowego",
+      "Odpowiedź powinna potwierdzić skuteczność wobec zabrudzeń cementowych i gipsowych",
+      "Odpowiedź powinna ostrzec, że produkt NIE jest odpowiedni dla marmuru, trawertynue, betonu (wrażliwe na kwasy)"
+    ],
+    "edge_case": "Pytanie o zabrudzenia pobudowlane jest niestandardowe — kwaśny preparat jest tu niezbędny, ale ma ważne wykluczenia powierzchni kamiennych."
+  },
+  {
+    "id": 11,
+    "question": "Pracujemy w domu opieki i musimy dezynfekować podłogi skażone płynami biologicznymi: moczem, krwią i wymiocinami. Jaki środek polecacie?",
+    "expected_product_ids": [
+      51
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Pomarańczowa Moc (ID 51)",
+      "Odpowiedź powinna explicite potwierdzić skuteczność wobec odchodów, moczu, wymiocin i krwi",
+      "Odpowiedź powinna wspomnieć o właściwościach wybielających",
+      "Odpowiedź powinna potwierdzić zastosowanie w sanitariatach, toaletach i kuchniach"
+    ],
+    "edge_case": "Wymóg usuwania płynów biologicznych jest bardzo specyficzny — tylko ID 51 wprost wymienia mocz, krew i wymiociny w opisie właściwości."
+  },
+  {
+    "id": 12,
+    "question": "Czym różni się Zurada Auto Piana od pozostałych pian samochodowych w ofercie?",
+    "expected_product_ids": [
+      81
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Auto Piana (ID 81)",
+      "Odpowiedź powinna wskazać unikalną cechę: DWUFAZOWA aktywna piana",
+      "Odpowiedź powinna opisać efektywny system odklejania brudu dzięki formule dwufazowej",
+      "Odpowiedź powinna wspomnieć o zapachu owocowym jako wyróżniku"
+    ],
+    "edge_case": "Kilka pian samochodowych w ofercie (ID 31, 77, 81, 83, 84) — system musi precyzyjnie wskazać unikalną właściwość ID 81 (dwufazowość)."
+  },
+  {
+    "id": 13,
+    "question": "Na felgach samochodowych osadził się pył hamulcowy i cząsteczki metaliczne, których nie można zmyć zwykłą pianą. Potrzebuję środka, który chemicznie reaguje z metalem.",
+    "expected_product_ids": [
+      86
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Krwawy Blask (ID 86)",
+      "Odpowiedź powinna opisać reakcję zmiany koloru na krwistoczerwony jako wskaźnik działania",
+      "Odpowiedź powinna potwierdzić usuwanie cząsteczek rdzy i metali (w tym z klocków hamulcowych)",
+      "Odpowiedź powinna zaznaczyć zakaz stosowania na żeliwnych elementach (tarcze, bębny, zaciski)"
+    ],
+    "edge_case": "Produkt z unikalnym mechanizmem działania (zmiana koloru) i specyficznym ograniczeniem. System musi go odróżnić od zwykłych środków do felg."
+  },
+  {
+    "id": 14,
+    "question": "Chcę wyczyścić zabytkowe monety i biżuterię ze złota i srebra w myjce ultradźwiękowej. Który produkt Zurada jest do tego przeznaczony?",
+    "expected_product_ids": [
+      95
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Fala Czystości (ID 95)",
+      "Odpowiedź powinna explicite potwierdzić przeznaczenie do myjek ultradźwiękowych",
+      "Odpowiedź powinna wspomnieć o skuteczności na monetach i biżuterii z metali szlachetnych",
+      "Odpowiedź powinna potwierdzić, że produkt zawiera składniki spowalniające korozję"
+    ],
+    "edge_case": "Jedyny produkt do myjek ultradźwiękowych w ofercie — ze specyficznym zastosowaniem przy jubilerstwie. Niestandardowe zastosowanie produktu chemicznego."
+  },
+  {
+    "id": 15,
+    "question": "W zakładzie farmaceutycznym potrzebujemy zasadowego środka do systemu CIP, który NIE zawiera surfaktantów ani fosforanów, bo nie chcemy obciążać środowiska.",
+    "expected_product_ids": [
+      28
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Alka Czystość (ID 28)",
+      "Odpowiedź powinna explicite potwierdzić brak surfaktantów i brak fosforanów",
+      "Odpowiedź powinna potwierdzić przeznaczenie do systemów CIP",
+      "Odpowiedź nie powinna rekomendować Zurada AlkaMoc (ID 30), który nie zawiera fosforanów ale nie wyklucza surfaktantów w opisie, ani Zurada Gastro Odtłuszcz (ID 66) który jest neutralny a nie zasadowy"
+    ],
+    "edge_case": "Trzy zasadowe produkty do CIP w ofercie (ID 28, 30, 33). Tylko ID 28 explicite wyklucza zarówno surfaktanty jak i fosforany — krytyczne dla przemysłu farmaceutycznego."
+  },
+  {
+    "id": 16,
+    "question": "Naczynia po kawie i herbacie w naszej restauracyjnej zmywarce mają brązowe przebarwienia, których standardowy płyn nie usuwa. Potrzebujemy środka myjąco-wybielającego.",
+    "expected_product_ids": [
+      17,
+      19
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Biel Pro (ID 17) i/lub Zurada Zmywark Pro (ID 19)",
+      "Odpowiedź powinna potwierdzić zdolność wybielania osadów po kawie i herbacie",
+      "Odpowiedź powinna wspomnieć o zawartości aktywnego utleniacza (szczególnie ID 19)",
+      "Odpowiedź powinna zaznaczyć brak zapachu chloru jako zaletę"
+    ],
+    "edge_case": "Cztery produkty do zmywarek gastronomicznych (ID 14, 16, 17, 19) — tylko ID 17 i 19 mają właściwości wybielające. System musi wychwycić tę różnicę."
+  },
+  {
+    "id": 17,
+    "question": "Nasz piec konwekcyjno-parowy ma program automatycznego mycia wymagający zarówno środka myjącego jak i płynu płuczącego/neutralizującego. Jaki produkt służy do fazy płukania?",
+    "expected_product_ids": [
+      70
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Płukacz Pro (ID 70)",
+      "Odpowiedź powinna potwierdzić przeznaczenie do automatycznego płukania pieców konwekcyjno-parowych",
+      "Odpowiedź powinna wspomnieć o neutralizacji pozostałości po myciu",
+      "Odpowiedź powinna odróżnić rolę ID 70 (płukanie) od ID 67 Zurada PiecMax (mycie zasadowe)"
+    ],
+    "edge_case": "System mycia pieca to dwuetapowy proces — mycie (ID 67) + płukanie (ID 70). Pytanie weryfikuje, czy RAG rozumie role poszczególnych produktów."
+  },
+  {
+    "id": 18,
+    "question": "Mamy do umycia ciśnieniowo zarówno kostkę brukową jak i fasadę budynku. Który produkt Zurada jest dedykowany do obu tych zastosowań łącznie?",
+    "expected_product_ids": [
+      15
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Bruk Turbo (ID 15)",
+      "Odpowiedź powinna potwierdzić przeznaczenie do kostki brukowej ORAZ fasad budynków",
+      "Odpowiedź powinna odróżnić od Zurada Bruk Moc (ID 6), który nie wymienia fasad w zastosowaniach",
+      "Odpowiedź powinna wspomnieć o charakterze lekko zasadowym preparatu"
+    ],
+    "edge_case": "Dwa produkty do kostki (ID 6 i 15) — tylko ID 15 explicite wymienia fasady jako dodatkowe zastosowanie."
+  },
+  {
+    "id": 19,
+    "question": "Potrzebuję środka do mycia ciężarówek — zarówno karoserii jak i plandek. Który produkt alkaliczny jest przeznaczony do mycia pojazdów wraz z plandekami?",
+    "expected_product_ids": [
+      31
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Aktywna Piana (ID 31)",
+      "Odpowiedź powinna explicite potwierdzić przeznaczenie do czyszczenia plandek",
+      "Odpowiedź powinna wymienić zastosowanie dla ciężarówek, cystern i maszyn budowlanych",
+      "Odpowiedź powinna wspomnieć o metodach aplikacji (myjnia, lanca pianowa, spryskiwacz)"
+    ],
+    "edge_case": "Kilka pian samochodowych, ale tylko ID 31 explicite wymienia plandeki jako dedykowane zastosowanie — kluczowy szczegół dla transportu ciężarowego."
+  },
+  {
+    "id": 20,
+    "question": "Nakładamy środek do opon, ale po deszczu efekt szybko zanika. Który produkt Zurada utrzymuje połysk na oponach nawet podczas ulewnego deszczu?",
+    "expected_product_ids": [
+      87
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Opona Blask (ID 87)",
+      "Odpowiedź powinna explicite potwierdzić długotrwałe utrzymanie się na oponie podczas deszczu",
+      "Odpowiedź powinna wspomnieć o właściwościach ochronnych przed UV i warunkami atmosferycznymi",
+      "Odpowiedź powinna zaznaczyć, że produkt jest bardzo wydajny i nie zawiera wody"
+    ],
+    "edge_case": "Wymóg odporności na deszcz jest specyficznym kryterium technicznym explicite opisanym w ID 87 — system musi powiązać to z konkretnym produktem."
+  },
+  {
+    "id": 21,
+    "question": "Szukamy ekologicznego koncentratu do mycia szyb i lusterek z certyfikatem EU Ecolabel, który spełnia normy IFRA dotyczące kompozycji zapachowych.",
+    "expected_product_ids": [
+      41
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Kryształ (ID 41)",
+      "Odpowiedź powinna potwierdzić certyfikat EU Ecolabel",
+      "Odpowiedź powinna potwierdzić zgodność z normami IFRA",
+      "Odpowiedź nie powinna rekomendować Zurada Szklany Blask (ID 2), który jest gotowy do użycia a nie koncentratem i nie ma EU Ecolabel"
+    ],
+    "edge_case": "Dwa produkty do szyb (ID 2 i ID 39 pianka oraz ID 41), ale tylko ID 41 łączy EU Ecolabel + koncentrat + IFRA."
+  },
+  {
+    "id": 22,
+    "question": "W kuchni zatkał się odpływ. Chcę użyć preparatu, który będzie miał wydłużony czas działania i — w przeciwieństwie do granulek — nie będzie czopował rur.",
+    "expected_product_ids": [
+      54
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Przepływ (ID 54)",
+      "Odpowiedź powinna explicite wymienić żelową konsystencję jako powód wydłużonego działania",
+      "Odpowiedź powinna explicite potwierdzić brak ryzyka czopowania rur (w odróżnieniu od granulek)",
+      "Odpowiedź powinna wspomnieć o neutralizacji nieprzyjemnych zapachów"
+    ],
+    "edge_case": "Informacja o braku czopowania w odróżnieniu od granulek jest unikalna dla ID 54 — system musi powiązać ten szczegół z pytaniem."
+  },
+  {
+    "id": 23,
+    "question": "Przed myciem samochodu w myjni chcę wcześniej namoczyć i usunąć owady i resztki organiczne z szyb i reflektorów. Czy macie produkt do wstępnego przygotowania auta?",
+    "expected_product_ids": [
+      88
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Owad Stop (ID 88)",
+      "Odpowiedź powinna potwierdzić przeznaczenie do stosowania PRZED myciem zasadniczym",
+      "Odpowiedź powinna wspomnieć o czasie oddziaływania 2-3 minuty",
+      "Odpowiedź powinna potwierdzić bezpieczeństwo dla lakieru"
+    ],
+    "edge_case": "Produkt ma bardzo specyficzną rolę preparatu wstępnego (pre-wash), co jest wyraźnie zaznaczone w opisie. System musi właściwie sklasyfikować tę rolę."
+  },
+  {
+    "id": 24,
+    "question": "W hotelu chcemy czyścić windy ze stali nierdzewnej w taki sposób, aby po czyszczeniu pozostawała warstwa antykorozyjna i lustrzany połysk.",
+    "expected_product_ids": [
+      55
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Stal Błysk (ID 55)",
+      "Odpowiedź powinna potwierdzić tworzenie warstwy ochronnej po aplikacji",
+      "Odpowiedź powinna potwierdzić zabezpieczenie przed korozją",
+      "Odpowiedź powinna wymienić zastosowanie przy windach i balustradach"
+    ],
+    "edge_case": "Wiele środków do powierzchni ze stali, ale tylko ID 55 jest dedykowanym preparatem pielęgnująco-konserwującym z właściwościami antykorozyjnymi."
+  },
+  {
+    "id": 25,
+    "question": "Nasza firma ma politykę zakupową uwzględniającą wyłącznie produkty z certyfikatem EU Ecolabel. Potrzebujemy żelu do czyszczenia toalet.",
+    "expected_product_ids": [
+      82
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Toaleta Żel (ID 82)",
+      "Odpowiedź powinna potwierdzić certyfikat EU Ecolabel",
+      "Odpowiedź powinna wspomnieć o braku fosforanów i SLS",
+      "Odpowiedź nie powinna rekomendować Zurada Sanit Żel (ID 12), Zurada Kamień Stop (ID 80) ani Zurada Biel Moc (ID 79), które nie mają EU Ecolabel"
+    ],
+    "edge_case": "Kilka żeli do toalet w ofercie, ale tylko ID 82 ma certyfikat EU Ecolabel — kryterium zakupowe, które eliminuje większość alternatyw."
+  },
+  {
+    "id": 26,
+    "question": "Jeden z naszych pracowników jest uczulony na alkohol — nie może używać standardowych żeli do dezynfekcji rąk. Czy oferujecie bezalkoholowy środek do higienicznej dezynfekcji rąk?",
+    "expected_product_ids": [
+      62
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Czyste Dłonie (ID 62)",
+      "Odpowiedź powinna explicite potwierdzić brak alkoholu w składzie",
+      "Odpowiedź powinna potwierdzić działanie bakteriobójcze i wirusobójcze",
+      "Odpowiedź powinna wspomnieć o zawartości gliceryny jako środka nawilżającego",
+      "Odpowiedź nie powinna rekomendować Zurada Lśniąca Piana (ID 36) jako głównego produktu do dezynfekcji rąk"
+    ],
+    "edge_case": "Wymóg braku alkoholu przy jednoczesnym działaniu dezynfekującym — to specyficzna kombinacja dostępna tylko w ID 62."
+  },
+  {
+    "id": 27,
+    "question": "W naszej przetwórni mięsnej szukamy mydła do rąk bez dodatków zapachowych i bez barwników, przeznaczonego do gastronomii i spełniającego wymagania HACCP.",
+    "expected_product_ids": [
+      72
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Mydło Dłoni (ID 72)",
+      "Odpowiedź powinna explicite potwierdzić brak kompozycji zapachowych",
+      "Odpowiedź powinna explicite potwierdzić brak barwników",
+      "Odpowiedź powinna wspomnieć o zgodności z HACCP i przeznaczeniu do gastronomii/przemysłu spożywczego",
+      "Odpowiedź nie powinna rekomendować Zurada Piana Delikatna (ID 71), która nie spełnia wymogów HACCP"
+    ],
+    "edge_case": "Trzy produkty do mycia rąk (ID 71, 72, 36 z dezynfekcją). Tylko ID 72 łączy HACCP + brak zapachu + brak barwników + przeznaczenie do gastronomii."
+  },
+  {
+    "id": 28,
+    "question": "W piecu konwekcyjno-parowym po intensywnym gotowaniu na parze nagromadziły się osady wapienne i kamień. Potrzebujemy środka kwaśnego dedykowanego właśnie do tego rodzaju zanieczyszczeń.",
+    "expected_product_ids": [
+      68
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Kwasowa Moc (ID 68)",
+      "Odpowiedź powinna explicite potwierdzić skuteczność wobec kamienia wapiennego powstałego z gotowania na parze",
+      "Odpowiedź powinna potwierdzić bezzapachowość (HACCP)",
+      "Odpowiedź powinna odróżnić od Zurada PiecMax (ID 67), który jest zasadowy i służy do innych zanieczyszczeń (tłuszcze, białka)"
+    ],
+    "edge_case": "Dwa produkty do pieców (ID 67 zasadowy i ID 68 kwaśny) — kamień z pary to domena produktu kwaśnego. System musi zastosować logikę chemiczną (kwas usuwa kamień)."
+  },
+  {
+    "id": 29,
+    "question": "Nasze szkoły i placówki opiekuńcze chcą przejść na produkty ekologiczne do mycia podłóg. Szukamy skoncentrowanego środka do podłóg bez SLS, bez EDTA, bez NTA i bez fosforanów, który nadaje się do mycia maszynowego.",
+    "expected_product_ids": [
+      24,
+      46
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Czysta Posadzka (ID 24) i/lub Zurada Posadzka Lux (ID 46)",
+      "Odpowiedź powinna potwierdzić brak SLS, EDTA i NTA",
+      "Odpowiedź powinna potwierdzić certyfikat EU Ecolabel",
+      "Odpowiedź powinna rozróżnić ID 24 (maszynowe i ręczne) od ID 46 (głównie ręczne)",
+      "Odpowiedź nie powinna rekomendować produktów bez certyfikatu EU Ecolabel jako spełniających wymóg ekologiczny"
+    ],
+    "edge_case": "Kilka ekologicznych środków do podłóg — tylko ID 24 i 46 łączą EU Ecolabel z wymienionymi negatywnymi składnikami (bez SLS/EDTA/NTA)."
+  },
+  {
+    "id": 30,
+    "question": "Chcemy czyścić plastikowe elementy kokpitu samochodowego, ale poprzedni preparat pozostawiał je zbyt błyszczące i lepkie. Potrzebujemy środka, który NIE nabłyszcza i NIE pozostawia klejącej powłoki.",
+    "expected_product_ids": [
+      90
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać Zurada Pianka (ID 90)",
+      "Odpowiedź powinna explicite potwierdzić właściwość 'nie nabłyszcza czyszczonych powierzchni'",
+      "Odpowiedź powinna explicite potwierdzić 'nie pozostawia klejącej powłoki'",
+      "Odpowiedź nie powinna rekomendować Zurada Karoseria Blask (ID 97) ani innych preparatów nabłyszczających jako alternatywy",
+      "Odpowiedź powinna wspomnieć o owocowym zapachu i przeznaczeniu do kokpitu"
+    ],
+    "edge_case": "Pytanie z negatywnym wymaganiem (brak efektu nabłyszczania) — tylko ID 90 wprost deklaruje brak połysku i brak klejącej powłoki, co odróżnia go od typowych preparatów do wnętrza auta."
+  },
+  {
+    "id": 31,
+    "question": "Codziennie myję automatycznie piec konwekcyjno-parowy — ma aluminiowe prowadnice wewnętrzne i stalowe wnętrze. Potrzebuję preparatu specjalistycznego do mycia pieców, który jest bezpieczny dla aluminium.",
+    "expected_product_ids": [
+      37
+    ],
+    "assertions": [
+      "Odpowiedź NIE powinna rekomendować ID 67 (PiecMax) — silnie zasadowy, explicite wyklucza aluminium",
+      "Odpowiedź NIE powinna rekomendować ID 68 (Kwasowa Moc) — kwaśny, explicite wyklucza aluminium",
+      "Odpowiedź powinna wskazać ID 37 (Klar Pro) — neutralny, dedykowany do automatycznego mycia pieców, aluminium w dozwolone_powierzchnie"
+    ],
+    "edge_case": "Oba specjalistyczne środki do pieców (ID 67 i ID 68) explicite wykluczają aluminium w odradzane_powierzchnie. ID 37 jest jedynym preparatem do pieców bezpiecznym dla aluminium."
+  },
+  {
+    "id": 32,
+    "question": "Mam w hotelu posadzkę z linoleum pokrytą starą, pożółkłą powłoką polimerową. Chcę ją całkowicie usunąć przed nałożeniem nowej warstwy ochronnej. Który preparat Zurada do usuwania powłok polimerowych zastosować?",
+    "expected_product_ids": [],
+    "assertions": [
+      "Odpowiedź NIE powinna rekomendować ID 65 (Strip Moc) bez zastrzeżeń — linoleum jest explicite w odradzane_powierzchnie tego produktu",
+      "Odpowiedź powinna stwierdzić, że brak w ofercie Zurada produktu nadającego się do usuwania powłok polimerowych z linoleum",
+      "Odpowiedź powinna ostrzec, że Strip Moc (ID 65) uszkodzi linoleum"
+    ],
+    "edge_case": "Strip Moc (ID 65) to jedyny stripper polimerowy w katalogu, ale explicite wyklucza linoleum w odradzane_powierzchnie. Żaden inny produkt nie usuwa powłok polimerowych. Prawidłowa odpowiedź: brak produktu."
+  },
+  {
+    "id": 33,
+    "question": "Prowadzę automatyczną myjnię samochodową. Szukam preparatu do karoserii, który nakłada się bezpośrednio w tunelu myjącym — na jeszcze mokry samochód, tuż po płukaniu, bez etapu suszenia.",
+    "expected_product_ids": [
+      99
+    ],
+    "assertions": [
+      "Odpowiedź NIE powinna rekomendować ID 97 (Karoseria Blask) — wymaga czystej, suchej i chłodnej powierzchni",
+      "Odpowiedź NIE powinna rekomendować ID 98 (Kropla Blasku) jako pierwszego wyboru — nie jest dedykowany myjniom",
+      "Odpowiedź powinna wskazać ID 99 (Hydro Błysk) — explicite przeznaczony do myjni samochodowych, nakłada się na mokry samochód"
+    ],
+    "edge_case": "ID 99 jest jedynym produktem explicite 'przeznaczonym do myjni samochodowych' i nanoszoym na 'umyty, jeszcze mokry samochód'. ID 97 i ID 98 wymagają suchej lub chłodnej powierzchni."
+  },
+  {
+    "id": 34,
+    "question": "Chcę zabezpieczyć hydrofobowo szybę czołową mojego auta tak, żeby woda perliła się i szybko spływała podczas jazdy. Który preparat Zurada do ochrony lakieru nadaje się do aplikacji na przednią szybę?",
+    "expected_product_ids": [],
+    "assertions": [
+      "Odpowiedź NIE powinna rekomendować ID 98 (Kropla Blasku) — explicite 'Nie używać na szybę czołową' w odradzane_powierzchnie",
+      "Odpowiedź powinna stwierdzić, że brak w ofercie Zurada preparatu hydrofobowego dedykowanego szybie czołowej",
+      "Odpowiedź powinna poinformować, że ID 98 jest jedynym hydrofobowym do lakieru, ale wyklucza szybę czołową"
+    ],
+    "edge_case": "ID 98 (Kropla Blasku) to jedyny hydrofobowy preparat do zabezpieczania lakieru, ale explicite wyklucza szybę czołową. Żaden inny produkt nie oferuje hydrofobowej ochrony szyb w katalogu."
+  },
+  {
+    "id": 35,
+    "question": "W mojej restauracji woda jest bardzo twarda, a zmywarka gastronomiczna zostawia na szklankach i filiżankach brzydkie przebarwienia po herbacie i kawie. Potrzebuję preparatu bezfosforanowego do zmywarki, który jednocześnie wybiela i dobrze radzi sobie z twardą wodą.",
+    "expected_product_ids": [
+      17
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 17 (Biel Pro) — jedyny preparat łączący wybielanie herbaty/kawy i skuteczność we wszystkich zakresach twardości wody",
+      "Odpowiedź powinna zaznaczyć, że ID 19 (Zmywark Pro) jest bezfosforanowy i wybielający, ale nie jest specjalnie przeznaczony do twardej wody",
+      "Odpowiedź NIE powinna samodzielnie rekomendować ID 16 (Twarda Woda) — ten nie wybiela herbaty/kawy"
+    ],
+    "edge_case": "Żaden produkt nie spełnia wszystkich 3 wymagań naraz. ID 17 (twarda woda + wybielanie) vs ID 19 (bezfosforanowy + wybielający). Klient musi wybrać priorytet. Pułapką jest ID 16 (tylko twarda woda, bez wybielania)."
+  },
+  {
+    "id": 36,
+    "question": "W zakładzie przetwórstwa mięsnego pracownicy muszą myć ręce mydłem zgodnym z wymaganiami HACCP — absolutnie bez żadnych kompozycji zapachowych i bez barwników. Które mydło Zurada spełnia te wymogi?",
+    "expected_product_ids": [
+      72
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 72 (Mydło Dłoni) — explicite 'Mydło HACCP... nie zawiera dodatków kompozycji zapachowych ani barwników', certyfikat HACCP w zgodnosc_i_certyfikaty",
+      "Odpowiedź NIE powinna rekomendować ID 71 (Piana Delikatna) — neutralne pH, ale brak certyfikatu HACCP i brak gwarancji braku zapachu",
+      "Odpowiedź powinna potwierdzić, że ID 72 jest przebadany dermatologicznie"
+    ],
+    "edge_case": "ID 71 (Piana Delikatna) jest neutralne i do mycia rąk, co wygląda podobnie. Tylko ID 72 ma explicite certyfikat HACCP i gwarancję braku kompozycji zapachowych oraz barwników."
+  },
+  {
+    "id": 37,
+    "question": "Muszę wyczyścić skórzaną tapicerkę foteli biurowych. Ktoś polecił produkty do tapicerki z serii Tkaninex lub Tkanin Plus. Który preparat Zurada nadaje się do czyszczenia skóry naturalnej?",
+    "expected_product_ids": [
+      27
+    ],
+    "assertions": [
+      "Odpowiedź NIE powinna rekomendować ID 74 (Tkaninex) — explicite 'Nie stosować do tapicerki skórzanej' w odradzane_powierzchnie",
+      "Odpowiedź NIE powinna rekomendować ID 75, 76, 91 jako pierwszego wyboru — dedykowane do tkanin, nie do skóry",
+      "Odpowiedź powinna wskazać ID 27 (Piankowy Blask) — jedyny produkt z 'skóra' explicite w dozwolone_powierzchnie"
+    ],
+    "edge_case": "Intuicyjne produkty do tapicerki (ID 74-76, 91) nie nadają się do skóry — ID 74 explicite to wyklucza. Jedynym produktem z 'skóra' w dozwolone_powierzchnie jest ID 27 (Piankowy Blask)."
+  },
+  {
+    "id": 38,
+    "question": "Mam w domu stare deski podłogowe z drewna litego — nigdy nie były impregnowane, są jedynie regularnie konserwowane olejem. Szukam preparatu Zurada do codziennego mycia takich podłóg.",
+    "expected_product_ids": [],
+    "assertions": [
+      "Odpowiedź NIE powinna rekomendować ID 47 (Drewno Blask) bez zastrzeżeń — explicite wyklucza 'niezaimpregnowane drewno' i 'powierzchnie wrażliwe na wodę' w odradzane_powierzchnie",
+      "Odpowiedź powinna stwierdzić, że ID 47 nie nadaje się do olejowanego, niezaimpregnowanego drewna",
+      "Odpowiedź powinna poinformować o braku w ofercie dedykowanego produktu do mycia niezaimpregnowanego drewna olejowanego"
+    ],
+    "edge_case": "ID 47 (Drewno Blask) to jedyny specjalistyczny produkt do drewnianych podłóg, ale explicite wyklucza niezaimpregnowane drewno. Brak dedykowanego zamiennika w katalogu."
+  },
+  {
+    "id": 39,
+    "question": "Auto stało kilka godzin na słońcu i karoseria jest bardzo rozgrzana. Chcę od razu nałożyć preparat nabłyszczający — bez czekania na ostygnięcie samochodu. Który produkt Zurada do nabłyszczania karoserii nie wyklucza rozgrzanych powierzchni?",
+    "expected_product_ids": [
+      99
+    ],
+    "assertions": [
+      "Odpowiedź NIE powinna rekomendować ID 97 (Karoseria Blask) — explicite 'Nie stosuj na rozgrzanej karoserii ani w pełnym słońcu' w odradzane_powierzchnie",
+      "Odpowiedź NIE powinna rekomendować ID 98 (Kropla Blasku) — explicite 'rozgrzane powierzchnie' w odradzane_powierzchnie",
+      "Odpowiedź powinna wskazać ID 99 (Hydro Błysk) — jedyny produkt ochronny do karoserii bez ograniczeń temperaturowych w metadanych"
+    ],
+    "edge_case": "Zarówno ID 97 jak i ID 98 explicite wykluczają rozgrzane powierzchnie. ID 99 nie ma takiego ograniczenia w danych, choć jest dedykowany do mokrego auta — jest jedyną opcją spełniającą warunek."
+  },
+  {
+    "id": 40,
+    "question": "Szyba i maska mojego auta są pokryte przyschniętymi owadami. Planuję dokładne mycie auta. Jakiego preparatu Zurada użyć jako PIERWSZEGO kroku, przed właściwym myciem?",
+    "expected_product_ids": [
+      88
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 88 (Owad Stop) jako produkt do stosowania PRZED myciem zasadniczym",
+      "Odpowiedź powinna wyjaśnić, że ID 88 nanosi się, odczekuje 2-3 minuty i dopiero potem myje zasadniczo",
+      "Odpowiedź NIE powinna polecać aktywnej piany do mycia jako pierwszego kroku bez wcześniejszego rozmięczenia owadów"
+    ],
+    "edge_case": "ID 88 (Owad Stop) jest explicite opisany jako 'Preparat do stosowania przed myciem zasadniczym'. Model może pominąć ten krok i od razu polecić pianę do mycia."
+  },
+  {
+    "id": 41,
+    "question": "Mam ekspres do kawy z aluminiowym bojlerem wewnętrznym. Chcę regularnie go odkamienić — szukam proszku odkamieniającego Zurada bezpiecznego dla aluminium.",
+    "expected_product_ids": [],
+    "assertions": [
+      "Odpowiedź NIE powinna rekomendować ID 93 (Gastro Moc) bez zastrzeżeń — explicite 'Nie zaleca się stosowania na aluminium' w odradzane_powierzchnie",
+      "Odpowiedź powinna stwierdzić, że brak w ofercie Zurada proszku odkamieniającego bezpiecznego dla aluminiowych elementów urządzeń",
+      "Odpowiedź powinna poinformować klienta o ryzyku uszkodzenia aluminiowego bojlera przez ID 93"
+    ],
+    "edge_case": "ID 93 (Gastro Moc) to jedyny proszek odkamieniający do ekspresów do kawy, ale explicite wyklucza aluminium. Pułapka: ekspres do kawy jest w dozwolone_powierzchnie ID 93, więc model może go polecić bez sprawdzenia odradzane."
+  },
+  {
+    "id": 42,
+    "question": "Firma sprzątająca używa autoszorowarki do codziennego mycia biurowca. Podłogi pokryte są powłoką polimerową akrylową. Manager wybrał Zurada Czysty Blask jako płyn do maszyny. Czy to właściwy wybór? Jeśli nie — który produkt Zurada zastosować?",
+    "expected_product_ids": [
+      53
+    ],
+    "assertions": [
+      "Odpowiedź powinna stwierdzić, że ID 57 (Czysty Blask) jest NIEWŁAŚCIWY — explicite wyklucza 'powierzchnie zabezpieczone polimerem' w odradzane_powierzchnie",
+      "Odpowiedź NIE powinna rekomendować ID 9 (Podłoga Pro) — również wyklucza 'powierzchnie zabezpieczone polimerem'",
+      "Odpowiedź powinna wskazać ID 53 (Kwiat Podłogi) — brak wykluczeń w odradzane_powierzchnie, dedykowany do maszyn czyszczących i robotów myjących"
+    ],
+    "edge_case": "ID 57, ID 9 i ID 60 — wszystkie popularne płyny do maszynowego mycia podłóg — explicite wykluczają posadzki z powłoką polimerową. ID 53 (Kwiat Podłogi) to jedyna opcja maszynowa bez tego ograniczenia."
+  },
+  {
+    "id": 43,
+    "question": "Myję motocykl lancą pianową. Zależy mi na aktywnej pianie o NEUTRALNYM odczynie pH — nie chcę uszkodzić chromowanych części, lakieru i uszczelek zasadowym preparatem.",
+    "expected_product_ids": [
+      77
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 77 (Winogronowa Piana) — jedyna aktywna piana z pH neutralnym w katalogu",
+      "Odpowiedź NIE powinna rekomendować ID 83 (Car Piana) — pH lekko zasadowy",
+      "Odpowiedź NIE powinna rekomendować ID 84 (Truck Piana) — pH zasadowy",
+      "Odpowiedź NIE powinna rekomendować ID 31 (Aktywna Piana) — pH alkaliczny"
+    ],
+    "edge_case": "Wszystkie popularne aktywne piany do mycia pojazdów mają odczyn zasadowy lub lekko zasadowy. Jedyna neutralna piana to ID 77 (Winogronowa Piana)."
+  },
+  {
+    "id": 44,
+    "question": "Myję flotę ciężarówek pianą aktywną i chcę jednocześnie — podczas tego samego mycia — zabezpieczyć lakier woskiem. Który produkt Zurada do mycia ciężarówek ma wbudowany wosk?",
+    "expected_product_ids": [
+      84
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 84 (Truck Piana) — right_description explicite: 'zastosowany wosk wydobywa głębię koloru i nadaje lakierowi połysk'",
+      "Odpowiedź NIE powinna rekomendować ID 83 (Car Piana) jako jedyną opcję — dla ciężarówek ✓, ale brak wosku w składzie",
+      "Odpowiedź NIE powinna rekomendować ID 85 (Woskowy Blask) — szampon z woskiem, ale do ręcznego mycia z wiadrem, nie lancy pianowej"
+    ],
+    "edge_case": "Zarówno ID 83 jak i ID 84 nadają się do ciężarówek, ale tylko ID 84 ma wosk wbudowany w formułę. ID 85 ma wosk, ale jest szamponem do ręcznego mycia — nie pianą do lancy."
+  },
+  {
+    "id": 45,
+    "question": "Na mojej szklanej płycie ceramiczno-indukcyjnej przypalił się tłuszcz. Szukam pianki Zurada, która jest specjalnie przeznaczona do kuchenek ceramicznych i indukcyjnych.",
+    "expected_product_ids": [
+      34
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 34 (ŻarMoc) — jedyny produkt explicite wymieniający 'ceramicznych, indukcyjnych' w opisie i 'kuchenki' w dozwolone_powierzchnie",
+      "Odpowiedź NIE powinna rekomendować ID 96 (Moc Czystości — mleczko) jako głównej opcji — mleczko ścierne może porysować szklaną płytę ceramiczną",
+      "Odpowiedź powinna potwierdzić certyfikat HACCP produktu ID 34"
+    ],
+    "edge_case": "ID 5 (Piana Moc) ma 'kuchenki' w dozwolone, ale wyklucza 'powierzchnie lakierowane/malowane' i nie wymienia wprost ceramiki indukcyjnej. ID 34 explicite wymienia kuchenki ceramiczne i indukcyjne."
+  },
+  {
+    "id": 46,
+    "question": "Chcę umyć samochód ręcznie, mieszając szampon z wodą w wiadrze. Zależy mi na preparacie, który podczas jednego mycia jednocześnie czyści i zabezpiecza lakier woskiem.",
+    "expected_product_ids": [
+      85
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 85 (Woskowy Blask) — szampon samochodowy z woskiem do ręcznego mycia, rozcieńczany z wodą",
+      "Odpowiedź NIE powinna rekomendować ID 84 (Truck Piana) jako głównej opcji — pianka do lancy, nie do wiadra z wodą",
+      "Odpowiedź NIE powinna rekomendować ID 97 lub ID 98 — to preparaty nabłyszczające nanoszone po myciu, nie szampony do mycia"
+    ],
+    "edge_case": "ID 84 (Truck Piana) też zawiera wosk i może być stosowany ręcznie, ale jest pianką do lancy pianowej. ID 85 (Woskowy Blask) to jedyny szampon z woskiem explicite do ręcznego mycia z rozcieńczaniem w wiadrze."
+  },
+  {
+    "id": 47,
+    "question": "Chcę wyczyścić i odświeżyć drewniane lakierowane meble biurowe — biurka, szafy, krzesła. Szukam preparatu Zurada do pielęgnacji drewnianych mebli, który jednocześnie oczyści i nada im połysk.",
+    "expected_product_ids": [
+      78
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 78 (Meble Blask) — dedykowany do ręcznego czyszczenia i pielęgnacji mebli drewnianych, laminowanych, z woskami i emulsją olejową",
+      "Odpowiedź NIE powinna rekomendować ID 47 (Drewno Blask) jako głównej opcji — to koncentrat do mycia podłóg drewnianych, nie mebli",
+      "Odpowiedź powinna zaznaczyć, że ID 78 nadaje się do drewna lakierowanego"
+    ],
+    "edge_case": "ID 47 (Drewno Blask) dotyczy podłóg, nie mebli. ID 78 (Meble Blask) explicite przeznaczony do mebli z 'olejową emulsją ochronną oraz woskami' — to właściwy wybór."
+  },
+  {
+    "id": 48,
+    "question": "Toaleta w starym budynku ma kamień i rdzę osadzające się od wielu lat — standardowe środki codzienne nie pomagają. Który preparat Zurada usuwa nawet wieloletni, twardy kamień z pisuarów i muszli klozetowych?",
+    "expected_product_ids": [
+      80
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 80 (Kamień Stop) — explicite 'Usuwa najmocniej przywarty kilku letni kamień i rdzawe zacieki'",
+      "Odpowiedź NIE powinna rekomendować ID 12 (Sanit Żel) jako głównej opcji — do codziennego czyszczenia i odkamieniania, nie do wieloletnich osadów",
+      "Odpowiedź powinna zaznaczyć, że ID 80 działa na ceramikę, ale NIE na aluminium, stal ani armaturę"
+    ],
+    "edge_case": "ID 12 (Sanit Żel) to produkt do codziennego użytku. Tylko ID 80 explicite opisuje usuwanie 'kilku letniego' kamienia. Pułapką jest użycie ID 80 na armatury — są wykluczone."
+  },
+  {
+    "id": 49,
+    "question": "Chcę jednym preparatem jednocześnie nabłyszczyć opony i odświeżyć czarne plastikowe progi oraz listwy zewnętrzne auta. Który produkt Zurada nadaje się do obu tych powierzchni?",
+    "expected_product_ids": [
+      87
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 87 (Opona Blask) — dozwolone_powierzchnie to: opony, guma, tworzywa sztuczne, stal — jedyny produkt explicite pokrywający zarówno opony jak i tworzywa sztuczne zewnętrzne",
+      "Odpowiedź NIE powinna rekomendować ID 97 lub ID 98 tylko dla lakieru — nie są dedykowane do opon i gumy",
+      "Odpowiedź powinna wspomnieć o trwałości efektu ID 87 nawet w deszczu"
+    ],
+    "edge_case": "Klient szuka jednego produktu dla opon I plastiku. ID 87 (Opona Blask) ma w dozwolone_powierzchnie: 'opony, guma, tworzywa sztuczne, stal' — jest to jedyna taka kombinacja. Inne produkty ochronne są tylko do lakieru/karoserii."
+  },
+  {
+    "id": 50,
+    "question": "Właściciel restauracji szuka preparatu do odtłuszczania powierzchni kuchennych, który jest ekologiczny i nie zawiera EDTA, NTA ani SLS. Który płyn odtłuszczający Zurada do kuchni spełnia wszystkie te wymogi jednocześnie?",
+    "expected_product_ids": [
+      4
+    ],
+    "assertions": [
+      "Odpowiedź powinna wskazać ID 4 (Kuchnia Czysta) — zgodnosc_i_certyfikaty explicite zawiera 'bez EDTA/NTA/SLS/fosforanów/dodecylobenzenosulfonianów' oraz certyfikaty IFRA i RSPO",
+      "Odpowiedź NIE powinna rekomendować ID 3 (Tłuszcz Stop) jako głównej opcji — skoncentrowany odtłuszczacz, ale brak informacji o zgodności ekologicznej",
+      "Odpowiedź NIE powinna rekomendować ID 1 (Lśniąca Pianka) bez weryfikacji — brak wprost wymienionych certyfikatów ekologicznych"
+    ],
+    "edge_case": "Kilka produktów kuchennych wygląda podobnie. Tylko ID 4 (Kuchnia Czysta) ma explicite 'bez EDTA/NTA/SLS' w certyfikatach. Pułapką jest ID 1 lub ID 3, które mogą być sugerowane jako ogólne odtłuszczacze bez weryfikacji składu."
+  }
+]

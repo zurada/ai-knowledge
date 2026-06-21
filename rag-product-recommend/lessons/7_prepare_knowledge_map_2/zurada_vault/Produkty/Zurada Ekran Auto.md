@@ -1,0 +1,35 @@
+---
+product_id: 166
+title: "Płyn do ekranów LCD"
+ph: ""
+metody: ["ręczne"]
+certyfikaty: []
+kategorie: ["kosmetyki-samochodowe", "mycie-i-pielegnacja-wnetrza", "czyszczenie-ekranow", "tworzywa-sztuczne"]
+---
+
+# Zurada Ekran Auto
+
+> Antystatyczny płyn do czyszczenia monitorów, ekranów LCD, pleksi i tworzyw sztucznych.
+
+---
+
+**Metody mycia:** [[Metody/ręczne|ręczne]]
+
+**Dozwolone powierzchnie:** [[Powierzchnie/monitory|monitory]] · [[Powierzchnie/ekrany lcd|ekrany lcd]] · [[Powierzchnie/pleksi|pleksi]] · [[Powierzchnie/tworzywa sztuczne|tworzywa sztuczne]]
+
+**Ostrzeżenia BHP:**
+- [[BHP/nie stosować rozgrzane|nie stosować rozgrzane]]
+- [[BHP/instrukcja urządzenia|instrukcja urządzenia]]
+- [[BHP/unikać kontaktu z oczami|unikać kontaktu z oczami]]
+
+**Kategorie:** [[Kategorie/kosmetyki-samochodowe|kosmetyki-samochodowe]] · [[Kategorie/mycie-i-pielegnacja-wnetrza|mycie-i-pielegnacja-wnetrza]] · [[Kategorie/czyszczenie-ekranow|czyszczenie-ekranow]] · [[Kategorie/tworzywa-sztuczne|tworzywa-sztuczne]]
+
+---
+
+## Opis
+
+Zurada Ekran Klar to gotowy do użycia preparat do czyszczenia delikatnych powierzchni z tworzyw sztucznych. Skutecznie usuwa kurz, odciski palców i lekkie zabrudzenia z monitorów, ekranów LCD oraz elementów z pleksi. Formuła antystatyczna ogranicza ponowne osiadanie kurzu i pomaga utrzymać czyszczone powierzchnie w estetycznym wyglądzie. Produkt jest przeznaczony do pielęgnacji wyposażenia biurowego, domowego oraz wnętrz pojazdów.
+
+## Właściwości
+
+Preparat nie wymaga rozcieńczania i nadaje się do regularnego stosowania. Najlepiej aplikować go na miękką ściereczkę z mikrofibry, a następnie delikatnie przetrzeć powierzchnię.

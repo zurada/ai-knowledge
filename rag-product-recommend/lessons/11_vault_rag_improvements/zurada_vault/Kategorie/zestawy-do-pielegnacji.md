@@ -1,0 +1,16 @@
+---
+typ: kategoria
+liczba_produktow: 3
+---
+
+# zestawy-do-pielegnacji
+
+## Opis
+
+Zestawy do pielęgnacji kierowane są do osób dbających o wygląd i ochronę czyszczonych powierzchni, szczególnie w motoryzacji i utrzymaniu sprzętu. Pomagają w konserwacji, odświeżeniu oraz zabezpieczeniu elementów po myciu, ograniczając matowienie, zabrudzenia i zużycie powierzchni.
+
+## Produkty (3)
+
+- [[Produkty/Zurada Kokpit Duo|Zurada Kokpit Duo]]
+- [[Produkty/Zurada Skóra Ochrona|Zurada Skóra Ochrona]]
+- [[Produkty/Zurada Wnętrze Plus|Zurada Wnętrze Plus]]

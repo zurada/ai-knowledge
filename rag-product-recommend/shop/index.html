@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zurada Shop — Profesjonalna chemia czyszcząca</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">ZURADA<span>Shop</span></a>
+      <p class="tagline">Profesjonalna chemia czyszcząca</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="toolbar">
+      <input id="search" type="text" placeholder="Szukaj produktu..." />
+      <select id="category-filter">
+        <option value="">Wszystkie kategorie</option>
+      </select>
+    </div>
+    <div id="grid" class="product-grid"></div>
+    <p id="empty" class="empty-state" style="display:none">Brak produktów spełniających kryteria.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2025 Zurada Shop. Tylko do celów demonstracyjnych.</div>
+  </footer>
+
+  <script>
+    let allProducts = [];
+
+    async function init() {
+      const res = await fetch('products.json');
+      allProducts = await res.json();
+      buildCategoryFilter();
+      render(allProducts);
+    }
+
+    function buildCategoryFilter() {
+      const cats = new Set();
+      allProducts.forEach(p => p.categories.forEach(c => cats.add(c)));
+      const sel = document.getElementById('category-filter');
+      [...cats].sort().forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c.replace(/-/g, ' ');
+        sel.appendChild(opt);
+      });
+    }
+
+    function render(products) {
+      const grid = document.getElementById('grid');
+      const empty = document.getElementById('empty');
+      grid.innerHTML = '';
+      if (!products.length) { empty.style.display = ''; return; }
+      empty.style.display = 'none';
+      products.forEach(p => {
+        const card = document.createElement('a');
+        card.className = 'product-card';
+        card.href = `product.html?id=${p.id}`;
+        card.innerHTML = `
+          <div class="card-img">
+            <img src="${p.image || 'images/placeholder.jpg'}" alt="${p.title}" loading="lazy"
+              onerror="this.src='images/placeholder.jpg'" />
+          </div>
+          <div class="card-body">
+            <span class="brand">${p.product_name}</span>
+            <h3 class="card-title">${p.title}</h3>
+            <p class="card-desc">${p.short_description}</p>
+            <div class="card-footer">
+              <span class="price">${p.price.toFixed(2)} zł</span>
+              <span class="view-btn">Zobacz →</span>
+            </div>
+          </div>`;
+        grid.appendChild(card);
+      });
+    }
+
+    function filter() {
+      const q = document.getElementById('search').value.toLowerCase();
+      const cat = document.getElementById('category-filter').value;
+      const filtered = allProducts.filter(p => {
+        const matchQ = !q || p.title.toLowerCase().includes(q) ||
+          p.product_name.toLowerCase().includes(q) ||
+          p.short_description.toLowerCase().includes(q);
+        const matchCat = !cat || p.categories.includes(cat);
+        return matchQ && matchCat;
+      });
+      render(filtered);
+    }
+
+    document.getElementById('search').addEventListener('input', filter);
+    document.getElementById('category-filter').addEventListener('change', filter);
+
+    init();
+  </script>
+</body>
+</html>
